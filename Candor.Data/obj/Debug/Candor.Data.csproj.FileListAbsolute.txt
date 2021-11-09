@@ -1,0 +1,16 @@
+C:\Users\oneda\source\repos\Candor\Candor.Data\bin\Debug\Candor.Data.dll.config
+C:\Users\oneda\source\repos\Candor\Candor.Data\bin\Debug\Candor.Data.dll
+C:\Users\oneda\source\repos\Candor\Candor.Data\bin\Debug\Candor.Data.pdb
+C:\Users\oneda\source\repos\Candor\Candor.Data\bin\Debug\EntityFramework.dll
+C:\Users\oneda\source\repos\Candor\Candor.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\oneda\source\repos\Candor\Candor.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\oneda\source\repos\Candor\Candor.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\oneda\source\repos\Candor\Candor.Data\bin\Debug\EntityFramework.xml
+C:\Users\oneda\source\repos\Candor\Candor.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\oneda\source\repos\Candor\Candor.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\oneda\source\repos\Candor\Candor.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\oneda\source\repos\Candor\Candor.Data\obj\Debug\Candor.Data.csproj.AssemblyReference.cache
+C:\Users\oneda\source\repos\Candor\Candor.Data\obj\Debug\Candor.Data.csproj.CoreCompileInputs.cache
+C:\Users\oneda\source\repos\Candor\Candor.Data\obj\Debug\Candor.Data.csproj.CopyComplete
+C:\Users\oneda\source\repos\Candor\Candor.Data\obj\Debug\Candor.Data.dll
+C:\Users\oneda\source\repos\Candor\Candor.Data\obj\Debug\Candor.Data.pdb
