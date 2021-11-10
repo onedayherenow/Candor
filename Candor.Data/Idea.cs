@@ -11,7 +11,7 @@ namespace Candor.Data
     public class Idea
     {
 		[Key]
-		public int IdeaId { get; set; }
+		public int Id { get; set; }
 		[Required]
 		public Guid OwnerId { get; set; }
 		[Required]

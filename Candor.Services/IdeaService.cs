@@ -37,7 +37,7 @@ namespace Candor.Services
             }
         }
 
-        public List<IdeaListItem> GetNotes()
+        public List<IdeaListItem> GetIdeas()
         {
             using (var context = ApplicationDbContext.Create())
             {
@@ -45,55 +45,60 @@ namespace Candor.Services
                     .Where(n => n.OwnerId == _userId)
                     .Select(n => new IdeaListItem()
                     {
-                        IdeaId = n.IdeaId,
+                        Id = n.Id
                         Title = n.Title,
-                        IsStarred = n.IsStarred,
-                        CreatedUtc = n.CreatedUtc
-                    });
+                        DateCreated = n.DateCreated,
+                        AverageRating = n.AverageRating
+                    }) ;
 
                 return query.ToList();
             }
         }
 
-        public NoteDetail GetNoteById(int id)
+        public IdeaDetail GetIdeaById(int id)
         {
             using (var context = ApplicationDbContext.Create())
             {
-                var note = context.Notes.Single(n => n.Id == id && n.OwnerId == _userId);
-                var model = new NoteDetail()
+                var idea = context.Ideas.Single(n => n.Id == id && n.OwnerId == _userId);
+                var model = new IdeaDetail()
                 {
-                    NoteId = note.Id,
-                    Title = note.Title,
-                    Content = note.Content,
-                    IsStarred = note.IsStarred,
-                    CreatedUtc = note.CreatedUtc,
-                    ModifiedUtc = note.ModifiedUtc
+                    IdeaId = idea.Id,
+                    Title = idea.Title,
+                    Content = idea.Content,
+                    DateCreated = idea.DateCreated,
+                    LastModified = idea.LastModified,
+                    Ratings = idea.Ratings,
+                    AverageRating = idea.AverageRating,
+                    Completed = idea.Completed
                 };
 
                 return model;
             }
         }
 
-        public bool UpdateNote(NoteEdit model)
+        public bool UpdateIdea(IdeaEdit model)
         {
             using (var context = ApplicationDbContext.Create())
             {
-                var note = context.Notes.Single(n => n.Id == model.NoteId && n.OwnerId == _userId);
-                note.Title = model.Title;
-                note.Content = model.Content;
-                note.IsStarred = model.IsStarred;
-                note.ModifiedUtc = DateTimeOffset.UtcNow;
+                var idea = context.Ideas.Single(n => n.Id == model.Id && n.OwnerId == _userId);
+
+                    idea.Id = model.Id,
+                    idea.Title = model.Title,
+                   idea.Content = model.Content,
+                    idea.LastModified = DateTimeOffset.UtcNow,
+                    idea.Ratings = model.Ratings,
+                    idea.Completed = model.Completed;
 
                 return context.SaveChanges() == 1;
             }
         }
 
-        public bool DeleteNote(int id)
+        public bool DeleteIdea(int id)
         {
             using (var context = ApplicationDbContext.Create())
             {
-                var note = context.Notes.Single(n => n.Id == id && n.OwnerId == _userId);
-                context.Notes.Remove(note);
+                var idea = context.Ideas.Single(n => n.Id == id && n.OwnerId == _userId);
+                context.Ideas.Remove(idea);
                 return context.SaveChanges() == 1;
             }
         }

@@ -8,12 +8,10 @@ namespace Candor.Models
 {
 	public class IdeaListItem
 	{
-		{
-		public int IdeaId { get; set; }
+		public int Id { get; set; }
 		public string Title { get; set; }
 		public DateTimeOffset DateCreated { get; set; }
-		public virtual double Ratings { get; set; }
-		public bool Completed { get; set; }  
+		public Double AverageRating { get; set; }
 	}
 }
-}
+

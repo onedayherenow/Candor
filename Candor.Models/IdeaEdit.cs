@@ -10,21 +10,16 @@ namespace Candor.Models
 	public class IdeaEdit
 	{
 		[Key]
-		public int IdeaId { get; set; }
+		public int Id { get; set; }
 		[Required]
 		public string Title { get; set; }
 		[Required]
 		public string Content { get; set; }
 
 		//public Image Images { get; set; }
-		[Required]
-		public DateTimeOffset DateCreated { get; set; }
-
 		public DateTimeOffset LastModified { get; set; }
 		[Required]
 		public virtual double Ratings { get; set; }
-		[Required]
-		public Double AverageRating { get; set; }
 		public bool Completed { get; set; }
 	}
 }
