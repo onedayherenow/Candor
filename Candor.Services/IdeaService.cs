@@ -45,13 +45,14 @@ namespace Candor.Services
                     .Where(n => n.OwnerId == _userId)
                     .Select(n => new IdeaListItem()
                     {
-                        Id = n.Id
+                        Id = n.Id,
                         Title = n.Title,
                         DateCreated = n.DateCreated,
                         AverageRating = n.AverageRating
-                    }) ;
+            });
 
-                return query.ToList();
+
+            return query.ToList();
             }
         }
 
@@ -82,12 +83,12 @@ namespace Candor.Services
             {
                 var idea = context.Ideas.Single(n => n.Id == model.Id && n.OwnerId == _userId);
 
-                    idea.Id = model.Id,
-                    idea.Title = model.Title,
-                   idea.Content = model.Content,
-                    idea.LastModified = DateTimeOffset.UtcNow,
-                    idea.Ratings = model.Ratings,
-                    idea.Completed = model.Completed;
+                idea.Id = model.Id;
+                idea.Title = model.Title;
+                idea.Content = model.Content;
+                idea.LastModified = DateTimeOffset.UtcNow;
+                idea.Ratings = model.Ratings;
+                idea.Completed = model.Completed;
 
                 return context.SaveChanges() == 1;
             }
