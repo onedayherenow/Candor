@@ -260,6 +260,14 @@
       <Project>{7CAB52C2-4132-4EB7-B7C8-B4370A2A60B1}</Project>
       <Name>Candor.Data</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Candor.Models\Candor.Models.csproj">
+      <Project>{ed9ab0c9-d4c2-4ae4-84f4-238956cf1876}</Project>
+      <Name>Candor.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Candor.Services\Candor.Services.csproj">
+      <Project>{d7f03ed7-5295-498d-8f8a-8fbcfd6c7189}</Project>
+      <Name>Candor.Services</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

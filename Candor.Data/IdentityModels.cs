@@ -31,8 +31,9 @@ namespace Candor.Data
         {
             return new ApplicationDbContext();
         }
+		public DbSet<Idea> Ideas { get; set; }
+        public DbSet<Rating> Ratings { get; set; }
 
-        public DbSet<Idea> Ideas { get; set; }
         //public DbSet<Category> Categories { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

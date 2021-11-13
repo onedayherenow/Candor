@@ -5,7 +5,6 @@ C:\Users\oneda\source\repos\Candor\Candor.Services\bin\Debug\Candor.Services.pdb
 C:\Users\oneda\source\repos\Candor\Candor.Services\bin\Debug\Candor.Data.dll
 C:\Users\oneda\source\repos\Candor\Candor.Services\bin\Debug\Candor.dll
 C:\Users\oneda\source\repos\Candor\Candor.Services\bin\Debug\Candor.Models.dll
-C:\Users\oneda\source\repos\Candor\Candor.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
 C:\Users\oneda\source\repos\Candor\Candor.Services\bin\Debug\Microsoft.AspNet.Identity.Core.dll
 C:\Users\oneda\source\repos\Candor\Candor.Services\bin\Debug\Microsoft.Owin.dll
 C:\Users\oneda\source\repos\Candor\Candor.Services\bin\Debug\System.Web.Optimization.dll

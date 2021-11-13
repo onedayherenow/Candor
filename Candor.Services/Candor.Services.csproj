@@ -62,10 +62,6 @@
       <Project>{ed9ab0c9-d4c2-4ae4-84f4-238956cf1876}</Project>
       <Name>Candor.Models</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Candor\Candor.csproj">
-      <Project>{f11a4314-0021-453b-a949-e4ffd1186946}</Project>
-      <Name>Candor</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

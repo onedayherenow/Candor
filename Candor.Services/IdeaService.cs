@@ -25,8 +25,7 @@ namespace Candor.Services
                 Title = model.Title,
                 Content = model.Content,
                 DateCreated = DateTimeOffset.UtcNow,
-                Ratings = model.Ratings,
-                AverageRating = model.AverageRating,
+                //Ratings = model.Ratings,
                 Completed = model.Completed
             };
 
@@ -68,7 +67,7 @@ namespace Candor.Services
                     Content = idea.Content,
                     DateCreated = idea.DateCreated,
                     LastModified = idea.LastModified,
-                    Ratings = idea.Ratings,
+                    //Ratings = idea.Ratings,
                     AverageRating = idea.AverageRating,
                     Completed = idea.Completed
                 };
@@ -87,7 +86,7 @@ namespace Candor.Services
                 idea.Title = model.Title;
                 idea.Content = model.Content;
                 idea.LastModified = DateTimeOffset.UtcNow;
-                idea.Ratings = model.Ratings;
+                //idea.Ratings = model.Ratings;
                 idea.Completed = model.Completed;
 
                 return context.SaveChanges() == 1;

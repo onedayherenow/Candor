@@ -50,6 +50,7 @@
     <Compile Include="RatingCreate.cs" />
     <Compile Include="RatingDetail.cs" />
     <Compile Include="RatingEdit.cs" />
+    <Compile Include="RatingListItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Candor.Data\Candor.Data.csproj">

@@ -21,85 +21,72 @@ namespace Candor.Services
         {
             var rating = new Rating()
             {
-                OwnerId = _userId,
-                IdeaId = model.Title,
-                Content = model.Content,
+                IdeaId = model.IdeaId,
+                RatingScore = model.RatingScore,
+                Comment = model.Comment,
                 DateCreated = DateTimeOffset.UtcNow,
-                Ratings = model.Ratings,
-                AverageRating = model.AverageRating,
-                Completed = model.Completed
             };
 
             using (var context = ApplicationDbContext.Create())
             {
-                context.Ideas.Add(idea);
+                context.Ratings.Add(rating);
                 return context.SaveChanges() == 1;
             }
         }
 
-        public List<IdeaListItem> GetIdeas()
+        public List<RatingListItem> GetRatings()
         {
             using (var context = ApplicationDbContext.Create())
             {
-                var query = context.Ideas
+                var query = context.Ratings
                     .Where(n => n.OwnerId == _userId)
-                    .Select(n => new IdeaListItem()
+                    .Select(n => new RatingListItem()
                     {
                         Id = n.Id,
-                        Title = n.Title,
-                        DateCreated = n.DateCreated,
-                        AverageRating = n.AverageRating
-                    });
+                        RatingScore = n.RatingScore,
+                        Comment = n.Comment
+                    }) ;
 
 
                 return query.ToList();
             }
         }
 
-        public IdeaDetail GetIdeaById(int id)
+        public RatingDetail GetRatingById(int id)
         {
             using (var context = ApplicationDbContext.Create())
             {
-                var idea = context.Ideas.Single(n => n.Id == id && n.OwnerId == _userId);
-                var model = new IdeaDetail()
+                var rating = context.Ratings.Single(n => n.Id == id && n.OwnerId == _userId);
+                var model = new RatingDetail()
                 {
-                    IdeaId = idea.Id,
-                    Title = idea.Title,
-                    Content = idea.Content,
-                    DateCreated = idea.DateCreated,
-                    LastModified = idea.LastModified,
-                    Ratings = idea.Ratings,
-                    AverageRating = idea.AverageRating,
-                    Completed = idea.Completed
+                    IdeaId = rating.Id,
+                    RatingScore = rating.RatingScore,
+                    Comment = rating.Comment
                 };
 
                 return model;
             }
         }
 
-        public bool UpdateIdea(IdeaEdit model)
+        public bool UpdateRating(RatingEdit model)
         {
             using (var context = ApplicationDbContext.Create())
             {
-                var idea = context.Ideas.Single(n => n.Id == model.Id && n.OwnerId == _userId);
+                var rating = context.Ratings.Single(n => n.Id == model.Id && n.OwnerId == _userId);
 
-                        idea.Id = model.Id,
-                        idea.Title = model.Title,
-                        idea.Content = model.Content,
-                        idea.LastModified = DateTimeOffset.UtcNow,
-                        idea.Ratings = model.Ratings,
-                        idea.Completed = model.Completed;
+                    rating.RatingScore = model.RatingScore;
+                    rating.Comment = model.Comment;
 
                 return context.SaveChanges() == 1;
             }
         }
 
-        public bool DeleteIdea(int id)
+        public bool DeleteRating(int id)
         {
             using (var context = ApplicationDbContext.Create())
             {
-                var idea = context.Ideas.Single(n => n.Id == id && n.OwnerId == _userId);
-                context.Ideas.Remove(idea);
+                var rating = context.Ratings.Single(n => n.Id == id && n.OwnerId == _userId);
+                context.Ratings.Remove(rating);
                 return context.SaveChanges() == 1;
             }
         }

@@ -15,9 +15,11 @@ namespace Candor.Data
 		[ForeignKey(name:"Idea Id")]
 		public int IdeaId { get; set; }
 		[Required]
+		public DateTimeOffset DateCreated { get; set; }
+		[Required]
 		public int RatingScore { get; set; }
 		public string Comment { get; set; }
 
-		public string UsernameRater { get; set; }
+		//public string UsernameRater { get; set; }
 	}
 }
