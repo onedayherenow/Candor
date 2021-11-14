@@ -12,8 +12,6 @@ namespace Candor.Models
 	{
 		[Key]
 		public int Id { get; set; }
-		[ForeignKey(name: "Idea Id")]
-		public int IdeaId { get; set; }
 		[Required]
 		public int RatingScore { get; set; }
 		public string Comment { get; set; }

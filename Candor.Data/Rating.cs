@@ -12,6 +12,9 @@ namespace Candor.Data
 	{
 		[Key]
 		public int Id { get; set; }
+		[Required]
+		public Guid OwnerId { get; set; }
+
 		[ForeignKey(name:"Idea Id")]
 		public int IdeaId { get; set; }
 		[Required]

@@ -18,7 +18,8 @@ namespace Candor.Controllers
             return new IdeaService(userId);
         }
 
-        // GET: Note
+
+        // GET: Idea
         public ActionResult Index()
         {
             var service = CreateIdeaService();
@@ -26,7 +27,13 @@ namespace Candor.Controllers
             return View(ideas);
         }
 
+        // GET : Idea
+        public ActionResult Create()
+        {
+            return View();
+        }
 
+        //POST : Idea/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(IdeaCreate model)
@@ -45,6 +52,7 @@ namespace Candor.Controllers
             return View(model);
         }
 
+        //GET : Idea/Detail/{id}
         public ActionResult Details(int id)
         {
             var service = CreateIdeaService();
@@ -52,10 +60,11 @@ namespace Candor.Controllers
             return View(detail);
         }
 
+        // GET : Idea/Edit/{id}
         public ActionResult Edit(int id)
         {
             var service = CreateIdeaService();
-            var detail = service.GetByIdeaId(id);
+            var detail = service.GetIdeaById(id);
             var model = new IdeaEdit()
             {
                 Id = detail.Id,
@@ -66,6 +75,7 @@ namespace Candor.Controllers
             return View(model);
         }
 
+        // POST : Idea/Edit/{id}
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, IdeaEdit model)
@@ -93,6 +103,7 @@ namespace Candor.Controllers
             return View(model);
         }
 
+        // GET : Idea/Delete/{id}
         public ActionResult Delete(int id)
         {
             var service = CreateIdeaService();
@@ -100,6 +111,7 @@ namespace Candor.Controllers
             return View(model);
         }
 
+        // POST : Idea/Delete/{id}
         [HttpPost]
         [ActionName("Delete")]
         [ValidateAntiForgeryToken]

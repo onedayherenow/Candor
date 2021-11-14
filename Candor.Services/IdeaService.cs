@@ -62,7 +62,7 @@ namespace Candor.Services
                 var idea = context.Ideas.Single(n => n.Id == id && n.OwnerId == _userId);
                 var model = new IdeaDetail()
                 {
-                    IdeaId = idea.Id,
+                    Id = idea.Id,
                     Title = idea.Title,
                     Content = idea.Content,
                     DateCreated = idea.DateCreated,
