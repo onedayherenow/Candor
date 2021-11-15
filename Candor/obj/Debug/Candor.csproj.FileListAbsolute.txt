@@ -109,3 +109,8 @@ C:\Users\oneda\source\repos\Candor\Candor\bin\Microsoft.CodeDom.Providers.DotNet
 C:\Users\oneda\source\repos\Candor\Candor\obj\Debug\Candor.csproj.CopyComplete
 C:\Users\oneda\source\repos\Candor\Candor\obj\Debug\Candor.dll
 C:\Users\oneda\source\repos\Candor\Candor\obj\Debug\Candor.pdb
+C:\Users\oneda\source\repos\Candor\Candor\bin\Candor.Models.dll
+C:\Users\oneda\source\repos\Candor\Candor\bin\Candor.Services.dll
+C:\Users\oneda\source\repos\Candor\Candor\bin\Candor.Models.pdb
+C:\Users\oneda\source\repos\Candor\Candor\bin\Candor.Services.pdb
+C:\Users\oneda\source\repos\Candor\Candor\bin\Candor.Services.dll.config
