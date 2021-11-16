@@ -10,7 +10,6 @@ namespace Candor.Models
 {
 	public class RatingEdit
 	{
-		[Key]
 		public int Id { get; set; }
 		[Required]
 		public int RatingScore { get; set; }

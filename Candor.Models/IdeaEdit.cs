@@ -15,11 +15,8 @@ namespace Candor.Models
 		public string Title { get; set; }
 		[Required]
 		public string Content { get; set; }
-
-		//public Image Images { get; set; }
 		public DateTimeOffset LastModified { get; set; }
 		[Required]
-		public virtual double Ratings { get; set; }
 		public bool Completed { get; set; }
 	}
 }

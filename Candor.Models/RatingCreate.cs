@@ -17,6 +17,5 @@ namespace Candor.Models
 		[Required]
 		public int RatingScore { get; set; }
 		public string Comment { get; set; }
-		public string UsernameRater { get; set; }
 	}
 }
