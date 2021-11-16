@@ -345,10 +345,14 @@
     <Content Include="Views\Idea\Create.cshtml" />
     <Content Include="Views\Idea\Details.cshtml" />
     <Content Include="Views\Idea\Edit.cshtml" />
+    <Content Include="Views\Rating\Index.cshtml" />
+    <Content Include="Views\Rating\Create.cshtml" />
+    <Content Include="Views\Rating\Edit.cshtml" />
+    <Content Include="Views\Rating\Details.cshtml" />
+    <Content Include="Views\Rating\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Rating\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -56,7 +56,7 @@ namespace Candor.Controllers
             var detail = service.GetRatingById(id);
             var model = new RatingEdit()
             {
-                Id = detail.Id,
+                RatingId = detail.RatingId,
                 RatingScore = detail.RatingScore,
                 Comment = detail.Comment
             };
@@ -82,7 +82,7 @@ namespace Candor.Controllers
                 return View(model);
             }
 
-            if (model.Id != id)
+            if (model.RatingId != id)
             {
                 ModelState.AddModelError("", "Id Mismatch");
                 return View(model);

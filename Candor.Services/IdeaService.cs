@@ -44,7 +44,7 @@ namespace Candor.Services
                     .Where(n => n.OwnerId == _userId)
                     .Select(n => new IdeaListItem()
                     {
-                        Id = n.Id,
+                        IdeaId = n.Id,
                         Title = n.Title,
                         DateCreated = n.DateCreated,
                         AverageRating = n.AverageRating
@@ -62,7 +62,7 @@ namespace Candor.Services
                 var idea = context.Ideas.Single(n => n.Id == id && n.OwnerId == _userId);
                 var model = new IdeaDetail()
                 {
-                    Id = idea.Id,
+                    IdeaId = idea.Id,
                     Title = idea.Title,
                     Content = idea.Content,
                     DateCreated = idea.DateCreated,
@@ -80,9 +80,8 @@ namespace Candor.Services
         {
             using (var context = ApplicationDbContext.Create())
             {
-                var idea = context.Ideas.Single(n => n.Id == model.Id && n.OwnerId == _userId);
+                var idea = context.Ideas.Single(n => n.Id == model.IdeaId && n.OwnerId == _userId);
 
-                idea.Id = model.Id;
                 idea.Title = model.Title;
                 idea.Content = model.Content;
                 idea.LastModified = DateTimeOffset.UtcNow;

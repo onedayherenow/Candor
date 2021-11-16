@@ -1,10 +1,10 @@
-﻿@model IEnumerable<Candor.Models.IdeaListItem>
+﻿@model IEnumerable<Candor.Models.RatingListItem>
 
 @{
     ViewBag.Title = "Index";
 }
 
-<h2>Ideas</h2>
+<h2>Ratings</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
@@ -12,13 +12,10 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.Title)
+            @Html.DisplayNameFor(model => model.RatingScore)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.DateCreated)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.AverageRating)
+            @Html.DisplayNameFor(model => model.Comment)
         </th>
         <th></th>
     </tr>
@@ -26,13 +23,10 @@
 @foreach (var item in Model) {
     <tr>
         <td>
-            @Html.DisplayFor(modelItem => item.Title)
+            @Html.DisplayFor(modelItem => item.RatingScore)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.DateCreated)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.AverageRating)
+            @Html.DisplayFor(modelItem => item.Comment)
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |

@@ -42,7 +42,7 @@ namespace Candor.Services
                     .Where(n => n.OwnerId == _userId)
                     .Select(n => new RatingListItem()
                     {
-                        Id = n.Id,
+                        RatingId = n.Id,
                         RatingScore = n.RatingScore,
                         Comment = n.Comment
                     }) ;
@@ -59,6 +59,7 @@ namespace Candor.Services
                 var rating = context.Ratings.Single(n => n.Id == id && n.OwnerId == _userId);
                 var model = new RatingDetail()
                 {
+                    RatingId = rating.Id,
                     IdeaId = rating.Id,
                     RatingScore = rating.RatingScore,
                     Comment = rating.Comment
@@ -72,7 +73,7 @@ namespace Candor.Services
         {
             using (var context = ApplicationDbContext.Create())
             {
-                var rating = context.Ratings.Single(n => n.Id == model.Id && n.OwnerId == _userId);
+                var rating = context.Ratings.Single(n => n.Id == model.RatingId && n.OwnerId == _userId);
 
                     rating.RatingScore = model.RatingScore;
                     rating.Comment = model.Comment;

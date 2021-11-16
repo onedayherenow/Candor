@@ -1,0 +1,42 @@
+﻿@model Candor.Models.RatingDetail
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>RatingDetail</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.IdeaId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IdeaId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RatingScore)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RatingScore)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Comment)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Comment)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

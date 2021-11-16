@@ -9,8 +9,6 @@ namespace Candor.Models
 {
 	public class IdeaCreate
 	{
-		[Key]
-		public int Id { get; set; }
 		[Required]
 		public string Title { get; set; }
 		[Required]
@@ -21,7 +19,7 @@ namespace Candor.Models
 		[Required]
 		public virtual double Ratings { get; set; }
 		[Required]
-		public Double AverageRating { get; set; }
+		public double AverageRating { get; set; }
 		public bool Completed { get; set; }
 	}
 }

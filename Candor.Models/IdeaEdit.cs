@@ -10,7 +10,7 @@ namespace Candor.Models
 	public class IdeaEdit
 	{
 		[Key]
-		public int Id { get; set; }
+		public int IdeaId { get; set; }
 		[Required]
 		public string Title { get; set; }
 		[Required]

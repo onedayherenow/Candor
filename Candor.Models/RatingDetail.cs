@@ -8,7 +8,7 @@ namespace Candor.Models
 {
 	public class RatingDetail
 	{
-		public int Id { get; set; }
+		public int RatingId { get; set; }
 		public int IdeaId { get; set; }
 		public int RatingScore { get; set; }
 		public string Comment { get; set; }
