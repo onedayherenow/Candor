@@ -9,7 +9,6 @@ C:\Users\oneda\source\repos\Candor\Candor.Services\bin\Debug\EntityFramework.dll
 C:\Users\oneda\source\repos\Candor\Candor.Services\bin\Debug\Candor.Data.pdb
 C:\Users\oneda\source\repos\Candor\Candor.Services\bin\Debug\Candor.Data.dll.config
 C:\Users\oneda\source\repos\Candor\Candor.Services\bin\Debug\Candor.Models.pdb
-C:\Users\oneda\source\repos\Candor\Candor.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\Users\oneda\source\repos\Candor\Candor.Services\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 C:\Users\oneda\source\repos\Candor\Candor.Services\bin\Debug\EntityFramework.xml
 C:\Users\oneda\source\repos\Candor\Candor.Services\obj\Debug\Candor.Services.csproj.CopyComplete

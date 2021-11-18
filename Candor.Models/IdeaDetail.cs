@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Candor.Data;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,7 +14,7 @@ namespace Candor.Models
 		public string Content { get; set; }
 		public DateTimeOffset DateCreated { get; set; }
 		public DateTimeOffset LastModified { get; set; }
-		public virtual double Ratings { get; set; }
+		public virtual Rating Ratings { get; set; }
 		public double AverageRating { get; set; }
 		public bool Completed { get; set; }
 	}

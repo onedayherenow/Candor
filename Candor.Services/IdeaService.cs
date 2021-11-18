@@ -25,7 +25,6 @@ namespace Candor.Services
                 Title = model.Title,
                 Content = model.Content,
                 DateCreated = DateTimeOffset.UtcNow,
-                //Ratings = model.Ratings,
                 Completed = model.Completed
             };
 
@@ -47,7 +46,8 @@ namespace Candor.Services
                         IdeaId = n.Id,
                         Title = n.Title,
                         DateCreated = n.DateCreated,
-                        AverageRating = n.AverageRating
+                        AverageRating = n.AverageRating,
+                        Completed = n.Completed
             });
 
 
@@ -59,7 +59,9 @@ namespace Candor.Services
         {
             using (var context = ApplicationDbContext.Create())
             {
-                var idea = context.Ideas.Single(n => n.Id == id && n.OwnerId == _userId);
+                var idea = context.Ideas
+                    .SingleOrDefault(n => n.Id == id && n.OwnerId == _userId);
+
                 var model = new IdeaDetail()
                 {
                     IdeaId = idea.Id,
@@ -67,7 +69,6 @@ namespace Candor.Services
                     Content = idea.Content,
                     DateCreated = idea.DateCreated,
                     LastModified = idea.LastModified,
-                    //Ratings = idea.Ratings,
                     AverageRating = idea.AverageRating,
                     Completed = idea.Completed
                 };
@@ -85,7 +86,6 @@ namespace Candor.Services
                 idea.Title = model.Title;
                 idea.Content = model.Content;
                 idea.LastModified = DateTimeOffset.UtcNow;
-                //idea.Ratings = model.Ratings;
                 idea.Completed = model.Completed;
 
                 return context.SaveChanges() == 1;
