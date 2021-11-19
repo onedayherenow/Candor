@@ -9,6 +9,7 @@ namespace Candor.Models
 {
     public class IdeaDetail
 	{
+		public string UserName { get; set; }
 		public int IdeaId { get; set; }
 		public string Title { get; set; }
 		public string Content { get; set; }
@@ -16,5 +17,7 @@ namespace Candor.Models
 		public DateTimeOffset LastModified { get; set; }
 		public double AverageRating { get; set; }
 		public bool Completed { get; set; }
+
+		public List<RatingListItem> Ratings { get; set; }
 	}
 }

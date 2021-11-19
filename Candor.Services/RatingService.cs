@@ -60,7 +60,7 @@ namespace Candor.Services
             using (var context = ApplicationDbContext.Create())
             {
                 var query = context.Ratings
-                    .Where(n => n.OwnerId == _userId)
+                    .Where(n => n.UserId == _userId)
                     .Select(n => new RatingListItem()
                     {
                         RatingId = n.Id,
@@ -77,7 +77,7 @@ namespace Candor.Services
         {
             using (var context = ApplicationDbContext.Create())
             {
-                var rating = context.Ratings.Single(n => n.Id == id && n.OwnerId == _userId);
+                var rating = context.Ratings.Single(n => n.Id == id && n.UserId == _userId);
                 var model = new RatingDetail()
                 {
                     RatingId = rating.Id,
@@ -94,7 +94,7 @@ namespace Candor.Services
         {
             using (var context = ApplicationDbContext.Create())
             {
-                var rating = context.Ratings.Single(n => n.Id == model.RatingId && n.OwnerId == _userId);
+                var rating = context.Ratings.Single(n => n.Id == model.RatingId && n.UserId == _userId);
 
                     rating.RatingScore = model.RatingScore;
                     rating.Comment = model.Comment;
@@ -107,7 +107,7 @@ namespace Candor.Services
         {
             using (var context = ApplicationDbContext.Create())
             {
-                var rating = context.Ratings.Single(n => n.Id == id && n.OwnerId == _userId);
+                var rating = context.Ratings.Single(n => n.Id == id && n.UserId == _userId);
                 context.Ratings.Remove(rating);
                 return context.SaveChanges() == 1;
             }

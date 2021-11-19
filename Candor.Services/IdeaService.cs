@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.Entity;
 
 namespace Candor.Services
 {
@@ -60,7 +61,13 @@ namespace Candor.Services
             using (var context = ApplicationDbContext.Create())
             {
                 var idea = context.Ideas
+                    .Include(n => n.Ratings)
                     .SingleOrDefault(n => n.Id == id && n.OwnerId == _userId);
+
+                if (idea is null)
+                {
+                    return null;
+                }
 
                 var model = new IdeaDetail()
                 {
@@ -70,7 +77,20 @@ namespace Candor.Services
                     DateCreated = idea.DateCreated,
                     LastModified = idea.LastModified,
                     AverageRating = idea.AverageRating,
-                    Completed = idea.Completed
+                    Completed = idea.Completed,
+                    Ratings = idea.Ratings
+                        .OrderByDescending(Ratings => Ratings.DateCreated)
+                        .Select(rating => new RatingListItem()
+                        {
+                            RatingId = rating.Id,
+                            RatingScore = rating.RatingScore,
+                            Comment = rating.Comment,
+                            UserName = context.Users.Find(rating.UserId
+                            .ToString()).UserName,
+                            IsEditable = rating.UserId == _userId
+                    
+                        }).ToList()
+                    
                 };
 
                 return model;
@@ -100,6 +120,13 @@ namespace Candor.Services
                 context.Ideas.Remove(idea);
                 return context.SaveChanges() == 1;
             }
+        }
+
+        private string GetUserName(ApplicationDbContext context, Rating rating)
+        {
+            string userId = rating.UserId.ToString();
+            var user = context.Users.Find(userId);
+            return user.UserName;
         }
     }
 }
