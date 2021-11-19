@@ -14,7 +14,6 @@ namespace Candor.Models
 		public string Content { get; set; }
 		public DateTimeOffset DateCreated { get; set; }
 		public DateTimeOffset LastModified { get; set; }
-		public virtual Rating Ratings { get; set; }
 		public double AverageRating { get; set; }
 		public bool Completed { get; set; }
 	}

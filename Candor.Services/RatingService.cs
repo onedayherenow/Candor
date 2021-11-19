@@ -34,6 +34,27 @@ namespace Candor.Services
             }
         }
 
+        public IEnumerable<RatingListItem> GetRatingsByIdeaId(int id)
+        {
+            using (var ctx = new ApplicationDbContext())
+            {
+                var query =
+                    ctx
+                        .Ratings
+                        .Where(e => e.IdeaId == id)
+                        .Select(
+                            e =>
+                                new RatingListItem
+                                {
+                                    RatingId = e.Id,
+                                    RatingScore = e.RatingScore,
+                                    Comment = e.Comment
+                                }
+                        );
+                return query.ToArray();
+            }
+        }
+
         public List<RatingListItem> GetRatings()
         {
             using (var context = ApplicationDbContext.Create())

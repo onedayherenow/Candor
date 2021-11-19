@@ -14,3 +14,11 @@ C:\Users\oneda\source\repos\Candor\Candor.Data\obj\Debug\Candor.Data.csproj.Core
 C:\Users\oneda\source\repos\Candor\Candor.Data\obj\Debug\Candor.Data.csproj.CopyComplete
 C:\Users\oneda\source\repos\Candor\Candor.Data\obj\Debug\Candor.Data.dll
 C:\Users\oneda\source\repos\Candor\Candor.Data\obj\Debug\Candor.Data.pdb
+C:\Users\oneda\source\repos\Candor\Candor.Data\bin\Debug\Newtonsoft.Json.dll
+C:\Users\oneda\source\repos\Candor\Candor.Data\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\oneda\source\repos\Candor\Candor.Data\bin\Debug\System.Web.Http.dll
+C:\Users\oneda\source\repos\Candor\Candor.Data\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\oneda\source\repos\Candor\Candor.Data\bin\Debug\Newtonsoft.Json.xml
+C:\Users\oneda\source\repos\Candor\Candor.Data\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\oneda\source\repos\Candor\Candor.Data\bin\Debug\System.Web.Http.xml
+C:\Users\oneda\source\repos\Candor\Candor.Data\bin\Debug\System.Web.Http.WebHost.xml

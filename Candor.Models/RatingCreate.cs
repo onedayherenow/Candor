@@ -9,7 +9,8 @@ using System.Threading.Tasks;
 namespace Candor.Models
 {
 	public class RatingCreate
-	{
+	{	
+		[Required]
 		public int IdeaId { get; set; }
 		[Required]
 		public int RatingScore { get; set; }

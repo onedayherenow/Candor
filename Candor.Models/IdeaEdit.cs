@@ -14,8 +14,8 @@ namespace Candor.Models
 		[Required]
 		public string Title { get; set; }
 		[Required]
+		[MaxLength(500)]
 		public string Content { get; set; }
-		public DateTimeOffset LastModified { get; set; }
 		[Required]
 		public bool Completed { get; set; }
 	}

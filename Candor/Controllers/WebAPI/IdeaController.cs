@@ -10,18 +10,17 @@ namespace Candor.Web.Controllers.WebApi
     [RoutePrefix("api/Idea")]
     public class IdeaController : ApiController
     {
-        private bool SetStarState(int noteId, bool newState)
+        private bool SetStarState(int ideaId, bool newState)
         {
             var userId = Guid.Parse(User.Identity.GetUserId());
             var service = new IdeaService(userId);
-            var detail = service.GetIdeaById(noteId);
+            var detail = service.GetIdeaById(ideaId);
 
             var updated = new IdeaEdit()
             {
                 IdeaId = detail.IdeaId,
                 Title = detail.Title,
                 Content = detail.Content,
-                LastModified = DateTimeOffset.UtcNow,
                 Completed = newState
             };
 

@@ -4,10 +4,10 @@
 	ViewBag.Title = "Index";
 }
 
-<h2>Ideas</h2>
+<h2 class="text-center">Ideas</h2>
 
-<p>
-	@Html.ActionLink("Create New", "Create")
+<p class="text-center">
+	@Html.ActionLink("Create New", "Create", null, htmlAttributes: new { @class = "btn btn-outline-light" })
 </p>
 <table class="table">
 	<tr>
@@ -48,7 +48,9 @@
 			</td>
 		</tr>
 	}
+
 </table>
+
 
 @section scripts {
 	<script language="javascript" type="text/javascript">

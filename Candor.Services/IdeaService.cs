@@ -85,8 +85,8 @@ namespace Candor.Services
 
                 idea.Title = model.Title;
                 idea.Content = model.Content;
-                idea.LastModified = DateTimeOffset.UtcNow;
                 idea.Completed = model.Completed;
+                idea.LastModified = DateTimeOffset.UtcNow;
 
                 return context.SaveChanges() == 1;
             }

@@ -20,13 +20,14 @@ namespace Candor.Data
 		[Required]
 		public string Content { get; set; }
 
-		//public Image Images { get; set; }
 		[Required]
 		public DateTimeOffset DateCreated { get; set; }
 
 		public DateTimeOffset LastModified { get; set; }
 		public virtual List<Rating> Ratings { get; set; }
+		[Required]
 		public double AverageRating => Ratings.Any() ? Ratings.Average(rating => rating.RatingScore) : 0;
+		[Required]
 		public bool Completed { get; set; }
 	}
 }
