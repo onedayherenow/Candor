@@ -15,6 +15,7 @@ namespace Candor.Models
 		[Required]
 		public string Content { get; set; }
 		[Required]
+		[Display(Name = "Date Created")]
 		public DateTimeOffset DateCreated { get; set; }
 		[DefaultValue(false)]
 		public bool Completed { get; set; }
