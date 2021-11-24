@@ -17,13 +17,6 @@ namespace Candor.Controllers
             return new RatingService(userId);
         }
 
-        // GET: Rating
-        public ActionResult Index()
-        {
-            var service = CreateRatingService();
-            var ratings = service.GetRatings();
-            return View(ratings);
-        }
 
         // GET:  Rating/Create
         public ActionResult Create()

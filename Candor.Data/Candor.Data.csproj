@@ -71,12 +71,29 @@
   <ItemGroup>
     <Compile Include="Idea.cs" />
     <Compile Include="IdentityModels.cs" />
+    <Compile Include="Migrations\202111182249062_InitialCreate.cs" />
+    <Compile Include="Migrations\202111182249062_InitialCreate.designer.cs">
+      <DependentUpon>202111182249062_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202111240315199_UserName.cs" />
+    <Compile Include="Migrations\202111240315199_UserName.designer.cs">
+      <DependentUpon>202111240315199_UserName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rating.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202111182249062_InitialCreate.resx">
+      <DependentUpon>202111182249062_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202111240315199_UserName.resx">
+      <DependentUpon>202111240315199_UserName.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

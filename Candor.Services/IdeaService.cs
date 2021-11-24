@@ -22,7 +22,7 @@ namespace Candor.Services
         {
             var idea = new Idea()
             {
-                OwnerId = _userId,
+                UserId = _userId,
                 Title = model.Title,
                 Content = model.Content,
                 DateCreated = DateTimeOffset.UtcNow,
@@ -41,15 +41,17 @@ namespace Candor.Services
             using (var context = ApplicationDbContext.Create())
             {
                 var query = context.Ideas
-                    .Where(n => n.OwnerId == _userId)
+                    .Where(n => n.UserId == _userId)
+                    .OrderByDescending(Ideas => Ideas.AverageRating)
                     .Select(n => new IdeaListItem()
                     {
                         IdeaId = n.Id,
                         Title = n.Title,
                         DateCreated = n.DateCreated,
                         AverageRating = n.AverageRating,
-                        Completed = n.Completed
-            });
+                        Completed = n.Completed,
+                        IsEditable = _userId == n.UserId
+                    });
 
 
             return query.ToList();
@@ -62,7 +64,7 @@ namespace Candor.Services
             {
                 var idea = context.Ideas
                     .Include(n => n.Ratings)
-                    .SingleOrDefault(n => n.Id == id && n.OwnerId == _userId);
+                    .SingleOrDefault(n => n.Id == id && n.UserId == _userId);
 
                 if (idea is null)
                 {
@@ -101,7 +103,7 @@ namespace Candor.Services
         {
             using (var context = ApplicationDbContext.Create())
             {
-                var idea = context.Ideas.Single(n => n.Id == model.IdeaId && n.OwnerId == _userId);
+                var idea = context.Ideas.Single(n => n.Id == model.IdeaId && n.UserId == _userId);
 
                 idea.Title = model.Title;
                 idea.Content = model.Content;
@@ -116,7 +118,7 @@ namespace Candor.Services
         {
             using (var context = ApplicationDbContext.Create())
             {
-                var idea = context.Ideas.Single(n => n.Id == id && n.OwnerId == _userId);
+                var idea = context.Ideas.Single(n => n.Id == id && n.UserId == _userId);
                 context.Ideas.Remove(idea);
                 return context.SaveChanges() == 1;
             }

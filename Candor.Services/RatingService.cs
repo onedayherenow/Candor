@@ -48,28 +48,11 @@ namespace Candor.Services
                                 {
                                     RatingId = e.Id,
                                     RatingScore = e.RatingScore,
-                                    Comment = e.Comment
+                                    Comment = e.Comment,
+                                    IsEditable = _userId == e.UserId
                                 }
                         );
                 return query.ToArray();
-            }
-        }
-
-        public List<RatingListItem> GetRatings()
-        {
-            using (var context = ApplicationDbContext.Create())
-            {
-                var query = context.Ratings
-                    .Where(n => n.UserId == _userId)
-                    .Select(n => new RatingListItem()
-                    {
-                        RatingId = n.Id,
-                        RatingScore = n.RatingScore,
-                        Comment = n.Comment
-                    }) ;
-
-
-                return query.ToList();
             }
         }
 
@@ -83,7 +66,8 @@ namespace Candor.Services
                     RatingId = rating.Id,
                     IdeaId = rating.Id,
                     RatingScore = rating.RatingScore,
-                    Comment = rating.Comment
+                    Comment = rating.Comment,
+                    UserName = GetUserName(context, rating)
                 };
 
                 return model;
@@ -111,6 +95,13 @@ namespace Candor.Services
                 context.Ratings.Remove(rating);
                 return context.SaveChanges() == 1;
             }
+        }
+
+        private string GetUserName(ApplicationDbContext context, Rating rating)
+        {
+            string userId = rating.UserId.ToString();
+            var user = context.Users.Find(userId);
+            return user.UserName;
         }
     }
 }

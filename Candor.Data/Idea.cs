@@ -13,7 +13,7 @@ namespace Candor.Data
 		[Key]
 		public int Id { get; set; }
 		[Required]
-		public Guid OwnerId { get; set; }
+		public Guid UserId { get; set; }
 
 		[Required]
 		public string Title { get; set; }

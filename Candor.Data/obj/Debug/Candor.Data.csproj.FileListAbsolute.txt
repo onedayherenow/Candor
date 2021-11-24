@@ -22,3 +22,6 @@ C:\Users\oneda\source\repos\Candor\Candor.Data\bin\Debug\Newtonsoft.Json.xml
 C:\Users\oneda\source\repos\Candor\Candor.Data\bin\Debug\System.Net.Http.Formatting.xml
 C:\Users\oneda\source\repos\Candor\Candor.Data\bin\Debug\System.Web.Http.xml
 C:\Users\oneda\source\repos\Candor\Candor.Data\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\oneda\source\repos\Candor\Candor.Data\obj\Debug\Candor.Data.Migrations.InitialCreate.resources
+C:\Users\oneda\source\repos\Candor\Candor.Data\obj\Debug\Candor.Data.csproj.GenerateResource.cache
+C:\Users\oneda\source\repos\Candor\Candor.Data\obj\Debug\Candor.Data.Migrations.UserName.resources
