@@ -1,7 +1,11 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
-    background-color: indigo;
+    background: rgb(52,2,115);
+    background: -moz-linear-gradient(90deg, rgba(52,2,115,1) 10%, rgba(220,203,244,0.9925012241224614) 50%, rgba(73,5,122,1) 90%);
+    background: -webkit-linear-gradient(90deg, rgba(52,2,115,1) 10%, rgba(220,203,244,0.9925012241224614) 50%, rgba(73,5,122,1) 90%);
+    background: linear-gradient(90deg, rgba(52,2,115,1) 10%, rgba(220,203,244,0.9925012241224614) 50%, rgba(73,5,122,1) 90%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#340273",endColorstr="#49057a",GradientType=1);
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -13,13 +17,42 @@
 /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
 */
+
+/*
 .dl-horizontal dt {
     white-space: normal;
 }
 
-/* Set width on the form input elements since they're 100% wide by default */
+/* Set width on the form input elements since they're 100% wide by default 
 input,
 select,
 textarea {
     max-width: 280px;
 }
+*/
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+}
+
+/* Style the hamburger menu */
+    .topnav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+}
+
+    /* Add a grey background color on mouse-over */
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+}
+
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    .topnav #myLinks {
+        display: none;
+    }

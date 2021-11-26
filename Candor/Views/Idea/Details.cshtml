@@ -1,74 +1,84 @@
 ﻿@model Candor.Models.IdeaDetail
 
 @{
-    ViewBag.Title = "Details";
+	ViewBag.Title = "Details";
 }
 
 <h2>Details</h2>
 
 <div>
-    <h4>IdeaDetail</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Title)
-        </dt>
+	<h4>IdeaDetail</h4>
+	<hr />
+	@Html.HiddenFor(model => model.IdeaId)
 
-        <dd>
-            @Html.DisplayFor(model => model.Title)
-        </dd>
+	<dl class="dl-horizontal">
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Content)
-        </dt>
+		<dt>
+			@Html.DisplayNameFor(model => model.UserName)
+		</dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Content)
-        </dd>
+		<dd>
+			@Html.DisplayFor(model => model.UserName)
+		</dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.DateCreated)
-        </dt>
+		<dt>
+			@Html.DisplayNameFor(model => model.Title)
+		</dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.DateCreated)
-        </dd>
+		<dd>
+			@Html.DisplayFor(model => model.Title)
+		</dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.LastModified)
-        </dt>
+		<dt>
+			@Html.DisplayNameFor(model => model.Content)
+		</dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.LastModified)
-        </dd>
+		<dd>
+			@Html.DisplayFor(model => model.Content)
+		</dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Ratings)
-        </dt>
+		<dt>
+			@Html.DisplayNameFor(model => model.DateCreated)
+		</dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Ratings)
-        </dd>
+		<dd>
+			@Html.DisplayFor(model => model.DateCreated)
+		</dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.AverageRating)
-        </dt>
+		<dt>
+			@Html.DisplayNameFor(model => model.LastModified)
+		</dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.AverageRating)
-        </dd>
+		<dd>
+			@Html.DisplayFor(model => model.LastModified)
+		</dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Completed)
-        </dt>
+		<dt>
+			@Html.DisplayNameFor(model => model.AverageRating)
+		</dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Completed)
-        </dd>
+		<dd>
+			@Html.DisplayFor(model => model.AverageRating)
+		</dd>
 
-    </dl>
+		<dt>
+			@Html.DisplayNameFor(model => model.Completed)
+		</dt>
+
+		<dd>
+			@Html.DisplayFor(model => model.Completed)
+		</dd>
+
+	</dl>
 </div>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
-    @Html.ActionLink("Back to List", "Index")
+		@if (Model.IsEditable)
+		{
+			@Html.ActionLink("Delete", "Delete", new { id = Model.IdeaId }, htmlAttributes: new { @class = "btn btn-danger btn-small" })
+			@Html.ActionLink("Edit", "Edit", new { id = Model.IdeaId }, htmlAttributes: new { @class = "btn btn-warning btn-small" })
+		}
+
+			@Html.ActionLink("Rate this Idea", "Create", "Rating", new { id = Model.IdeaId })
+			@Html.ActionLink("View Ratings", "Index", "Rating", new { id = Model.IdeaId })
+			@Html.ActionLink("Back to Ideas", "Index") |
 </p>

@@ -9,13 +9,13 @@ namespace Candor.Models
 {
 	public class IdeaEdit
 	{
-		[Key]
-		public int Id { get; set; }
+		[Display(Name = "Idea ID")]
+		public int IdeaId { get; set; }
 		[Required]
 		public string Title { get; set; }
 		[Required]
+		[MaxLength(500)]
 		public string Content { get; set; }
-		public DateTimeOffset LastModified { get; set; }
 		[Required]
 		public bool Completed { get; set; }
 	}

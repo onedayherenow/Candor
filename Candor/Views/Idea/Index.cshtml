@@ -1,45 +1,79 @@
 ﻿@model IEnumerable<Candor.Models.IdeaListItem>
 
 @{
-    ViewBag.Title = "Index";
+	ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2 class="text-center my-3">Ideas</h2>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
+<p class="text-center">
+	@Html.ActionLink("Create New", "Create", null, htmlAttributes: new { @class = "btn btn-outline-light btn-info btn-small" })
 </p>
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Title)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.DateCreated)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.AverageRating)
-        </th>
-        <th></th>
-    </tr>
+<table class="table table-bordered table-striped">
+	<tr>
+		<th>
+			@Html.DisplayNameFor(model => model.Title)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.DateCreated)
+		</th>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Title)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.DateCreated)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.AverageRating)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
-            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
-        </td>
-    </tr>
-}
+		<th>
+			@Html.DisplayNameFor(model => model.Completed)
+		</th>
+		<th></th>
+	</tr>
+
+	@foreach (var item in Model)
+	{
+		<tr>
+			<td>
+				@Html.DisplayFor(modelItem => item.Title)
+			</td>
+			<td>
+				@Html.DisplayFor(modelItem => item.DateCreated)
+			</td>
+			<td>
+				@Html.DisplayFor(modelItem => item.Completed)
+			</td>
+			<td>
+			@if (item.IsEditable) 
+			{
+				@Html.ActionLink("Delete", "Delete", new { id = item.IdeaId }, htmlAttributes: new { @class = "btn btn-danger btn-small" }) 
+				@Html.ActionLink("Edit", "Edit", new { id = item.IdeaId }, htmlAttributes: new {  @class="btn btn-warning btn-small"}) 
+			}
+				@Html.ActionLink("Details", "Details", new { id = item.IdeaId }, htmlAttributes: new { @class = "btn btn-success btn-small" }) 
+				@Html.ActionLink("Add a Rating", "Create", "Rating", new { IdeaId = item.IdeaId }, htmlAttributes: new { @class = "btn btn-info btn-small" })
+			</td>
+		</tr>
+	}
 
 </table>
+
+
+@section scripts {
+	<script language="javascript" type="text/javascript">
+        $(document).ready(function () {
+            $("i[data-toggle='star']")
+                .css({ "cursor": "pointer" })
+                .click(function (e) {
+                    var target = $(e.target);
+                    var noteId = target.attr("data-id");
+                    var starSet = target.hasClass("glyphicon-star");
+
+                    $.ajax({
+                        method: starSet ? "DELETE" : "PUT",
+                        url: "/api/note/" + noteId + "/star",
+                        data: null
+                    })
+                        .done(function (r) {
+                            target.removeClass();
+                            target.addClass("glyphicon " + (starSet ? "glyphicon-star-empty" : "glyphicon-star"));
+                        })
+                        .fail(function (r) {
+                            alert("Failed to change star status");
+                        });
+                });
+        });
+	</script>
+}

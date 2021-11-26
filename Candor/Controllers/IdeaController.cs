@@ -67,7 +67,7 @@ namespace Candor.Controllers
             var detail = service.GetIdeaById(id);
             var model = new IdeaEdit()
             {
-                Id = detail.Id,
+                IdeaId = detail.IdeaId,
                 Title = detail.Title,
                 Content = detail.Content
             };
@@ -85,7 +85,7 @@ namespace Candor.Controllers
                 return View(model);
             }
 
-            if (model.Id != id)
+            if (model.IdeaId != id)
             {
                 ModelState.AddModelError("", "Id Mismatch");
                 return View(model);
@@ -95,7 +95,7 @@ namespace Candor.Controllers
 
             if (service.UpdateIdea(model))
             {
-                TempData["SaveResult"] = "Your note was updated.";
+                TempData["SaveResult"] = "Your idea was updated.";
                 return RedirectToAction("Index");
             }
 

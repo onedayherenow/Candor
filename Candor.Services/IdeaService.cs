@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.Entity;
 
 namespace Candor.Services
 {
@@ -21,11 +22,10 @@ namespace Candor.Services
         {
             var idea = new Idea()
             {
-                OwnerId = _userId,
+                UserId = _userId,
                 Title = model.Title,
                 Content = model.Content,
                 DateCreated = DateTimeOffset.UtcNow,
-                //Ratings = model.Ratings,
                 Completed = model.Completed
             };
 
@@ -36,22 +36,23 @@ namespace Candor.Services
             }
         }
 
-        public List<IdeaListItem> GetIdeas()
+        public IEnumerable<IdeaListItem> GetIdeas()
         {
             using (var context = ApplicationDbContext.Create())
             {
                 var query = context.Ideas
-                    .Where(n => n.OwnerId == _userId)
+                    .Where(n => n.UserId == _userId)
                     .Select(n => new IdeaListItem()
                     {
-                        Id = n.Id,
+                        IdeaId = n.Id,
                         Title = n.Title,
                         DateCreated = n.DateCreated,
-                        AverageRating = n.AverageRating
-            });
+                        Completed = n.Completed,
+                        IsEditable = _userId == n.UserId
+                    });
 
 
-            return query.ToList();
+            return query.ToArray();
             }
         }
 
@@ -59,17 +60,37 @@ namespace Candor.Services
         {
             using (var context = ApplicationDbContext.Create())
             {
-                var idea = context.Ideas.Single(n => n.Id == id && n.OwnerId == _userId);
+                var idea = context.Ideas
+                    .Include(n => n.Ratings)
+                    .SingleOrDefault(n => n.Id == id && n.UserId == _userId);
+
+                if (idea is null)
+                {
+                    return null;
+                }
+
                 var model = new IdeaDetail()
                 {
-                    Id = idea.Id,
+                    IdeaId = idea.Id,
                     Title = idea.Title,
                     Content = idea.Content,
                     DateCreated = idea.DateCreated,
                     LastModified = idea.LastModified,
-                    //Ratings = idea.Ratings,
                     AverageRating = idea.AverageRating,
-                    Completed = idea.Completed
+                    Completed = idea.Completed,
+                    Ratings = idea.Ratings
+                        .OrderByDescending(Ratings => Ratings.DateCreated)
+                        .Select(rating => new RatingListItem()
+                        {
+                            RatingId = rating.Id,
+                            RatingScore = rating.RatingScore,
+                            Comment = rating.Comment,
+                            UserName = context.Users.Find(rating.UserId
+                            .ToString()).UserName,
+                            IsEditable = rating.UserId == _userId
+                    
+                        }).ToList()
+                    
                 };
 
                 return model;
@@ -80,14 +101,12 @@ namespace Candor.Services
         {
             using (var context = ApplicationDbContext.Create())
             {
-                var idea = context.Ideas.Single(n => n.Id == model.Id && n.OwnerId == _userId);
+                var idea = context.Ideas.Single(n => n.Id == model.IdeaId && n.UserId == _userId);
 
-                idea.Id = model.Id;
                 idea.Title = model.Title;
                 idea.Content = model.Content;
-                idea.LastModified = DateTimeOffset.UtcNow;
-                //idea.Ratings = model.Ratings;
                 idea.Completed = model.Completed;
+                idea.LastModified = DateTimeOffset.UtcNow;
 
                 return context.SaveChanges() == 1;
             }
@@ -97,7 +116,7 @@ namespace Candor.Services
         {
             using (var context = ApplicationDbContext.Create())
             {
-                var idea = context.Ideas.Single(n => n.Id == id && n.OwnerId == _userId);
+                var idea = context.Ideas.Single(n => n.Id == id && n.UserId == _userId);
                 context.Ideas.Remove(idea);
                 return context.SaveChanges() == 1;
             }

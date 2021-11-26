@@ -13,10 +13,11 @@ namespace Candor.Data
 		[Key]
 		public int Id { get; set; }
 		[Required]
-		public Guid OwnerId { get; set; }
+		public Guid UserId { get; set; }
 
-		[ForeignKey(name:"Idea Id")]
+		[ForeignKey(nameof(Idea))]
 		public int IdeaId { get; set; }
+		public virtual Idea Idea { get; set; }
 		[Required]
 		public DateTimeOffset DateCreated { get; set; }
 		[Required]

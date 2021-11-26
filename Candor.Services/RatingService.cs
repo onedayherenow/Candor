@@ -22,9 +22,10 @@ namespace Candor.Services
             var rating = new Rating()
             {
                 IdeaId = model.IdeaId,
+                UserId = _userId,
                 RatingScore = model.RatingScore,
                 Comment = model.Comment,
-                DateCreated = DateTimeOffset.UtcNow,
+                DateCreated = DateTimeOffset.Now
             };
 
             using (var context = ApplicationDbContext.Create())
@@ -34,21 +35,26 @@ namespace Candor.Services
             }
         }
 
-        public List<RatingListItem> GetRatings()
+        public IEnumerable<RatingListItem> GetRatingsByIdeaId(int id)
         {
-            using (var context = ApplicationDbContext.Create())
+            using (var ctx = new ApplicationDbContext())
             {
-                var query = context.Ratings
-                    .Where(n => n.OwnerId == _userId)
-                    .Select(n => new RatingListItem()
-                    {
-                        Id = n.Id,
-                        RatingScore = n.RatingScore,
-                        Comment = n.Comment
-                    }) ;
-
-
-                return query.ToList();
+                var query =
+                    ctx
+                        .Ratings
+                        .Where(e => e.IdeaId == id)
+                        .Select(
+                            e =>
+                                new RatingListItem
+                                {
+                                    IdeaId = e.IdeaId,
+                                    RatingId = e.Id,
+                                    RatingScore = e.RatingScore,
+                                    Comment = e.Comment,
+                                    IsEditable = _userId == e.UserId
+                                }
+                        );
+                return query.ToArray();
             }
         }
 
@@ -56,12 +62,16 @@ namespace Candor.Services
         {
             using (var context = ApplicationDbContext.Create())
             {
-                var rating = context.Ratings.Single(n => n.Id == id && n.OwnerId == _userId);
+                var rating = context.Ratings.Single(n => n.Id == id && n.UserId == _userId);
                 var model = new RatingDetail()
                 {
+                    RatingId = rating.Id,
                     IdeaId = rating.Id,
                     RatingScore = rating.RatingScore,
-                    Comment = rating.Comment
+                    Comment = rating.Comment,
+                    UserName = GetUserName(context, rating),
+                    IsEditable = rating.UserId == _userId
+
                 };
 
                 return model;
@@ -72,7 +82,7 @@ namespace Candor.Services
         {
             using (var context = ApplicationDbContext.Create())
             {
-                var rating = context.Ratings.Single(n => n.Id == model.Id && n.OwnerId == _userId);
+                var rating = context.Ratings.Single(n => n.Id == model.RatingId && n.UserId == _userId);
 
                     rating.RatingScore = model.RatingScore;
                     rating.Comment = model.Comment;
@@ -85,10 +95,17 @@ namespace Candor.Services
         {
             using (var context = ApplicationDbContext.Create())
             {
-                var rating = context.Ratings.Single(n => n.Id == id && n.OwnerId == _userId);
+                var rating = context.Ratings.Single(n => n.Id == id && n.UserId == _userId);
                 context.Ratings.Remove(rating);
                 return context.SaveChanges() == 1;
             }
+        }
+
+        private string GetUserName(ApplicationDbContext context, Rating rating)
+        {
+            string userId = rating.UserId.ToString();
+            var user = context.Users.Find(userId);
+            return user.UserName;
         }
     }
 }

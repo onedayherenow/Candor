@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
@@ -9,19 +10,14 @@ namespace Candor.Models
 {
 	public class IdeaCreate
 	{
-		[Key]
-		public int Id { get; set; }
 		[Required]
 		public string Title { get; set; }
 		[Required]
 		public string Content { get; set; }
 		[Required]
+		[Display(Name = "Date Created")]
 		public DateTimeOffset DateCreated { get; set; }
-		public DateTimeOffset LastModified { get; set; }
-		[Required]
-		public virtual double Ratings { get; set; }
-		[Required]
-		public Double AverageRating { get; set; }
+		[DefaultValue(false)]
 		public bool Completed { get; set; }
 	}
 }

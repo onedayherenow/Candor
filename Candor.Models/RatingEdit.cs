@@ -10,10 +10,12 @@ namespace Candor.Models
 {
 	public class RatingEdit
 	{
-		public int Id { get; set; }
+		[Display(Name = "Rating ID")]
+		public int RatingId { get; set; }
 		[Required]
+		[Display(Name = "Rating Score")]
+		[Range(0, 10, ErrorMessage = "Rating Score is any value from 0 to 10")]
 		public int RatingScore { get; set; }
 		public string Comment { get; set; }
-		public string UsernameRater { get; set; }
 	}
 }
