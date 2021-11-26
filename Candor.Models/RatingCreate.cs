@@ -12,7 +12,6 @@ namespace Candor.Models
 	{	
 		[Display(Name = "Idea ID")]
 		public int IdeaId { get; set; }
-		[Required]
 		[Display(Name = "Rating Score")]
 		[Range(0, 10, ErrorMessage = "Rating Score is any value from 0 to 10")]
 		public int RatingScore { get; set; }
