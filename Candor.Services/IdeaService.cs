@@ -36,25 +36,23 @@ namespace Candor.Services
             }
         }
 
-        public List<IdeaListItem> GetIdeas()
+        public IEnumerable<IdeaListItem> GetIdeas()
         {
             using (var context = ApplicationDbContext.Create())
             {
                 var query = context.Ideas
                     .Where(n => n.UserId == _userId)
-                    .OrderByDescending(Ideas => Ideas.AverageRating)
                     .Select(n => new IdeaListItem()
                     {
                         IdeaId = n.Id,
                         Title = n.Title,
                         DateCreated = n.DateCreated,
-                        AverageRating = n.AverageRating,
                         Completed = n.Completed,
                         IsEditable = _userId == n.UserId
                     });
 
 
-            return query.ToList();
+            return query.ToArray();
             }
         }
 
@@ -122,13 +120,6 @@ namespace Candor.Services
                 context.Ideas.Remove(idea);
                 return context.SaveChanges() == 1;
             }
-        }
-
-        private string GetUserName(ApplicationDbContext context, Rating rating)
-        {
-            string userId = rating.UserId.ToString();
-            var user = context.Users.Find(userId);
-            return user.UserName;
         }
     }
 }

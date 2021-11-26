@@ -22,9 +22,10 @@ namespace Candor.Services
             var rating = new Rating()
             {
                 IdeaId = model.IdeaId,
+                UserId = _userId,
                 RatingScore = model.RatingScore,
                 Comment = model.Comment,
-                DateCreated = DateTimeOffset.UtcNow,
+                DateCreated = DateTimeOffset.Now
             };
 
             using (var context = ApplicationDbContext.Create())
@@ -46,6 +47,7 @@ namespace Candor.Services
                             e =>
                                 new RatingListItem
                                 {
+                                    IdeaId = e.IdeaId,
                                     RatingId = e.Id,
                                     RatingScore = e.RatingScore,
                                     Comment = e.Comment,
@@ -67,7 +69,9 @@ namespace Candor.Services
                     IdeaId = rating.Id,
                     RatingScore = rating.RatingScore,
                     Comment = rating.Comment,
-                    UserName = GetUserName(context, rating)
+                    UserName = GetUserName(context, rating),
+                    IsEditable = rating.UserId == _userId
+
                 };
 
                 return model;

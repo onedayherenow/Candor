@@ -17,6 +17,7 @@ namespace Candor.Models
 		[Display(Name = "Rating Score")]
 		public int RatingScore { get; set; }
 		public string Comment { get; set; }
+		public bool IsEditable { get; set; }
 	}
 }
 

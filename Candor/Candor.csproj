@@ -216,6 +216,8 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="images\vector-equilibrium.png" />
+    <Content Include="images\vector-equilibrium2.png" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -366,6 +368,8 @@
     <Content Include="Views\Rating\Details.cshtml" />
     <Content Include="Views\Rating\Delete.cshtml" />
     <Content Include="Views\Shared\Completed.cshtml" />
+    <Content Include="Views\Idea\Delete.cshtml" />
+    <Content Include="Views\Rating\RatingsListPerIdea.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

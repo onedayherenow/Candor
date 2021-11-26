@@ -9,7 +9,6 @@ namespace Candor.Models
 {
 	public class IdeaListItem
 	{
-		[Display(Name = "Idea ID")]
 		public string UserName { get; set; }
 		[Display(Name = "Idea ID")]
 		public int IdeaId { get; set; }

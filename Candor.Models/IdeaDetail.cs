@@ -22,7 +22,7 @@ namespace Candor.Models
 		[Display(Name = "Average Rating")]
 		public double AverageRating { get; set; }
 		public bool Completed { get; set; }
-
+		public bool IsEditable { get; set; }
 		public List<RatingListItem> Ratings { get; set; }
 	}
 }

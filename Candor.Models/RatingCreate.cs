@@ -10,7 +10,6 @@ namespace Candor.Models
 {
 	public class RatingCreate
 	{	
-		[Required]
 		[Display(Name = "Idea ID")]
 		public int IdeaId { get; set; }
 		[Required]

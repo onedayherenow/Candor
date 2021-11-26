@@ -10,6 +10,7 @@ namespace Candor.Models
 	public class RatingListItem
 	{
 		public string UserName { get; set; }
+		public int IdeaId { get; set; }
 		[Display(Name = "Rating ID")]
 		public int RatingId { get; set; }
 		[Display(Name = "Rating Score")]

@@ -39,6 +39,9 @@
 </dl>
 </div>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.RatingId }) |
+    @if (Model.IsEditable) {
+	@Html.ActionLink("Edit", "Edit", new { id = Model.RatingId }) 
+	}
     @Html.ActionLink("Back to List", "Index")
+
 </p>

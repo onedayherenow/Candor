@@ -10,25 +10,31 @@
 </head>
 <body>
 
-	<div class="navbar navbar-expand navbar-dark bg-dark fixed-top">
+	<div class="navbar navbar-expand navbar-dark bg-dark fixed-top topnav">
 		<div class="container">
 
+			<img src="~/images/vector-equilibrium2.png" height="50" width="50" class="mx-1" />
 			@Html.ActionLink("Candor", "Index", "Home", new { area = "" }, htmlAttributes: new { @class = "navbar-brand" })
 
 			<button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-expanded="true">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 
-			<div class="navbar-collapse collapse">
-				<ul class="navbar-nav list-inline mr-auto">
-					<li class="nav-item">@Html.ActionLink("Home", "Index", "Home", null, htmlAttributes: new { @class = "nav-link" })</li>
-						<li class="nav-item">@Html.ActionLink("About", "About", "Home", null, htmlAttributes: new { @class = "nav-link" })</li>
-						<li class="nav-item">@Html.ActionLink("Contact", "Contact", "Home", null, htmlAttributes: new { @class = "nav-link" })</li>
-					
+
+			<div class="navbar-collapse collapse  id=links">
+				<ul class="navbar-nav list-inline mr-auto"  id="myLinks">
+					<li class="nav-item ">@Html.ActionLink("Home", "Index", "Home", null, htmlAttributes: new { @class = "nav-link" })</li>
+					<li class="nav-item ">@Html.ActionLink("About", "About", "Home", null, htmlAttributes: new { @class = "nav-link" })</li>
+					<li class="nav-item ">@Html.ActionLink("Contact", "Contact", "Home", null, htmlAttributes: new { @class = "nav-link" })</li>
+
 				</ul>
 				@Html.Partial("_LoginPartial")
 			</div>
+			<img class=".ml-auto" src="~/images/vector-equilibrium.png" height="50" width="50" />
 		</div>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		</a>
 	</div>
 
 	<div class="container-fluid body-content">
@@ -42,6 +48,8 @@
 
 	@Scripts.Render("~/bundles/jquery")
 	@Scripts.Render("~/bundles/bootstrap")
+	@Scripts.Render("~/Content/css")
+
 	@RenderSection("scripts", required: false)
 </body>
 </html>
