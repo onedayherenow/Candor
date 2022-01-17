@@ -27,6 +27,7 @@ namespace Candor.Controllers
             {
                 return HttpNotFound();
             }
+
             var model = new RatingCreate()
             {
                 IdeaId = id.Value

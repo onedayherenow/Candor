@@ -10,6 +10,7 @@ namespace Candor.Models
 	public class IdeaListItem
 	{
 		public string UserName { get; set; }
+
 		[Display(Name = "Idea ID")]
 		public int IdeaId { get; set; }
 		public string Title { get; set; }
