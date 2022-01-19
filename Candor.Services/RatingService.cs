@@ -19,6 +19,7 @@ namespace Candor.Services
 
         public bool CreateRating(RatingCreate model)
         {
+
             var rating = new Rating()
             {
                 IdeaId = model.IdeaId,

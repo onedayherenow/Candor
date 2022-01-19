@@ -11,7 +11,7 @@
 </p>
 <table class="table table-bordered table-striped">
 	<tr>
-		<th>
+		<th class="text-white">
 			@Html.DisplayNameFor(model => model.Title)
 		</th>
 		<th>
@@ -26,8 +26,9 @@
 
 	@foreach (var item in Model)
 	{
+
 		<tr>
-			<td>
+			<td class="text-white">
 				@Html.DisplayFor(modelItem => item.Title)
 			</td>
 			<td>
@@ -43,7 +44,7 @@
 				@Html.ActionLink("Edit", "Edit", new { id = item.IdeaId }, htmlAttributes: new {  @class="btn btn-warning btn-small"}) 
 			}
 				@Html.ActionLink("Details", "Details", new { id = item.IdeaId }, htmlAttributes: new { @class = "btn btn-success btn-small" }) 
-				@Html.ActionLink("Add a Rating", "Create", "Rating", new { IdeaId = item.IdeaId }, htmlAttributes: new { @class = "btn btn-info btn-small" })
+				@Html.ActionLink("Add a Rating", "Create", "Rating", new { id = item.IdeaId }, htmlAttributes: new { @class = "btn btn-info btn-small" })
 			</td>
 		</tr>
 	}
