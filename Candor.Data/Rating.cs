@@ -15,7 +15,7 @@ namespace Candor.Data
 		[Required]
 		public Guid UserId { get; set; }
 
-		[ForeignKey(nameof(Idea))]
+		[ForeignKey("Idea")]
 		public int IdeaId { get; set; }
 		public virtual Idea Idea { get; set; }
 		[Required]
