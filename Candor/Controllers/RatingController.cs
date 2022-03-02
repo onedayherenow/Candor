@@ -47,7 +47,7 @@ namespace Candor.Controllers
                 if (service.CreateRating(model))
                 {
                     TempData["SaveResult"] = "Your rating was created.";
-                    return RedirectToAction("Index");
+                    return RedirectToAction("Details", "Idea", new { Id = model.IdeaId});
                 }
             }
             ModelState.AddModelError("", "Rating could not be created.");

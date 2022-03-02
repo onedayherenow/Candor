@@ -19,20 +19,26 @@ namespace Candor.Services
 
         public bool CreateRating(RatingCreate model)
         {
-
-            var rating = new Rating()
+            using (var ctx = new ApplicationDbContext())
             {
-                IdeaId = model.IdeaId,
-                UserId = _userId,
-                RatingScore = model.RatingScore,
-                Comment = model.Comment,
-                DateCreated = DateTimeOffset.Now
-            };
+                var idea = ctx.Ideas.Find(model.IdeaId);
 
-            using (var context = ApplicationDbContext.Create())
-            {
-                context.Ratings.Add(rating);
-                return context.SaveChanges() == 1;
+                if (idea == null)
+                {
+                    return false;
+                }
+
+                var rating = new Rating()
+                {
+                    IdeaId = model.IdeaId,
+                    UserId = _userId,
+                    RatingScore = model.RatingScore,
+                    Comment = model.Comment,
+                    DateCreated = DateTimeOffset.Now
+                };
+
+                ctx.Ratings.Add(rating);
+                return ctx.SaveChanges() == 1;
             }
         }
 
