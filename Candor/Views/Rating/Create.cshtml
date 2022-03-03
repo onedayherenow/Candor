@@ -14,6 +14,9 @@
 		@Html.ValidationSummary(true, "", new { @class = "text-danger" })
 	</div>
 
+	@Html.HiddenFor(model => model.IdeaId)
+
+
 	<div class="row mb-3">
 		@Html.LabelFor(model => model.RatingScore, htmlAttributes: new { @class = "col-md-3 col-form-label text-white" })
 		<div class="col-md-9">

@@ -30,7 +30,7 @@ namespace Candor.Services
 
                 var rating = new Rating()
                 {
-                    IdeaId = model.IdeaId,
+                    IdeaId = idea.Id,
                     UserId = _userId,
                     RatingScore = model.RatingScore,
                     Comment = model.Comment,
