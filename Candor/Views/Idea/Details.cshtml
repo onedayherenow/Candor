@@ -80,7 +80,7 @@
 			@Html.ActionLink("Edit", "Edit", new { id = Model.IdeaId }, htmlAttributes: new { @class = "btn btn-warning btn-small" })
 		}
 
-			@Html.ActionLink("Rate this Idea", "Create", "Rating", new { id = Model.IdeaId })
+			@Html.ActionLink("Rate this Idea", "Create", "Rating", new { id = Model.IdeaId }, htmlAttributes: new { @class = "btn btn-info btn-small" })
 			@Html.ActionLink("View Ratings", "RatingsListPerIdea", "Rating", new { IdeaId = Model.IdeaId }, htmlAttributes: new { @class = "btn btn-info btn-small" })
-			@Html.ActionLink("Back to Ideas", "Index") |
+			@Html.ActionLink("Back to Ideas", "Index", "Idea", htmlAttributes: new { @class = "btn btn-info btn-small" }) |
 </p>
