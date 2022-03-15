@@ -6,11 +6,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Net;
+using System.Web.Http;
 using System.Web.Mvc;
 
 namespace Candor.Controllers
 {
-    [Authorize]
+    [System.Web.Http.Authorize]
     public class RatingController : Controller
     {
         private RatingService CreateRatingService()
@@ -36,7 +37,7 @@ namespace Candor.Controllers
         }
 
         // POST:  Rating/Create
-        [HttpPost]
+        [System.Web.Http.HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(RatingCreate model)
         {
@@ -77,8 +78,22 @@ namespace Candor.Controllers
             return View(detail);
         }
 
+        
+        // GET: api/Rating/5
+        /// <summary>
+        /// Gets all the reviews for a specific podcast
+        /// </summary>
+        /// <returns>ReviewListItem</returns>
+        public ActionResult Get(int id)
+        {
+            RatingService ratingService = CreateRatingService();
+            var ratings = ratingService.GetRatingsByIdeaId(id);
+            return View(ratings);
+        }
+       
+
         //POST : Rating/Edit/{id}
-        [HttpPost]
+        [System.Web.Http.HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, RatingEdit model)
         {
@@ -114,8 +129,8 @@ namespace Candor.Controllers
         }
 
         // POST : Rating/Delete/{id}
-        [HttpPost]
-        [ActionName("Delete")]
+        [System.Web.Http.HttpPost]
+        [System.Web.Http.ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeletePost(int id)
         {

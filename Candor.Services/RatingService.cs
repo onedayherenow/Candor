@@ -46,6 +46,7 @@ namespace Candor.Services
         {
             using (var ctx = new ApplicationDbContext())
             {
+                var rating = ctx.Ratings.Single(n => n.Id == id && n.UserId == _userId);
                 var query =
                     ctx
                         .Ratings
@@ -54,6 +55,7 @@ namespace Candor.Services
                             e =>
                                 new RatingListItem
                                 {
+                                    UserName = GetUserName(ctx, rating),
                                     IdeaId = e.IdeaId,
                                     RatingId = e.Id,
                                     RatingScore = e.RatingScore,

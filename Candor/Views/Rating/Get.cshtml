@@ -1,0 +1,60 @@
+﻿@model IEnumerable<Candor.Models.RatingListItem>
+
+@{
+	ViewBag.Title = "RatingsListPerIdea";
+}
+
+<h2>RatingsListPerIdea</h2>
+
+
+<p>
+	@Html.ActionLink("Create New", "Create")
+</p>
+@Html.HiddenFor(model => model.IdeaId)
+
+<table class="table">
+	<tr>
+		<th>
+			@Html.DisplayNameFor(Model => Model.UserName)
+		</th>
+		<th>
+			@Html.DisplayNameFor(Model => Model.RatingId)
+		</th>
+		<th>
+			@Html.DisplayNameFor(Model => Model.RatingScore)
+		</th>
+		<th>
+			@Html.DisplayNameFor(Model => Model.Comment)
+		</th>
+	</tr>
+
+	@foreach (var item in Model)
+	{
+		<tr>
+			<td>
+				@Html.DisplayFor(modelItem => item.UserName)
+			</td>
+			<td>
+				@Html.DisplayFor(modelItem => item.RatingId)
+			</td>
+			<td>
+				@Html.DisplayFor(modelItem => item.RatingScore)
+			</td>
+			<td>
+				@Html.DisplayFor(modelItem => item.Comment)
+			</td>
+
+			<td>
+				@if (item.IsEditable == true)
+				{
+					@Html.ActionLink("Edit", "Edit", new { id = item.RatingId })
+					@Html.ActionLink("Delete", "Delete", new { id = item.RatingId })
+				}
+				@Html.ActionLink("Details", "Details", new { id = item.RatingId })
+				@Html.ActionLink("Back to Idea", "Details", new { id = item.IdeaId })
+				@Html.ActionLink("Add Rating", "Create", "Rating", new { id = item.IdeaId })
+			</td>
+		</tr>
+	}
+
+</table>
