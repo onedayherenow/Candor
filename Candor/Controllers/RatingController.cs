@@ -6,7 +6,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Net;
-using System.Web.Http;
 using System.Web.Mvc;
 
 namespace Candor.Controllers
@@ -24,10 +23,10 @@ namespace Candor.Controllers
         // GET:  Rating/Create
         public ActionResult Create(int? id)
         {
-            if (id is null)
-            {
-                return HttpNotFound();
-            }
+            //if (id is null)
+            //{
+            //    return HttpNotFound();
+            //}
 
             var model = new RatingCreate()
             {
@@ -37,7 +36,7 @@ namespace Candor.Controllers
         }
 
         // POST:  Rating/Create
-        [System.Web.Http.HttpPost]
+        [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(RatingCreate model)
         {
