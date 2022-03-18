@@ -50,7 +50,7 @@ namespace Candor.Services
                 var query =
                     ctx
                         .Ratings
-                        .Where(e => e.IdeaId == id)
+                        .Where(e => e.IdeaId == id && e.UserId == _userId)
                         .Select(
                             e =>
                                 new RatingListItem
