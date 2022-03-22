@@ -67,7 +67,7 @@ namespace Candor.Services
             }
         }
 
-        public RatingDetail GetRatingById(int id)
+        public RatingDetail GetRatingById(int? id)
         {
             using (var context = ApplicationDbContext.Create())
             {

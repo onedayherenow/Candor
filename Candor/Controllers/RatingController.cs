@@ -55,6 +55,7 @@ namespace Candor.Controllers
         }
 
         // GET : Rating/Edit/{id}
+        [HttpGet]
         public ActionResult Edit(int id)
         {
             var service = CreateRatingService();
@@ -70,7 +71,7 @@ namespace Candor.Controllers
         }
 
         // GET : Rating/Details/{id}
-        public ActionResult Details(int id)
+        public ActionResult Details(int? id)
         {
             var service = CreateRatingService();
             var detail = service.GetRatingById(id);
@@ -80,9 +81,9 @@ namespace Candor.Controllers
         
         // GET: api/Rating/5
         /// <summary>
-        /// Gets all the reviews for a specific podcast
+        /// Gets all the ratings for a specific idea
         /// </summary>
-        /// <returns>ReviewListItem</returns>
+        /// <returns>RatingListItem</returns>
         public ActionResult Get(int id)
         {
             RatingService ratingService = CreateRatingService();

@@ -13,7 +13,7 @@
 
 
 <table class="table">
-	<tr>
+	<tr class="text-white">
 		<th>
 			@Html.DisplayNameFor(Model => Model.UserName)
 		</th>
@@ -28,7 +28,7 @@
 	@foreach (var item in Model)
 	{
 
-		<tr>
+		<tr class="text-white">
 			<td>
 				@Html.DisplayFor(modelItem => item.UserName)
 			</td>
@@ -46,7 +46,7 @@
 					@Html.ActionLink("Delete", "Delete", new { id = item.RatingId }, htmlAttributes: new { @class = "btn btn-danger btn-small" })
 				}
 				@Html.ActionLink("Details", "Details", new { id = item.RatingId }, htmlAttributes: new { @class = "btn btn-success btn-small" })
-				@Html.ActionLink("Back to Idea", "Details", new { id = item.IdeaId }, htmlAttributes: new { @class = "btn btn-info btn-small" })
+				@Html.ActionLink("Back to Idea", "Details", "Idea", new { id = item.IdeaId }, htmlAttributes: new { @class = "btn btn-info btn-small" })
 				@Html.ActionLink("Add New Rating", "Create", "Rating", new { id = item.IdeaId }, htmlAttributes: new { @class = "btn btn-secondary btn-small" })
 			</td>
 		</tr>
