@@ -4,23 +4,23 @@
     ViewBag.Title = "Details";
 }
 
-<h2>Details</h2>
+<h2 class="text-center my-4">Details</h2>
 
 <div>
-	<h4>RatingDetail</h4>
+
 	<hr />
 	@Html.HiddenFor(model => model.IdeaId)
 	@Html.HiddenFor(model => model.RatingId)
-<dl class="dl-horizontal">
+<dl class="dl-horizontal text-white text-center">
 
-	<dt>
+	<dt class="text-black">
 		@Html.DisplayNameFor(model => model.UserName)
 	</dt>
 
 	<dd>
 		@Html.DisplayFor(model => model.UserName)
 	</dd>
-	<dt>
+	<dt class="text-black">
 		@Html.DisplayNameFor(model => model.RatingScore)
 	</dt>
 
@@ -28,7 +28,7 @@
 		@Html.DisplayFor(model => model.RatingScore)
 	</dd>
 
-	<dt>
+	<dt class="text-black">
 		@Html.DisplayNameFor(model => model.Comment)
 	</dt>
 
@@ -38,10 +38,10 @@
 
 </dl>
 </div>
-<p>
+<p class="text-center">
     @if (Model.IsEditable) {
-	@Html.ActionLink("Edit", "Edit", new { id = Model.RatingId }) 
+	@Html.ActionLink("Edit", "Edit", new { id = Model.RatingId }, htmlAttributes: new { @class = "btn btn-warning btn-small" }) 
 	}
-    @Html.ActionLink("Back to List", "Index")
+    @Html.ActionLink("Back to List", "Index", "Idea", null, htmlAttributes: new { @class = "btn btn-info btn-small" })
 
 </p>
