@@ -1,30 +1,22 @@
 ﻿@model Candor.Models.IdeaDetail
 
 @{
-    ViewBag.Title = "Delete";
+	ViewBag.Title = "Delete";
 }
 
-<h2>Delete</h2>
+<h3 class="text-center" my-4>Are you sure you want to delete this?</h3>
 
-<h3>Are you sure you want to delete this?</h3>
 <div>
 	@Html.HiddenFor(model => model.IdeaId)
+	@Html.HiddenFor(model => model.UserName)
 
 	<hr />
-	<dl class="dl-horizontal">
-		<dt>
-			@Html.DisplayNameFor(model => model.UserName)
-		</dt>
-
-		<dd>
-			@Html.DisplayFor(model => model.UserName)
-		</dd>
-
+	<dl class="dl-horizontal text-center">
 		<dt>
 			@Html.DisplayNameFor(model => model.Title)
 		</dt>
 
-		<dd>
+		<dd class="text-white">
 			@Html.DisplayFor(model => model.Title)
 		</dd>
 
@@ -32,7 +24,7 @@
 			@Html.DisplayNameFor(model => model.Content)
 		</dt>
 
-		<dd>
+		<dd class="text-white">
 			@Html.DisplayFor(model => model.Content)
 		</dd>
 
@@ -40,7 +32,7 @@
 			@Html.DisplayNameFor(model => model.DateCreated)
 		</dt>
 
-		<dd>
+		<dd class="text-white">
 			@Html.DisplayFor(model => model.DateCreated)
 		</dd>
 
@@ -48,7 +40,7 @@
 			@Html.DisplayNameFor(model => model.LastModified)
 		</dt>
 
-		<dd>
+		<dd class="text-white">
 			@Html.DisplayFor(model => model.LastModified)
 		</dd>
 
@@ -56,7 +48,7 @@
 			@Html.DisplayNameFor(model => model.AverageRating)
 		</dt>
 
-		<dd>
+		<dd class="text-white">
 			@Html.DisplayFor(model => model.AverageRating)
 		</dd>
 
@@ -64,7 +56,7 @@
 			@Html.DisplayNameFor(model => model.Completed)
 		</dt>
 
-		<dd>
+		<dd class="text-white">
 			@Html.DisplayFor(model => model.Completed)
 		</dd>
 
@@ -74,15 +66,18 @@
 	{
 		@Html.AntiForgeryToken()
 
-		<div class="form-actions no-color">
+<div class="form-actions no-color text-center">
 
-			@if (Model.IsEditable)
-			{
-				<input type="submit" value="Delete" class="btn btn-danger" />
-			}
+	@if (Model.IsEditable)
+	{
+		<input type="submit" value="Delete" class="btn btn-danger" />
+	}
 
 
-			@Html.ActionLink("Back to Ideas", "Index", "Idea", new { id = "Model.Idea" })
-		</div>
+	@Html.ActionLink("Back to List of Ideas", "Index", "Idea", null, htmlAttributes: new { @class = "btn btn-primary btn-small" })
+	@Html.ActionLink("Back to Idea", "Details", "Idea", new { id = Model.IdeaId }, htmlAttributes: new { @class = "btn btn-secondary btn-small" })
+
+	@Html.ActionLink("Back to Ratings", "Get", "Rating", new { id = Model.IdeaId }, htmlAttributes: new { @class = "btn btn-info btn-small" })
+</div>
 	}
 </div>

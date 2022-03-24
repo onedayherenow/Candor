@@ -4,12 +4,12 @@
 	ViewBag.Title = "Details";
 }
 
-<h2 class="text-white">Details for "
+<h2 class="text-white text-center my-5">"
 		@Html.DisplayFor(model => model.Title)
 	"
 	</h2>
 
-<div class="text-white">
+<div class="text-center">
 	<hr />
 	@Html.HiddenFor(model => model.IdeaId)
 
@@ -27,7 +27,7 @@
 			@Html.DisplayNameFor(model => model.Title)
 		</dt>
 
-		<dd>
+		<dd class="text-white">
 			@Html.DisplayFor(model => model.Title)
 		</dd>
 
@@ -35,7 +35,7 @@
 			@Html.DisplayNameFor(model => model.Content)
 		</dt>
 
-		<dd>
+		<dd class="text-white">
 			@Html.DisplayFor(model => model.Content)
 		</dd>
 
@@ -43,7 +43,7 @@
 			@Html.DisplayNameFor(model => model.DateCreated)
 		</dt>
 
-		<dd>
+		<dd class="text-white">
 			@Html.DisplayFor(model => model.DateCreated)
 		</dd>
 
@@ -51,7 +51,7 @@
 			@Html.DisplayNameFor(model => model.LastModified)
 		</dt>
 
-		<dd>
+		<dd class="text-white">
 			@Html.DisplayFor(model => model.LastModified)
 		</dd>
 
@@ -59,7 +59,7 @@
 			@Html.DisplayNameFor(model => model.AverageRating)
 		</dt>
 
-		<dd>
+		<dd class="text-white">
 			@Html.DisplayFor(model => model.AverageRating)
 		</dd>
 
@@ -73,7 +73,7 @@
 
 	</dl>
 </div>
-<p>
+<p class="text-center">
 		@if (Model.IsEditable)
 		{
 			@Html.ActionLink("Delete", "Delete", new { id = Model.IdeaId }, htmlAttributes: new { @class = "btn btn-danger btn-small" })
