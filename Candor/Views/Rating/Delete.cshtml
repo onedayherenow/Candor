@@ -8,7 +8,7 @@
 <h3 class="text-center my-5">Are you sure you want to delete your Rating?</h3>
 <div>
 	@Html.HiddenFor(model => model.IdeaId)
-	<h4>RatingDetail</h4>
+
 	<hr />
 	<dl class="dl-horizontal text-center">
 
@@ -41,8 +41,8 @@
 	}
 
 
-	@Html.ActionLink("Back to this Idea", "Index", "Idea", new { id = "Model.Idea" }, htmlAttributes: new { @class = "btn btn-outline-primary btn-small" }))
-	@Html.ActionLink("Back to all Ideas", "Index", "Idea", new { id = "Model.Idea" }, htmlAttributes: new { @class = "btn btn-outline-info btn-small" }))
+	@Html.ActionLink("Back to this Idea", "Index", "Idea", new { id = "Model.IdeaId" }, htmlAttributes: new { @class = "btn btn-primary btn-small" })
+	@Html.ActionLink("Back to all Ideas", "Index", "Idea", new { id = "Model.IdeaId" }, htmlAttributes: new { @class = "btn btn-info btn-small" })
 </div>
 	}
 </div>
