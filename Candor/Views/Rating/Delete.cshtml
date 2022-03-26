@@ -30,19 +30,20 @@
 
 	</dl>
 
+	@using (Html.BeginForm())
 	{
-	@Html.AntiForgeryToken()
+		@Html.AntiForgeryToken()
 
-<div class="form-actions no-color text-center">
+		<div class="form-actions no-color text-center">
 
-	@if (Model.IsEditable)
-	{
-		<input type="submit" value="Delete" class="btn btn-danger" />
-	}
+			@if (Model.IsEditable)
+			{
+				<input type="submit" value="Delete" class="btn btn-danger" />
+			}
 
 
-	@Html.ActionLink("Back to this Idea", "Index", "Idea", new { id = "Model.IdeaId" }, htmlAttributes: new { @class = "btn btn-primary btn-small" })
-	@Html.ActionLink("Back to all Ideas", "Index", "Idea", new { id = "Model.IdeaId" }, htmlAttributes: new { @class = "btn btn-info btn-small" })
-</div>
+			@Html.ActionLink("Back to this Idea", "Detail", "Idea", new { id = "Model.IdeaId" }, htmlAttributes: new { @class = "btn btn-primary btn-small" })
+			@Html.ActionLink("Back to all Ideas", "Index", "Idea", new { id = "Model.IdeaId" }, htmlAttributes: new { @class = "btn btn-info btn-small" })
+		</div>
 	}
 </div>
