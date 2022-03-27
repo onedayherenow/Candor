@@ -84,6 +84,7 @@ namespace Candor.Services
                         {
                             RatingId = rating.Id,
                             RatingScore = rating.RatingScore,
+                            IdeaId = rating.IdeaId,
                             Comment = rating.Comment,
                             UserName = context.Users.Find(rating.UserId
                             .ToString()).UserName,
