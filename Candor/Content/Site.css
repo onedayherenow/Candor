@@ -56,3 +56,10 @@ textarea {
     .topnav #myLinks {
         display: none;
     }
+
+    h1 {
+    font-family: 'Lucida Console', fantasy;
+}
+    h2 {
+    font-family: 'Lucida Console', fantasy;
+}
