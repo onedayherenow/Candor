@@ -76,3 +76,8 @@ textarea {
     #title {
     font-family: 'Lucida Console', fantasy;
 }
+
+#ripple_heads {
+    width: 100%;
+    height: 40%;
+}

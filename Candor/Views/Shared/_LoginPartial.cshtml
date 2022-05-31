@@ -6,14 +6,14 @@
     @Html.AntiForgeryToken()
 
     <ul class="nav navbar-nav navbar-right">
-		<li class="mx-3">
-			@Html.ActionLink("Ideas", "Create", "Idea")
+		<li class="mx-3 btn-outline-info">
+			@Html.ActionLink("Ideas", "Index", "Idea", routeValues: null, htmlAttributes: new { id = "registerLink", @class = "btn btn-outline-primary nav-link" })
 		</li>
         
-        <li class="mx-3">
-            @Html.ActionLink("Hello " + User.Identity.GetUserName() + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })
+        <li class="mx-3 btn-outline-info">
+            @Html.ActionLink("Hello " + User.Identity.GetUserName() + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage", @class = "btn btn-outline-primary nav-link" })
         </li>
-        <li  class=".ml-auto">
+        <li  class=".ml-auto btn btn-outline-primary nav-link">
             <a  href="javascript:document.getElementById('logoutForm').submit()">Log off</a>
         </li>
     </ul>

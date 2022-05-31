@@ -212,3 +212,5 @@ C:\Users\zuluagad\Source\Repos\Candor\Candor\obj\Debug\Candor.csproj.CoreCompile
 C:\Users\zuluagad\Source\Repos\Candor\Candor\obj\Debug\Candor.csproj.CopyComplete
 C:\Users\zuluagad\Source\Repos\Candor\Candor\obj\Debug\Candor.dll
 C:\Users\zuluagad\Source\Repos\Candor\Candor\obj\Debug\Candor.pdb
+C:\Users\zuluagad\source\repos\Candor\Candor\obj\Debug\Candor.Properties.Resources.resources
+C:\Users\zuluagad\source\repos\Candor\Candor\obj\Debug\Candor.csproj.GenerateResource.cache
