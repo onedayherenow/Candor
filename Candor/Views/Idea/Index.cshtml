@@ -11,14 +11,14 @@
 </p>
 <table class="table table-bordered table-striped">
 	<tr>
-		<th class="text-white">
+		<th class="idea_titles">
 			@Html.DisplayNameFor(model => model.Title)
 		</th>
-		<th>
+		<th class="idea_titles">
 			@Html.DisplayNameFor(model => model.DateCreated)
 		</th>
 
-		<th>
+		<th class="idea_titles">
 			@Html.DisplayNameFor(model => model.Completed)
 		</th>
 		<th></th>
@@ -28,13 +28,13 @@
 	{
 
 		<tr>
-			<td class="text-white">
+			<td class="text-white-50">
 				@Html.DisplayFor(modelItem => item.Title)
 			</td>
-			<td>
+			<td class="text-white-50">
 				@Html.DisplayFor(modelItem => item.DateCreated)
 			</td>
-			<td>
+			<td class="text-white-50">
 				@Html.DisplayFor(modelItem => item.Completed)
 			</td>
 			<td>
@@ -44,7 +44,7 @@
 					@Html.ActionLink("Delete", "Delete", new { id = item.IdeaId }, htmlAttributes: new { @class = "btn btn-outline-danger btn-small" })
 					@Html.ActionLink("Edit", "Edit", new { id = item.IdeaId }, htmlAttributes: new { @class = "btn btn-outline-warning btn-small" })
 				}
-				@Html.ActionLink("Details", "Details", new { id = item.IdeaId }, htmlAttributes: new { @class = "btn btn-primary btn-small" })
+				@Html.ActionLink("Details", "Details", new { id = item.IdeaId }, htmlAttributes: new { @class = "btn btn-outline-primary btn-small" })
 				@Html.ActionLink("Add a Rating", "Create", "Rating", new { id = item.IdeaId }, htmlAttributes: new { @class = "btn btn-info btn-small" })
 				@Html.ActionLink("View Ratings", "Get", "Rating", new { id = item.IdeaId }, htmlAttributes: new { @class = "btn btn-outline-info btn-small" })
 			</td>
