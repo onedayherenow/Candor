@@ -15,6 +15,8 @@ namespace Candor.Data
 		[Required]
 		public Guid UserId { get; set; }
 
+		public int IdeaId { get; set; }
+
 		[Required]
 		public string Title { get; set; }
 		[Required]

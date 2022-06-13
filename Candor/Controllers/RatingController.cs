@@ -23,10 +23,10 @@ namespace Candor.Controllers
         // GET:  Rating/Create
         public ActionResult Create(int? id)
         {
-            //if (id is null)
-            //{
-            //    return HttpNotFound();
-            //}
+            if (id is null)
+            {
+                return HttpNotFound();
+            }
 
             var model = new RatingCreate()
             {

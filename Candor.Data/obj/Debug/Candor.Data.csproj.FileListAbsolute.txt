@@ -52,3 +52,4 @@ C:\Users\zuluagad\Source\Repos\Candor\Candor.Data\obj\Debug\Candor.Data.csproj.C
 C:\Users\zuluagad\Source\Repos\Candor\Candor.Data\obj\Debug\Candor.Data.csproj.CopyComplete
 C:\Users\zuluagad\Source\Repos\Candor\Candor.Data\obj\Debug\Candor.Data.dll
 C:\Users\zuluagad\Source\Repos\Candor\Candor.Data\obj\Debug\Candor.Data.pdb
+C:\Users\zuluagad\source\repos\Candor\Candor.Data\obj\Debug\Candor.Data.Migrations.IdeaId.resources
