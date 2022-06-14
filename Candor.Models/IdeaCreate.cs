@@ -19,5 +19,7 @@ namespace Candor.Models
 		public DateTimeOffset DateCreated { get; set; }
 		[DefaultValue(false)]
 		public bool Completed { get; set; }
+
+		public int IdeaId { get; set; }
 	}
 }
