@@ -4,10 +4,11 @@
 	ViewBag.Title = "Delete";
 }
 
+<h3 class="text-center my-5">Are you sure you want to delete your rating?</h3>
 
-<h3 class="text-center my-5">Are you sure you want to delete your Rating?</h3>
 <div>
 	@Html.HiddenFor(model => model.IdeaId)
+	@Html.HiddenFor(model => model.UserName)
 
 	<hr />
 	<dl class="dl-horizontal text-center">
@@ -30,6 +31,7 @@
 
 	</dl>
 
+
 	@using (Html.BeginForm())
 	{
 		@Html.AntiForgeryToken()
@@ -42,8 +44,10 @@
 			}
 
 
-			@Html.ActionLink("Back to this Idea", "Detail", "Idea", new { id = Model.IdeaId }, htmlAttributes: new { @class = "btn btn-primary btn-small" })
-			@Html.ActionLink("Back to all Ideas", "Index", "Idea", new { id = Model.IdeaId }, htmlAttributes: new { @class = "btn btn-info btn-small" })
+			@Html.ActionLink("Back to List of Ideas", "Index", "Idea", null, htmlAttributes: new { @class = "btn btn-primary btn-small" })
+			@Html.ActionLink("Back to Idea", "Details", "Idea", new { id = Model.IdeaId }, htmlAttributes: new { @class = "btn btn-secondary btn-small" })
+
+			@Html.ActionLink("Back to Ratings", "Get", "Rating", new { id = Model.IdeaId }, htmlAttributes: new { @class = "btn btn-info btn-small" })
 		</div>
 	}
 </div>
