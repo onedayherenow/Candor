@@ -47,7 +47,7 @@ namespace Candor.Services
             using (var ctx = new ApplicationDbContext())
             {
                 //var rating = ctx.Ratings.Single(n => n.Id == id && n.UserId == _userId);
-                var ideaa = ctx.Ideas.Single(n => n.Id == id);
+                var ideaa = ctx.Ideas.FirstOrDefault(n => n.Id == id);
 
                 var idea = ctx.Ideas.Find(ideaa.Id);
 
