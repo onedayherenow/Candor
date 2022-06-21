@@ -60,7 +60,7 @@ namespace Candor.Services
                                 new RatingListItem
                                 {
                                     //UserName = GetUserName(ctx, query),
-                                    IdeaId = idea.Id,
+                                    IdeaId = ideaa.IdeaId,
                                     RatingId = e.Id,
                                     RatingScore = e.RatingScore,
                                     Comment = e.Comment,
