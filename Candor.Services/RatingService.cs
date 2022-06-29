@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.Entity;
 
 namespace Candor.Services
 {
@@ -47,9 +48,18 @@ namespace Candor.Services
             using (var ctx = new ApplicationDbContext())
             {
                 //var rating = ctx.Ratings.Single(n => n.Id == id && n.UserId == _userId);
-                var ideaa = ctx.Ideas.FirstOrDefault(n => n.Id == id);
+                //var ideaa = ctx.Ideas.FirstOrDefault(n => n.Id == id);
 
-                var idea = ctx.Ideas.Find(ideaa.Id);
+                //var idea = ctx.Ideas.Find(ideaa.Id);
+
+                var idea = ctx.Ideas
+               .Include(n => n.Ratings)
+               .SingleOrDefault(n => n.Id == id && n.UserId == _userId);
+
+                if (idea is null)
+                {
+                    return null;
+                }
 
                 var query =
                     ctx
@@ -60,7 +70,7 @@ namespace Candor.Services
                                 new RatingListItem
                                 {
                                     //UserName = GetUserName(ctx, query),
-                                    IdeaId = ideaa.IdeaId,
+                                    IdeaId = idea.IdeaId,
                                     RatingId = e.Id,
                                     RatingScore = e.RatingScore,
                                     Comment = e.Comment,
