@@ -1,0 +1,55 @@
+﻿@model IEnumerable<Candor.Models.RatingListItem>
+
+@{
+	ViewBag.Title = "RatingsListPerIdea";
+}
+
+<h2 class="text-center my-4">Ratings for this Idea</h2>
+
+
+<p class="text-center">
+	@Html.ActionLink("Create New", "Create", "Rating", htmlAttributes: new { @class = "btn btn-info btn-small" })
+</p>
+
+
+<table class="table">
+	<tr class="text-white">
+		<th>
+			@Html.DisplayNameFor(Model => Model.UserName)
+		</th>
+		<th>
+			@Html.DisplayNameFor(Model => Model.RatingScore)
+		</th>
+		<th>
+			@Html.DisplayNameFor(Model => Model.Comment)
+		</th>
+	</tr>
+
+	@foreach (var item in Model)
+	{
+
+		<tr class="text-white">
+			<td>
+				@Html.DisplayFor(modelItem => item.UserName)
+			</td>
+			<td>
+				@Html.DisplayFor(modelItem => item.RatingScore)
+			</td>
+			<td>
+				@Html.DisplayFor(modelItem => item.Comment)
+			</td>
+
+			<td>
+				@if (item.IsEditable == true)
+				{
+					@Html.ActionLink("Edit", "Edit", new { id = item.RatingId }, htmlAttributes: new { @class = "btn btn-warning btn-small" })
+					@Html.ActionLink("Delete", "Delete", new { id = item.RatingId }, htmlAttributes: new { @class = "btn btn-danger btn-small" })
+				}
+				@Html.ActionLink("Details", "Details", new { id = item.RatingId }, htmlAttributes: new { @class = "btn btn-success btn-small" })
+				@Html.ActionLink("Back to Idea", "Details", "Idea", new { id = item.IdeaId }, htmlAttributes: new { @class = "btn btn-info btn-small" })
+				@Html.ActionLink("Add New Rating", "Create", "Rating", new { id = item.IdeaId }, htmlAttributes: new { @class = "btn btn-secondary btn-small" })
+			</td>
+		</tr>
+	}
+
+</table>

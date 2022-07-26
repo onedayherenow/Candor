@@ -1,0 +1,93 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background: rgb(52,2,115);
+    background: -moz-linear-gradient(90deg, rgba(52,2,115,1) 0%, rgba(165,153,181,0.9925012241224614) 50%, rgba(73,5,122,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(52,2,115,1) 0%, rgba(165,153,181,0.9925012241224614) 50%, rgba(73,5,122,1) 100%);
+    background: linear-gradient(90deg, rgba(52,2,115,1) 0%, rgba(165,153,181,0.9925012241224614) 50%, rgba(73,5,122,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#340273",endColorstr="#49057a",GradientType=1);
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+
+/*
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default 
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+*/
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+}
+
+/* Style the hamburger menu */
+    .topnav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+}
+
+    /* Add a grey background color on mouse-over */
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+}
+
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    .topnav #myLinks {
+        display: none;
+    }
+
+    h1 {
+    font-family: 'Lucida Console', fantasy;
+}
+
+    h2 {
+    font-family: 'Lucida Console', fantasy;
+}
+
+    p {
+    font-family: 'Lucida Console', fantasy;
+}
+
+    li {
+    font-family: 'Lucida Console', fantasy;
+}
+
+    #title {
+    font-family: 'Lucida Console', fantasy;
+}
+
+    #ripple_heads {
+    width: 100%;
+    height: 40%;
+}
+
+    .idea_titles {
+    background: conic-gradient(#7A7FBA, #11C37C);
+}
+
+/* .testBtn {
+    background-color: #11C37C;
+}
+
+*/

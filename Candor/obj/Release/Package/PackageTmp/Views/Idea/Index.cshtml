@@ -1,0 +1,82 @@
+﻿@model IEnumerable<Candor.Models.IdeaListItem>
+
+@{
+	ViewBag.Title = "Index";
+}
+
+<h2 class="text-center my-5">Ideas</h2>
+
+<p class="text-center">
+	@Html.ActionLink("Create New", "Create", null, htmlAttributes: new { @class = "btn btn-outline-light btn-info btn-small" })
+</p>
+<table class="table table-bordered table-striped">
+	<tr>
+		<th class="idea_titles">
+			@Html.DisplayNameFor(model => model.Title)
+		</th>
+		<th class="idea_titles">
+			@Html.DisplayNameFor(model => model.DateCreated)
+		</th>
+
+		<th class="idea_titles">
+			@Html.DisplayNameFor(model => model.Completed)
+		</th>
+		<th></th>
+	</tr>
+
+	@foreach (var item in Model)
+	{
+
+		<tr>
+			<td class="text-white-50">
+				@Html.DisplayFor(modelItem => item.Title)
+			</td>
+			<td class="text-white-50">
+				@Html.DisplayFor(modelItem => item.DateCreated)
+			</td>
+			<td class="text-white-50">
+				@Html.DisplayFor(modelItem => item.Completed)
+			</td>
+			<td>
+
+				@if (item.IsEditable)
+				{
+					@Html.ActionLink("Delete", "Delete", new { id = item.IdeaId }, htmlAttributes: new { @class = "btn btn-outline-danger btn-small" })
+					@Html.ActionLink("Edit", "Edit", new { id = item.IdeaId }, htmlAttributes: new { @class = "btn btn-outline-warning btn-small" })
+				}
+				@Html.ActionLink("Details", "Details", new { id = item.IdeaId }, htmlAttributes: new { @class = "testBtn btn btn-outline-info btn-small" })
+				@Html.ActionLink("Add a Rating", "Create", "Rating", new { id = item.IdeaId }, htmlAttributes: new { @class = "btn btn-info btn-small" })
+				@Html.ActionLink("View Ratings", "Get", "Rating", new { id = item.IdeaId }, htmlAttributes: new { @class = "btn btn-outline-info btn-small" })
+			</td>
+		</tr>
+	}
+
+</table>
+
+
+@section scripts {
+	<script language="javascript" type="text/javascript">
+        $(document).ready(function () {
+            $("i[data-toggle='star']")
+                .css({ "cursor": "pointer" })
+                .click(function (e) {
+                    var target = $(e.target);
+                    var noteId = target.attr("data-id");
+                    var starSet = target.hasClass("glyphicon-star");
+
+                    $.ajax({
+                        method: starSet ? "DELETE" : "PUT",
+                        url: "/api/note/" + noteId + "/star",
+                        data: null
+                    })
+                        .done(function (r) {
+                            target.removeClass();
+                            target.addClass("glyphicon " + (starSet ? "glyphicon-star-empty" : "glyphicon-star"));
+                        })
+                        .fail(function (r) {
+                            alert("Failed to change star status");
+                        });
+                });
+        });
+	</script>
+}
