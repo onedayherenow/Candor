@@ -83,6 +83,10 @@
     <Compile Include="Migrations\202206132043477_IdeaId.designer.cs">
       <DependentUpon>202206132043477_IdeaId.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202207232332473_LoggingIn.cs" />
+    <Compile Include="Migrations\202207232332473_LoggingIn.designer.cs">
+      <DependentUpon>202207232332473_LoggingIn.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rating.cs" />
@@ -100,6 +104,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202206132043477_IdeaId.resx">
       <DependentUpon>202206132043477_IdeaId.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202207232332473_LoggingIn.resx">
+      <DependentUpon>202207232332473_LoggingIn.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
