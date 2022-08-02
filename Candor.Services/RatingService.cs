@@ -43,7 +43,7 @@ namespace Candor.Services
             }
         }
 
-        public IEnumerable<RatingListItem> GetRatingsByIdeaId(int id)
+        public IList<RatingListItem> GetRatingsByIdeaId(int id)
         {
             using (var ctx = new ApplicationDbContext())
             {
