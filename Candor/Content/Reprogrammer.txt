@@ -57,6 +57,9 @@ Book divided into sections
 		a. inputs / algorithm_programs_beliefs / outputs
 
 
+	
+
+
 
 
 
