@@ -1,3 +1,54 @@
-﻿https://web3.career/remote+solidity-jobs
+﻿SEARCH:
+"crypto jobs solidity remote"
+"blockchain jobs solidity remote"
+
+
+https://web3.career/remote+solidity-jobs
 
 https://cryptocurrencyjobs.co/solidity/
+
+
+
+
+
+
+
+
+
+
+Apply Now
+Join our team in the cryptocurrency ecosystem while working with a range of the most experienced projects, founders and firms in the industry. Infinite Capital is hiring a Senior Developer with experience in smart contracts (specifically Ethereum and solidity) and Web 3.
+
+Founded in 2017, Infinite Capital has been at the forefront of the crypto world and largely focused on crypto assets and deep tech. Our firm has investments across DeFi, Web3, and infrastructure, and made seed investments into 9$B+ projects such as Ethereum, Synthetix, MakerDAO, Theta, Tokemak and others. Additionally, we have a deep tech focus on aerospace, autonomy, EV, and satellites, with investments into companies including Tesla and Skyryse.
+
+In this position you will be working on internal projects that touch the Ethereum blockchain, as well as to a lesser extent other platforms such as the Cosmos/Tendermint ecosystem. The role will involve both application build out, analytical work, smart contract review and analysis, and exploration of new technical developments in the industry
+
+Responsibilities:
+
+Prioritizing software development projects, setting timelines and progress management
+Write or review code for various applications
+Liaise with designers to decide on UI/UX elements (like graphics and navigation buttons)
+Define new standards and smart contract integrations
+Project evaluation and smart contract review/auditing
+Skills:
+
+Experience with smart contracts on Ethereum
+Experience with Postgres, MongoDB or other databases; experience with decentralized data storage solutions is a plus
+Experience building robust API endpoints
+Knowledge of Ethereum and blockchain concepts in general (Reorgs, Transactions, Multicalls, Atomicity, SHA3), Experience in Solidity
+Understanding of Decentralized Finance and popular products (yield farming, Staking, options, forwards and other derivatives)
+Experience with APIs and Web3 Frameworks for current and historical data fetching and on-chain state synchronization (Moralis, TheGraph, DuneAnalytics, etc)
+Experience with Kubernetes, cloud providers and deploying production systems at scale
+You enjoy having ownership over everything you ship. You'd never call code "released" until you’re confident it’s correct. You love to code enough that you wouldn’t do it wrong like that. You are driven by your craft.
+Experience as a web developer, with backend knowledge, Javascript and application frameworks is a plus
+You understand best practices and what it means to write maintainable code. This probably came from all of those years of real-world experience that you ideally have - unless you are that prodigy we mentioned - in which case you just seem to get it. Either way, you work well in a team and write great code
+Traits
+
+You lead the way. You don't need to be told what to do in order to get things done. You know how to identify gaps and needs and do what needs to be done to keep us moving. You enjoy the autonomy of owning your work and making decisions about it.
+You thrive on feedback. You believe that you can achieve more on a team than you ever could alone. You rely and thrive on others' candid feedback for continuous improvement.
+You are driven by autonomy and discipline. You don't need to work in an office to stay motivated. You thrive in a remote working environment and the autonomy that comes with it.
+** PLEASE NOTE THAT WHILE THIS POSITION IS REMOTE, WE DO REQUIRE CANDIDATES TO BE GEOGRAPHICALLY LOCATED BETWEEN UTC−10:00 AND UTC+01:00 TIME ZONES. APPLICANTS OUTSIDE THESE TIME ZONES WILL NOT BE CONSIDERED. **
+
+When applying, mention the word CANDYSHOP when applying to show you read the job post completely. This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human RMTIuMjI2LjEwOS42NgM
+
+Apply
