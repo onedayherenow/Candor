@@ -52,3 +52,28 @@ You are driven by autonomy and discipline. You don't need to work in an office t
 When applying, mention the word CANDYSHOP when applying to show you read the job post completely. This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human RMTIuMjI2LjEwOS42NgM
 
 Apply
+
+
+############################################################################################################################################################################
+
+Requirements
+
+1+ experience in writing solidity smart contracts that have been deployed to a mainnet (not testnet only).
+
+Worked with solidity language using either truffle or hardhat development framework.
+
+A true polyglot of programming languages, who is:
+
+having experience in at least one system programming languages, c/c++, rust, etc.
+
+having experience in at least one industrial language and their Frameworks: Java, C#/.NET, Python, etc.
+
+having readily available scripting skills in shell scripts, and any of python, perl, nodejs, etc.
+
+knowing haskell is a a plus since formal definition of the protocol is being developed in it.
+
+Have good knowledge in working with data structures and optimization issues.
+
+Have the mind set of test driven development, questioning any code produced with a pair of critical eyes.
+
+*************************************************************************************************************************************************************************
