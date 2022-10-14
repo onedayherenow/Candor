@@ -76,4 +76,6 @@ Have good knowledge in working with data structures and optimization issues.
 
 Have the mind set of test driven development, questioning any code produced with a pair of critical eyes.
 
+(SCRIPTING SKILLS)
+
 *************************************************************************************************************************************************************************
