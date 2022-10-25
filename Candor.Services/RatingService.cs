@@ -43,7 +43,7 @@ namespace Candor.Services
             }
         }
 
-        public IList<RatingListItem> GetRatingsByIdeaId(int id)
+        public IEnumerable<RatingListItem> GetRatingsByIdeaId(int id)
         {
             using (var ctx = new ApplicationDbContext())
             {
@@ -54,7 +54,7 @@ namespace Candor.Services
 
                 var idea = ctx.Ideas
                .Include(n => n.Ratings)
-               .SingleOrDefault(n => n.Id == id && n.UserId == _userId);
+               .FirstOrDefault(n => n.Id == id && n.UserId == _userId);
 
                 if (idea is null)
                 {
