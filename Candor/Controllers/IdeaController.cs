@@ -18,7 +18,7 @@ namespace Candor.Controllers
             return new IdeaService(userId);
         }
 
-
+        
         // GET: Idea
         public ActionResult Index()
         {
