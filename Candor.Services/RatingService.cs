@@ -43,43 +43,117 @@ namespace Candor.Services
             }
         }
 
-        public IEnumerable<RatingListItem> GetRatingsByIdeaId(int id)
-        {
-            using (var ctx = new ApplicationDbContext())
-            {
-                //var rating = ctx.Ratings.Single(n => n.Id == id && n.UserId == _userId);
-                //var ideaa = ctx.Ideas.FirstOrDefault(n => n.Id == id);
 
-                //var idea = ctx.Ideas.Find(ideaa.Id);
+        //public IEnumerable<RatingListItem> GetRatingsByIdeaId(int id)
+        //{
+        //    using (var context = ApplicationDbContext.Create())
+        //    {
+        //        var rating = context.Ratings
+        //            .Include(t => t.IdeaId)
+        //            .Include(t => t.Id)
+        //            .Include(t => t.UserId)
+        //            .Include(t => t.RatingScore)
+        //            .Include(t => t.Comment)
+        //            .SingleOrDefault(t => t.IdeaId == id);
 
-                var idea = ctx.Ideas
-               .Include(n => n.Ratings)
-               .FirstOrDefault(n => n.Id == id && n.UserId == _userId);
+        //        if (rating is null)
+        //        {
+        //            return null;
+        //        }
 
-                if (idea is null)
-                {
-                    return null;
-                }
+        //        var model = new RatingListItem()
+        //        {
+        //            RatingId = rating.Id,
+        //            IdeaId = rating.IdeaId,
+        //            RatingScore = rating.RatingScore,
+        //            Comment = rating.Comment,
+        //            IsEditable = _userId == rating.UserId,
+        //            Ratings = idea.Ratings
+        //                .Select(item => new RatingListItem()
+        //                {
+        //                    PostId = item.Id,
+        //                    UserName = GetUserName(context, post),
+        //                    Content = post.Content,
+        //                    CreatedUtc = post.CreatedUtc,
+        //                    ModifiedUtc = post.ModifiedUtc,
+        //                    IsEditable = post.UserId == _userId
+        //                }).ToList()
+        //        };
 
-                var query =
-                    ctx
-                        .Ratings
-                        .Where(e => e.IdeaId == id && e.UserId == _userId)
-                        .Select(
-                            e =>
-                                new RatingListItem
-                                {
-                                    //UserName = GetUserName(ctx, query),
-                                    IdeaId = idea.IdeaId,
-                                    RatingId = e.Id,
-                                    RatingScore = e.RatingScore,
-                                    Comment = e.Comment,
-                                    IsEditable = _userId == e.UserId
-                                }
-                        );
-                return query.ToArray();
-            }
-        }
+        //        return model;
+        //    }
+        //}
+
+
+        //public IEnumerable<RatingListItem> GetRatingsByIdeaId(int id)
+        //{
+        //    using (var ctx = new ApplicationDbContext())
+        //    {
+        //        //var rating = ctx.Ratings.Single(n => n.Id == id && n.UserId == _userId);
+        //        var ideaa = ctx.Ideas.Single(n => n.Id == id);
+
+        //        var idea = ctx.Ideas.Find(ideaa.Id);
+
+        //        var query =
+        //            ctx
+        //                .Ratings
+        //                .Where(e => e.IdeaId == id && e.UserId == _userId)
+        //                .Select(
+        //                    e =>
+        //                        new RatingListItem
+        //                        {
+        //                            //UserName = GetUserName(ctx, query),
+        //                            IdeaId = idea.Id,
+        //                            RatingId = e.Id,
+        //                            RatingScore = e.RatingScore,
+        //                            Comment = e.Comment,
+        //                            IsEditable = _userId == e.UserId
+        //                        }
+        //                );
+        //        return query.ToArray();
+        //    }
+        //}
+
+
+
+
+        //public IEnumerable<RatingListItem> GetRatingsByIdeaId(int id)
+        //{
+        //    using (var ctx = new ApplicationDbContext())
+        //    {
+        //        //var rating = ctx.Ratings.Single(n => n.Id == id && n.UserId == _userId);
+        //        //var ideaa = ctx.Ideas.FirstOrDefault(n => n.Id == id);
+
+        //        //var idea = ctx.Ideas.Find(ideaa.Id);
+
+        //        var idea = ctx.Ideas
+        //       .Include(n => n.Ratings)
+        //       .FirstOrDefault(n => n.Id == id && n.UserId == _userId);
+
+        //        if (idea is null)
+        //        {
+        //            return null;
+        //        }
+
+        //        var query =
+        //            ctx
+        //                .Ratings
+        //                .Where(e => e.IdeaId == id && e.UserId == _userId)
+        //                .Select(
+        //                    e =>
+        //                        new RatingListItem
+        //                        {
+        //                            //UserName = GetUserName(ctx, query),
+        //                            IdeaId = idea.IdeaId,
+        //                            RatingId = e.Id,
+        //                            RatingScore = e.RatingScore,
+        //                            Comment = e.Comment,
+        //                            IsEditable = _userId == e.UserId
+        //                        }
+        //                );
+        //        return query.ToArray();
+        //    }
+        //}
 
         public RatingDetail GetRatingById(int? id)
         {
