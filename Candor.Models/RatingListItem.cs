@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -7,8 +8,9 @@ using System.Threading.Tasks;
 
 namespace Candor.Models
 {
-	public class RatingListItem
+	public class RatingListItem 
 	{
+
 		public string UserName { get; set; }
 		[Display(Name = "Idea Id")]
 		public int IdeaId { get; set; }
@@ -18,5 +20,6 @@ namespace Candor.Models
 		public int RatingScore { get; set; }
 		public string Comment { get; set; }
 		public bool IsEditable { get; set; }
+
 	}
 }

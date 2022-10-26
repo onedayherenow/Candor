@@ -1,4 +1,4 @@
-﻿@model IList<Candor.Models.RatingListItem>
+﻿@model IEnumerable<Candor.Models.RatingListItem>
 
 @{
 	ViewBag.Title = "RatingsListPerIdea";
@@ -7,10 +7,12 @@
 <h2 class="text-center my-4">Ratings for this Idea</h2>
 
 
-
 <p class="text-center">
-	@Html.ActionLink("Create New", "Create", new { id = Model.IdeaId) }, htmlAttributes: new { @@class = "btn btn-outline-light btn-info btn-small" })
+	@Html.ActionLink("View Ratings", "Get", "Ideas", new { id = Model.IdeaId }, htmlAttributes: new { @class = "btn btn-outline-light btn-info btn-small" })
 </p>
+
+@Html.HiddenFor(model => model.IdeaId)
+
 
 
 <table class="table">
