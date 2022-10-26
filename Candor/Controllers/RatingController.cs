@@ -71,12 +71,12 @@ namespace Candor.Controllers
         }
 
         // GET : Rating/Details/{id}
-        public ActionResult Details(int? id)
+         public ActionResult Details(int? id)
         {
             var service = CreateRatingService();
             var detail = service.GetRatingById(id);
-            return View(detail);
-        }
+           return View(detail);
+         }
 
         
         // GET: api/Rating/5
