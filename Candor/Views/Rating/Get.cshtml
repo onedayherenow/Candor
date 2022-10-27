@@ -9,7 +9,7 @@
 
 
 <p class="text-center">
-	@Html.ActionLink("View Ratings", "Get", "Ideas", new { id = Model.IdeaId }, htmlAttributes: new { @class = "btn btn-outline-light btn-info btn-small" })
+	@Html.ActionLink("View Ratings", "Get", "Rating", new { id = Model.IdeaId }, htmlAttributes: new { @class = "btn btn-outline-light btn-info btn-small" })
 </p>
 
 @Html.HiddenFor(model => model.IdeaId)
