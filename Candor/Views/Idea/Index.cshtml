@@ -46,7 +46,7 @@
 				}
 				@Html.ActionLink("Details", "Details", new { id = item.IdeaId }, htmlAttributes: new { @class = "testBtn btn btn-outline-info btn-small" })
 				@Html.ActionLink("Add a Rating", "Create", "Rating", new { id = item.IdeaId }, htmlAttributes: new { @class = "btn btn-info btn-small" })
-				@Html.ActionLink("View Ratings", "Get", "Rating", new { id = item.IdeaId }, htmlAttributes: new { @class = "btn btn-outline-info btn-small" })
+				@Html.ActionLink("View Ratings", "Get", new { id = item.IdeaId }, htmlAttributes: new { @class = "btn btn-outline-info btn-small" })
 			</td>
 		</tr>
 	}

@@ -84,12 +84,12 @@ namespace Candor.Controllers
         /// Gets all the ratings for a specific idea
         /// </summary>
         /// <returns>RatingListItem</returns>
-        public ActionResult Get(int id)
-        {
-            RatingService ratingService = CreateRatingService();
-            var ratings = ratingService.GetRatingsByIdeaId(id);
-            return View(ratings);
-        }
+        //public ActionResult Get(int id)
+        //{
+        //    RatingService ratingService = CreateRatingService();
+        //    var ratings = ratingService.GetRatingsByIdeaId(id);
+        //    return View(ratings);
+        //}
        
 
         //POST : Rating/Edit/{id}

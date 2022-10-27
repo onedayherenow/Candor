@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Candor.Models
 {
-	public class RatingListItem 
+	public class RatingListItem
 	{
 
 		public string UserName { get; set; }
