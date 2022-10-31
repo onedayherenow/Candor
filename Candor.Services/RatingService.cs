@@ -43,6 +43,45 @@ namespace Candor.Services
             }
         }
 
+
+        public RatingDetail GetRatingsByIdeaId(int id)
+        {
+            using (var context = ApplicationDbContext.Create())
+            {
+                var thread = context.Threads
+                    .Include(t => t.Forum)
+                    .Include(t => t.Posts)
+                    .Include(t => t.Bookmarks)
+                    .SingleOrDefault(t => t.Id == id);
+
+                if (thread is null)
+                {
+                    return null;
+                }
+
+                var model = new IdeaDetail()
+                {
+                    ThreadId = thread.Id,
+                    ForumId = thread.ForumId,
+                    ForumName = thread.Forum.Name,
+                    Title = thread.Title,
+                    IsBookmarked = thread.Bookmarks.Any(b => b.UserId == _userId),
+                    Posts = thread.Posts
+                        .Select(post => new PostListItem()
+                        {
+                            PostId = post.Id,
+                            UserName = GetUserName(context, post),
+                            Content = post.Content,
+                            CreatedUtc = post.CreatedUtc,
+                            ModifiedUtc = post.ModifiedUtc,
+                            IsEditable = post.UserId == _userId
+                        }).ToList()
+                };
+
+                return model;
+            }
+        }
+
         public IEnumerable<RatingListItem> GetRatingsByIdeaId(int id)
         {
             using (var ctx = new ApplicationDbContext())
