@@ -44,18 +44,15 @@ namespace Candor.Services
         }
 
 
-        public IEnumerable<RatingListItem> GetRatingsByIdeaId(int id)
+        public ICollection<RatingListItem> GetRatingsByIdeaId(int id)
         {
             using (var context = ApplicationDbContext.Create())
             {
-                var idea = context.Ideas
-                    .Include(t => t.IdeaId)
-                    .Include(t => t.Id)
-                    .Include(t => t.UserId)
-                    .Include(t => t.Title)
-                    .Include(t => t.Content)
-                    .Include(t => t.DateCreated)
-                    .SingleOrDefault(t => t.IdeaId == id);
+              
+                var idea = context.Ideas.Where(t => t.Id == id)
+
+              
+                    .FirstOrDefault(t => t.Id == id);
 
                 if (idea is null)
                 {
@@ -81,7 +78,7 @@ namespace Candor.Services
                         }).ToList()
                 };
 
-                return (IEnumerable<RatingListItem>)model;
+                return (ICollection<RatingListItem>)model;
             }
         }
 

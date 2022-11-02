@@ -78,22 +78,22 @@ namespace Candor.Controllers
            return View(detail);
          }
 
-        
-        // GET: api/Rating/5
-        /// <summary>
-        /// Gets all the ratings for a specific idea
-        /// </summary>
-        /// <returns>RatingListItem</returns>
-        //public ActionResult Get(int id)
-        //{
-        //    RatingService ratingService = CreateRatingService();
-        //    var ratings = ratingService.GetRatingsByIdeaId(id);
-        //    return View(ratings);
-        //}
-       
 
-        //POST : Rating/Edit/{id}
-        [System.Web.Http.HttpPost]
+		// GET: api/Rating/5
+		/// <summary>
+		/// Gets all the ratings for a specific idea
+		/// </summary>
+		/// <returns>RatingListItem</returns>
+		public ActionResult get(int id)
+		{
+            RatingService ratingService = CreateRatingService();
+		    var ratings = ratingService.GetRatingsByIdeaId(id);
+		    return View(ratings);
+		}
+
+
+		//POST : Rating/Edit/{id}
+		[System.Web.Http.HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, RatingEdit model)
         {

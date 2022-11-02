@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Candor.Models.RatingListItem>
+﻿@model ICollection<Candor.Models.RatingListItem>
 @using Candor.Models
 
 @{
@@ -11,9 +11,6 @@
 <p class="text-center">
 	@Html.ActionLink("View Ratings", "Get", "Rating", new { id = Model.IdeaId }, htmlAttributes: new { @class = "btn btn-outline-light btn-info btn-small" })
 </p>
-
-@Html.HiddenFor(model => model.IdeaId)
-
 
 
 <table class="table">
