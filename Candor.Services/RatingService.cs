@@ -48,11 +48,45 @@ namespace Candor.Services
         {
             using (var context = ApplicationDbContext.Create())
             {
-              
+
                 var idea = context.Ideas.Where(t => t.Id == id)
 
-              
+                    .Include(t => t.Ratings)
                     .FirstOrDefault(t => t.Id == id);
+
+
+                if (idea is null)
+                {
+                    return null;
+                }
+
+                var rating = context.Ratings.FirstOrDefault(t => t.Id == idea.Id);
+
+                var model = new RatingListItem()
+                {
+
+                    RatingId = rating.Id,
+                    //UserName = GetUserName(context, post),
+                    IdeaId = idea.Id,
+                    RatingScore = rating.RatingScore,
+                    Comment = rating.Comment,
+                    IsEditable = rating.UserId == _userId
+                };
+
+                return (ICollection<RatingListItem>)model;
+            }
+        }
+
+        public ICollection<RatingListItem> GetRatingsByIdeaId(int id)
+        {
+            using (var context = ApplicationDbContext.Create())
+            {
+
+                var idea = context.Ideas.Where(t => t.Id == id)
+
+                    .Include(t => t.Ratings)
+                    .FirstOrDefault(t => t.Id == id);
+
 
                 if (idea is null)
                 {
@@ -81,6 +115,7 @@ namespace Candor.Services
                 return (ICollection<RatingListItem>)model;
             }
         }
+
 
         //public IEnumerable<RatingListItem> GetRatingsByIdeaId(int id)
         //{
