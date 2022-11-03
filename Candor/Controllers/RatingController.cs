@@ -38,13 +38,13 @@ namespace Candor.Controllers
         // POST:  Rating/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(RatingCreate model)
+        public ActionResult Create(RatingCreate model, int id)
         {
 
             if (ModelState.IsValid)
             {
                 var service = CreateRatingService();
-                if (service.CreateRating(model))
+                if (service.CreateRating(model, id))
                 {
                     TempData["SaveResult"] = "Your rating was created.";
                     return RedirectToAction("Details", "Idea", new { Id = model.IdeaId});
