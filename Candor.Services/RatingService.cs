@@ -82,13 +82,16 @@ namespace Candor.Services
         public ICollection<RatingListItem> GetRatingsByIdeaId(int id)
         {
             using (var context = ApplicationDbContext.Create())
+           
             {
 
-                var idea = context.Ideas.Where(t => t.Id == id)
+                var idea = context.Ideas.Single(n => n.Id == id);
 
-                    .Include(t => t.Ratings)
-                    .FirstOrDefault(t => t.Id == id);
+                    //.Include(t => t.Ratings)
+                    //.FirstOrDefault(t => t.Id == id);
 
+
+                ICollection <RatingListItem> rates = idea.Ratings;
 
                 if (idea is null)
                 {
@@ -116,6 +119,7 @@ namespace Candor.Services
 
                 var ratingIndex = model.Ratings.ToList();
 
+                return rates;
                 return ratingIndex;
             }
         }

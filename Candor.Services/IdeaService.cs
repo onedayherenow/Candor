@@ -26,8 +26,11 @@ namespace Candor.Services
                 Title = model.Title,
                 Content = model.Content,
                 DateCreated = DateTimeOffset.UtcNow,
-                Completed = model.Completed
+                Completed = model.Completed,
+                IdeaId = model.IdeaId
             };
+
+            idea.IdeaId = idea.Id;
 
             using (var context = ApplicationDbContext.Create())
             {
