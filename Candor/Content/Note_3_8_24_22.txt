@@ -66,3 +66,8 @@ If love could dream
 If love could 
 
 
+TRUFFLE SUITE SOLIDITY SECURITY TOOLS
+- Diligence Fuzzing
+- Scribble
+
+- Truffle Dashboard

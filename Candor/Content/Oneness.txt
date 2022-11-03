@@ -358,7 +358,16 @@ so that we only see a trickle of the inertia within a system when we are looking
 _______________________
 -"Discrete/Granular"  - Pixelated space in the form of spheres with planck radius at the planck scale
 
--"Scharzchild Solution"
+-"Schwarzschild Solution" - Solution to Einstein Field Equations by Karl Schwarzschild that describes black wholes and the gravitational
+	field; 
+	the solution implies singularities / black wholes;
+	gives the Schwarzschild radius; 
+	Schwarzschild radius defines a maximum radius for every black whole mass, where everything less than such radius
+	with equal mass will create such a black whole;
+
+-Vector - A line of direction of propogation of charge
+
+
 
 
 
