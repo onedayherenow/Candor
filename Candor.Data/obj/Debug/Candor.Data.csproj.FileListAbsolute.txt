@@ -55,3 +55,4 @@ C:\Users\zuluagad\Source\Repos\Candor\Candor.Data\obj\Debug\Candor.Data.pdb
 C:\Users\zuluagad\source\repos\Candor\Candor.Data\obj\Debug\Candor.Data.Migrations.IdeaId.resources
 C:\Users\oneda\source\repos\Candor\Candor.Data\obj\Debug\Candor.Data.Migrations.IdeaId.resources
 C:\Users\oneda\source\repos\Candor\Candor.Data\obj\Debug\Candor.Data.Migrations.LoggingIn.resources
+C:\Users\zuluagad\source\repos\Candor\Candor.Data\obj\Debug\Candor.Data.Migrations.LoggingIn.resources

@@ -91,7 +91,7 @@ namespace Candor.Services
                     //.FirstOrDefault(t => t.Id == id);
 
 
-                //ICollection <RatingListItem> rates = (ICollection<RatingListItem>)idea.Ratings;
+                ICollection <RatingListItem> rates = (ICollection<RatingListItem>)idea.Ratings;
 
                 if (idea is null)
                 {
@@ -119,8 +119,8 @@ namespace Candor.Services
 
                 var ratingIndex = model.Ratings.ToList();
 
-                return ratingIndex;
-                //return rates;
+                //return ratingIndex;
+                return rates.ToArray();
                 
             }
         }
