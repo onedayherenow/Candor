@@ -115,8 +115,8 @@ namespace Candor.Services
 
                 var model = new IdeaDetail()
                 {
-                    UserName = context.Users.Find(idea.UserId
-                            .ToString()).UserName,
+                    //UserName = context.Users.Find(idea.UserId
+                    //        .ToString()).UserName,
                     IdeaId = idea.Id,
                     Title = idea.Title,
                     Content = idea.Content,
