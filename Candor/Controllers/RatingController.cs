@@ -84,7 +84,7 @@ namespace Candor.Controllers
 		/// Gets all the ratings for a specific idea
 		/// </summary>
 		/// <returns>RatingListItem</returns>
-		public ActionResult get(int id)
+		public ActionResult Get(int id)
 		{
             RatingService ratingService = CreateRatingService();
 		    var ratings = ratingService.GetRatingsByIdeaId(id);
