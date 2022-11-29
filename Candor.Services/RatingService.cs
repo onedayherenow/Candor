@@ -88,12 +88,15 @@ namespace Candor.Services
             {
                 var idea = context.Ideas.Single(n => n.Id == id);
 
+            //public IEnumerable<Waiver> Waivers => context.Waivers.Include(o => o.Office);
 
-                //.Include(t => t.Ratings)
-                //.FirstOrDefault(t => t.Id == id);
 
-                //below is for the second return
-                ICollection <RatingListItem> rates = (ICollection<RatingListItem>)idea.Ratings;
+        //.Include(t => t.Ratings)
+        //.FirstOrDefault(t => t.Id == id);
+
+
+        //below is for the second return
+        ICollection <RatingListItem> rates = (ICollection<RatingListItem>)idea.Ratings;
 
                 if (idea is null)
                 {
