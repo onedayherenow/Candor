@@ -41,8 +41,10 @@ namespace Candor.Controllers
             if (ModelState.IsValid)
             {
                 var service = CreateIdeaService();
+           
                 if (service.CreateIdea(model))
                 {
+            
                     TempData["SaveResult"] = "Your idea was created.";
                     return RedirectToAction("Index");
                 }
