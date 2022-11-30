@@ -224,6 +224,7 @@
     <Content Include="Content\Note_3_8_24_22.txt" />
     <Content Include="Content\Oneness.txt" />
     <Content Include="Content\Reprogrammer.txt" />
+    <Content Include="Content\Videos.txt" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
