@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.Entity;
+using System.Collections;
 
 namespace Candor.Services
 {
@@ -87,16 +88,18 @@ namespace Candor.Services
            
             {
                 var idea = context.Ideas.Single(n => n.Id == id);
+                //.Include(t => t.Ratings);
+                //.FirstOrDefault(t => t.Id == id);
 
-            //public IEnumerable<Waiver> Waivers => context.Waivers.Include(o => o.Office);
-
-
-        //.Include(t => t.Ratings)
-        //.FirstOrDefault(t => t.Id == id);
+                //public IEnumerable<Waiver> Waivers => context.Waivers.Include(o => o.Office);
 
 
-        //below is for the second return
-        ICollection <RatingListItem> rates = (ICollection<RatingListItem>)idea.Ratings;
+                //.Include(t => t.Ratings)
+                //.FirstOrDefault(t => t.Id == id);
+
+
+                //below is for the second return
+                //ICollection<RatingListItem> rates = (ICollection<RatingListItem>)idea.Ratings;
 
                 if (idea is null)
                 {

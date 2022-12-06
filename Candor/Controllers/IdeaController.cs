@@ -41,7 +41,9 @@ namespace Candor.Controllers
             if (ModelState.IsValid)
             {
                 var service = CreateIdeaService();
-           
+                var booloo = service.CreateIdea(model);
+
+
                 if (service.CreateIdea(model))
                 {
             

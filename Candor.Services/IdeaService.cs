@@ -30,13 +30,16 @@ namespace Candor.Services
                 IdeaId = model.IdeaId
             };
 
-            idea.IdeaId = idea.Id;
+            //idea.IdeaId = idea.Id;
 
             using (var context = ApplicationDbContext.Create())
             {
                 context.Ideas.Add(idea);
+                //idea.IdeaId = idea.Id;
                 return context.SaveChanges() == 1;
             }
+
+
         }
 
         public IEnumerable<IdeaListItem> GetIdeas()
@@ -55,7 +58,7 @@ namespace Candor.Services
                     });
 
 
-            return query.ToArray();
+                return query.ToArray();
             }
         }
 
@@ -135,9 +138,9 @@ namespace Candor.Services
                             UserName = context.Users.Find(rating.UserId
                             .ToString()).UserName,
                             IsEditable = rating.UserId == _userId
-                    
+
                         }).ToList()
-                    
+
                 };
 
                 return model;
@@ -168,5 +171,13 @@ namespace Candor.Services
                 return context.SaveChanges() == 1;
             }
         }
+
+        public bool UpdateIdeaId(ApplicationDbContext context, int id)
+        {
+            var idea = context.Ideas.Single(t => t.Id == id);
+            idea.IdeaId = idea.Id;
+            return context.SaveChanges() == 1;
+        }
+
     }
 }
