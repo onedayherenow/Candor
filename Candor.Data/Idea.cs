@@ -30,5 +30,11 @@ namespace Candor.Data
 		public double AverageRating => Ratings.Any() ? Ratings.Average(rating => rating.RatingScore) : 0;
 		[Required]
 		public bool Completed { get; set; }
+
+
+		public int ReturnId()
+		{
+			return Id;
+		}
 	}
 }

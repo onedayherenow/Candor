@@ -42,9 +42,9 @@ namespace Candor.Controllers
             {
                 var service = CreateIdeaService();
                 var booloo = service.CreateIdea(model);
+                
 
-
-                if (service.CreateIdea(model))
+                if (booloo)
                 {
             
                     TempData["SaveResult"] = "Your idea was created.";
