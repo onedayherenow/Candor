@@ -485,3 +485,89 @@ frequencies of the other nearby stellar systems. And Figure (14) shows some of t
 nearby sun-like stellar systems, which may have similar planetary configurations to our
 own solar system.
 What are these longitudinal waves and how might they function?
+
+
+
+
+
+
+Peer-to-peer (P2P) is a decentralized communications model in which each party has the same capabilities and either party can 
+initiate a communication session.
+
+Unlike the client-server model, in which the client makes a service request and the server fulfills the request, 
+the P2P network model enables each node to function as both a client and server.
+
+P2P systems can provide anonymized routing of network traffic, massive parallel computing environments, 
+distributed storage and other functions. Most P2P programs focus on media sharing, 
+so P2P mostly associates with software piracy and copyright violation.
+
+P2P applications typically enable users to control many parameters of operation. Some of those parameters are the following:
+
+how many member connections to seek or allow at one time;
+which systems to connect or avoid;
+which services to offer; and
+how many system resources to devote to the network.
+Some P2P applications simply connect to some subset of active nodes in the network with little user control.
+
+Use cases for the P2P networking topologies have existed since the days of Advanced Research Projects Agency Network, 
+but the advantages of the P2P communications model didn't become obvious to the general public until the late 1990s 
+when music-sharing P2P applications, like Napster, appeared. Napster and its successors, such as Gnutella and BitTorrent, 
+cut into music and movie industry profits and changed how people thought about acquiring and consuming media.
+
+System administrators tend to discourage the use of P2P applications for a few reasons. 
+For one, P2P applications can tie up bandwidth. 
+P2P applications can also bypass firewalls and distribute malware, which can possibly expose an administrator's 
+organization legally. Network administrators often set up networks to prevent PCs from engaging in P2P side talk.
+
+How P2P networks work
+When a user downloads a file, the process is typically as follows: The user opens a web browser, 
+visits the appropriate website and downloads the file. In this case, the website acts as a server, 
+and the user's computer acts as a client that receives the data. 
+This process is like a one-way street where the downloaded file transfers from point A, 
+the website, to point B, the user's computer.
+
+If the user downloads the same file through a P2P network, however, the process occurs differently. 
+The user has to install P2P software on their computer, which creates a virtual network of P2P application users. 
+When the user downloads a file, the file downloads in bits that come from various computers in the network that already have the file.
+
+Simultaneously, data also travels from the user's computer to other computers in the network that ask for it. 
+This situation is similar to a two-way street -- the file is like numerous small bits of data that come to the user's computer 
+but also leave when requested. In fact, the file transfer load distributes between the peer computers.
+
+P2P network architecture
+In a P2P network architecture, each computer has the same responsibilities and capabilities. 
+Since there is no server, the computers connect with each other in a workgroup to share files, 
+printers and internet access. This architecture is practical for workgroups of 12 or fewer computers.
+
+P2P architectures are common in small home networks or office environments where each PC acts as an independent workstation; 
+each computer stores data on its own hard drive but has the ability to share data with other PCs on the network.
+
+Advantages of P2P networks
+Some advantages of P2P networks are the following:
+
+P2P networks operate without an expensive server.
+Each user manages their own computer, eliminating the need for a network manager.
+P2P network configuration occurs via wizards in software.
+P2P networks can be set up in homes and small businesses.
+P2P networks typically have less network traffic than a client-server network.
+Disadvantages of P2P networks
+Some disadvantages of P2P networks are the following:
+
+Users can't centrally back up files and folders.
+Each computer can access other computers, which slows performance.
+Files aren't centrally organized into a specific shared area, but rather stored on individual computers.
+Each user must ensure viruses aren't introduced into the network.
+There is limited security.
+P2P vs. client-server
+A P2P network involves two or more computers that share individual resources, such as DVD players, printers and disk drives. 
+Each computer acts as both client and server and directly communicates with other computers in the network. 
+In a P2P network, all computers on the network can access client devices directly connected to one specific computer on the network. 
+The only requirement is a means of connection, such as a Wi-Fi router.
+
+A client-server network involves numerous clients that connect to at least one central server where most applications and data 
+are installed. Clients access these resources from the server. 
+Client-server networks typically have faster access speeds because of the large number of clients they support.
+
+Clients function as workstations without sharing resources. 
+Clients can also upgrade applications and files more easily because only one computer stores files. 
+In a client-server network, the server is what handles security, rather than each individual user
