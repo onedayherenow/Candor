@@ -76,3 +76,412 @@ TRUFFLE SUITE SOLIDITY SECURITY TOOLS
 - Scribble
 
 - Truffle Dashboard
+
+
+
+
+
+
+
+
+I begin with a little history: One hundred years ago Nikola Tesla was receiving his first
+patents on "Apparatus for Producing Electrical Currents of High Frequency and
+Potential.” Tesla was the first to utilize a resonant oscillator for the transmission of
+high frequency signals. Through the commercial applications of Marconi and others,
+this became known as radio. It took an "Act of the U.S. Congress" in 1943 to recognize
+Tesla as the true inventor of radio. By the efforts and discoveries of many amateur and
+professional experimenters since that time, we may now maintain communications
+from any location on the planet. Tremendous changes and developments have occurred
+in our communication abilities since those first few experiments by Tesla in his small
+New York City laboratory during the early 1890s.
+Although Tesla took those first steps toward radio, he did not benefit from its financial
+returns because his visions were in other directions. The equipment he constructed and
+patented were oriented toward a complete planetary communications system. First,
+he built a large experimental facility near Colorado Springs, Colorado, where he
+explored natural electromagnetic signals, especially from lightning. He then went on
+to transmit high power and large potential electromagnetic signals around the earth,
+while utilizing varying versions of what has become known as 'Tesla coils'. Figure (1),
+shows Tesla's first patent on a system of transmitting electrical energy. He may have
+been the first person to listen to the radio spectrum (Solar Cycle 13) before other
+man-made transmissions were initiated. Imagine the middle of the twenty meter band at
+the peak of the sunspot cycle with no other man-made activity. What might he have
+heard? Later, Tesla went on to begin construction of a much larger version of his
+transmitting facility at Shoreham, on Long Island in New York, but for many
+reasons it was never completed.
+Tesla considered his methods of transmission not 'Hertzian waves', or what we now
+refer to as transverse electromagnetic waves (radio), but another type of signal
+transmission. He described them as faster-than-light (FTL) longitudinal wave
+transmissions. I intend to show that there may be other confirmations to the claims of the
+amazing Mr.Tesla. He did state that he had indeed detected signals from the other planets
+while performing his experiments at Colorado Springs in 1899! Tesla claimed, " that he
+had heard periodic and clear signals of number and order". His method of sensing
+was an elevated sphere in a series resonant circuit between the atmosphere and the
+earth. In 1921, Marconi also reported that he had detected "interplanetary
+communications" while performing tests in the Mediterranean and another experimenter,
+David Todd, stated that he had detected extraterrestrial signals while listening in
+1924.
+DR. SEE
+Before we come back to present day researches, let us glance at the writings of
+mathematician and astronomer, Dr. Thomas Jefferson Jackson See of Missouri,
+whose works include a two volume set on the detection, calculation and mapping of
+binary star systems. These he published around the turn of the twentieth century. See
+prepared many volumes called the "Wave-Theory, Discovery of the Cause of
+Gravitation". From his research, he presented a mathematical picture of waves of
+gravity extending throughout space, the nature of gravitational stress, and the cause
+of gravity's invisible influence. See's gravity waves, which he showed
+mathematically to be different from electromagnetic waves, were not detected at
+that time. He sometimes referred to them as "long waves". Dr. T.J.J. See envisioned a
+spider-web of wave structure extending along all the radii vectors at all distances,
+filling all space, from star to star. Figure (2), shows one of Dr. See's many attempts to
+present visually this unseen mechanism of celestial influence. See's classical
+mathematics calculations and drawings show a constant bidirectional gravitational
+wave-stress and inter-locking, cork screw tension in the aether connecting all bodies
+in pairs.
+The characteristics of an all embracing aether provided the framework for See's
+calculation of the 'Wave Theory of Gravity'. By building on Newton's image of the
+aether as a "Vibrating medium that diffused over the universe and penetrated all
+matter", he was able to calculate many physical constants, such as its energy, stress,
+rigidity, and pressure. See's elastic pressure of aether envisioned a universe filled with
+invisible Fourier waves of all possible lengths and traveling in every direction under
+balanced symmetry of stress about a vibrating body, such as a planet.
+Tesla and See were both outspoken critics of Relativity and the supposed accepted
+limit of the speed of light. Consequently, neither were given much consideration in the
+expanding Relativity climate of physics theory during that period. Even Albert Einstein
+in his first Relativity papers accepted the influence of masses at great distances (or nonlocal influence). The interpretations by many physicists regarding Einstein's
+equations of General Relativity do not exclude the possibility of faster-than- light
+(FTL) communication.
+Most of the physics community of the twentieth century abandoned the concept of
+an aether's existence because of two factors---the 1887 Michelson-Morley
+experiment, which was unable to detect an aether, and a statement by Albert
+Einstein that he need not consider an aether for his Relativity formulas to be usable.
+Later in his life, Einstein stated that he could not imagine the transmission of
+electromagnetic waves without some form of an aether. This idea of an all pervading
+aether has returned to us in recent years in a whole new form.
+Following the initial presentation of Quantum theory in 1927, with its many radical
+interpretations of reality, it became the task of physicists to reconcile the differences
+between it and Relativity. Einstein was among the most prominent critics of the Quantum
+Mechanical view-point. In 1935, Einstein, Podolsky and Rosen wrote a paper, called
+"the EPR Paradox," examining the Quantum interpretation of a possible
+instantaneous communication. Over thirty years later, John Bell, a physicist at the
+CERN facility in Switzerland, proposed an experiment to confirm or deny this
+instantaneous action at a distance. When the experiments were performed, there
+was indisputable evidence of the presence of its reality in nature. Bell's theorem
+stated that not only are faster-than-light connections possible, but are necessary for
+the Universe to function.
+To the present day, Quantum physicists believe that their Quantum Field theory
+formulae allow for an instantaneous connection throughout all space and time. They
+believe a quantum vacuum, universal, zero-point energy field fills all space. It
+becomes the source of all matter, and thus, the primary reality of all of the universe.
+Light and gravity are no longer phantom-like waves traveling in empty space, but
+are moving through this aetheric continuous energy field. This newest vision
+reconfirms the most ancient insight of an all-pervading aether.
+EXTREMELY LOW FREQUENCIES
+About twenty years ago I discovered a paper written by Dr. Robert C. Beck entitled
+"E.L.F. (Extreme Low Frequency) Magnetic Communications and Signaling". Mr. Beck
+offered suggestions for many applications of these relatively unknown frequencies. The
+ELF spectrum is below the 10 KHz. range of internationally regulated frequencies. It is
+usually considered to be the spectrum of 3 Hz. to 300 Hz. (VLF-3 to 30 KHz.) (ULF-300
+to 3000 Hz.) (ELF-3 to 300 Hz.). See figure (3).The wavelengths in the ELF range are
+from 100,000 Km. to 1,000 Km. and the wavelength for the earth's 40,000 Km.
+circumference falls within that spread. Quite a large antenna farm might be needed for a
+resonant dipole in those bands. Beck suggested that the earth's circumference frequency
+could be detected, and he even offered an additional paper with easy to construct circuits
+to do so. I have since learned that the prominent human brain-wave signals are within
+this same ELF range.
+I also discovered that there are other uses for these ELF frequencies. While living in the
+Upper Peninsula of Michigan in 1977-78, I became aware of the U.S. Navy's interest in
+constructing a large underground antenna array at these ELF frequencies for their
+communications with the deep-diving Trident submarines. These frequencies do not
+see the earth as an obstruction, but are easily propagated through the whole planet.
+A scaled down version of the ELF Project array was constructed for the Navy in
+Michigan. Its signals can be easily detected anywhere.
+In 1952, physicist W.O. Schumann postulated mathematically that our earth and
+ionosphere constitute a cavity wave-guide whose physical constants and magnetic
+field oscillate at a resonant frequency identical to the range of human brain-waves.
+In 1962, researchers at the then National Bureau of Standards reported the actual
+detection and recording of these signals. They closely resemble the
+encephalographic recordings from human brain-waves. Beck refers to them as the
+"earth brain-waves". Recent years have seen investigation by many researchers into the
+possible interconnection between these "Schumann Resonances" of the earth and the
+EEG detected human brain-waves.
+ON THE DIVIDE
+In the early 1980's, I had the opportunity to live on a thousand acre ranch at 8000 feet
+above sea level near the continental divide in southwest New Mexico. It was a wonderful
+and healthy location, with miles to wander and unobstructed views of the starry heavens.
+With such an open and high altitude vista, the old dreams of super antennas began to
+invade my thoughts.
+At first I installed a simple 40 meter dipole with marvelous success. Curiosity soon
+compelled me to connect it to an oscilloscope and observe some of the other
+electromagnetic activity in that area. During the summer season, the old scope presented
+a vast spectrum of lightning-related signal activity. I constructed a large tunable tank
+circuit with a 9 inch by 3 foot inductive coil form and a bank of switched capacitors. I
+was then able to selectively tune the incoming signal activity to the oscilloscope. I was
+especially interested in the electromagnetic (EM) activity below the VLF frequency
+range. I soon went on to construct five (550 feet) Vee beams switched from the center
+for improved world-wide ham communications. This was my dream antenna.
+I began to notice some very powerful activity in the ELF spectrum while using this
+antenna and decided that I might be seeing the Navy's ELF transmitter in Michigan
+and the Russian 'woodpecker' transmissions from the Ukraine. If the Navy could use
+these frequencies, what might I see in this VLF to ELF spectrum if I also tried an
+underground antenna? Putting an antenna underground in the rocky high plateau of New
+Mexico seemed an impossible task. I tried just laying it on the surface. A year before I
+had purchased a very large reel of wire from the surplus of the Los Alamos Research
+Laboratory. With my wife Beth on one side of the reel and me on the other, we walked
+directly west and lay the wire on the earth's surface. Upon returning to the lab and
+connecting the long wire to the oscilloscope and tank circuit, I was amazed at the
+never-before-seen signal activity.
+Suddenly I was able to see strong, and often harmonically related, signal activity day and
+night throughout the year. These signals came and were picked up by through the
+earth this surface antenna. I observed EM activity changing with the time of day---
+sunrise, sunset, high noon, even at midnight when the sun was opposite on the earth
+from New Mexico. I was seeing lightning activity coming through the earth at all times
+of day. The most interesting observation was that the combined lightning signals
+created a vast spectrum of harmonically related wave-forms. The earth was alive
+with vibration, the sum total of the planetary activity. A short time later we added
+three more mile-long wires to allow switching to each cardinal direction.
+At about this time, I began regular forty meter radio schedules with Harold Faretto, in
+Reno, Nevada. Hal, an employee of a research institute in Reno, shared my technical
+interests. We spent hours each week with 'on the air' discussions of experiments or recent
+discoveries of ourselves and others. Hal sent me a copy of an article from RF Design on
+Near Field Communication. I read and filed it for later use. Near field radiation had
+been given little attention in my studies at tech school and at that moment I saw little
+need for the information. That would change.
+THE ELFS
+The earth's natural resonances in the ELF spectrum fall within the range of the
+brain-wave spectrum. I became interested in a possible spectrum of frequencies for
+the rest of the solar system. By utilizing all of the known available physical
+characteristics of size and motion, I calculated many frequencies for each solar system
+body. There were many harmonically related frequencies, some of which fall within the
+human brain-wave ELF spectrum. Figure (3) shows the brain-wave spectrum and some
+of the more prominent solar system frequencies within the same band.
+"The Music of the Spheres", an ancient concept of the Universal Song, may be seen
+as a reality when considering the motions of the solar system. When the revolutions
+and rotations for the planets and their moons are converted to frequencies, there
+appear many harmonic relationships. For examples: the Moon's revolution is
+harmonically attuned to the three largest moons of Jupiter, which are themselves one
+octave separated from each other in their revolutions. Jupiter's rotation is a harmonic of
+the Earth, and Pasiphae, the outer moon of Jupiter, is in harmony with the Earth's
+revolution. There are many other similar solar system harmonics.
+Harold helped me construct a sensitive ELF receiving circuit to be used with a PCoperated spectrum analyzer device. Hal used a more elaborate Hewlett-Packard spectrum
+analyzer. Over the period of a number of years we communicated back-and-forth via
+radio and the land-line regarding the ever changing ELF activity. We were able to see
+simultaneous frequency activity at widely separated areas of the country. Hal and his
+colleagues were especially excited by observing some of the lower frequency ELF
+signals, which seemed to hold correlation with Earth's seismic activity. They referred to
+those signals as geologic frequencies. Other researchers are now considering quite
+seriously these ELF frequency relationships as earthquake predictors. Figure (4)
+demonstrates the magnitude of the received signals from the ELF and lower in frequency.
+Earth is alive with this constant electromagnetic vibration intensity. It supplies a
+complex play of oscillating harmonics around and through us each moment of our
+lives.
+DETECTING GRAVITY WAVES
+Let me introduce you to an experimenter who may actually be detecting and utilizing
+gravity waves today. For many years physicist Gregory Hodowanec in Newark, NJ has
+been detecting what he refers to as monopole gravity waves. These monopole signals,
+unlike the usually detected gravity waves, are relatively strong and more easily detected.
+Hodowanec says, "that monopole gravity waves have been detected for many years; it's
+what we are calling 1/f "noise" signals, flicker or background noise". He refers to his
+detected waves as scalar in nature, which means the waves are described in terms of
+magnitude alone. An example of a scalar field is the one of temperature. Gravitation
+has a scalar aspect. Gregory Hodowanec has developed a number of easily constructed
+circuits to utilize and detect these monopole gravity waves.
+In Hodowanec's cosmology, the universe is considered to be a finite, spherical,
+closed system. Monopole gravity waves propagate any distance in Plank time, which
+is about 5.4x10-44 seconds, therefore their effects appear everywhere almost
+instantly. These gravity wave signals are the sum total of the background flux of the
+universe, similar to the total summation of the earth's lightning signals I observed in New
+Mexico. Such signals could be a new window into the universe. They may reveal many
+aspects not observable with present-day electromagnetic techniques.
+Gregory states that listening to the scalar gravity signals with the audio amplifier can be
+quite impressive. Some of the coherent "musical" sounds appear to come from the same
+direction of space on a daily basis. According to Hodowanec's theories, scalar-type
+radiation fields, as is the gravitation field, might be useful to transmit information
+"instantly" everywhere in the universe. At his location of 42 degrees N. Latitude, some
+of the detected sounds appear to originate from the Perseus and Auriga regions of our
+galaxy when those regions appear at zenith. Some of these signals might be of extraterrestrial intelligence, and thus interest other experimenters in SETI (Search for ExtraTerrestrial Intelligence) to investigate this possibility. Such communication between
+different galactic cultures may not be limited by the long time intervals required by
+speed-of-light communication of radio.
+CAPACITOR AS SENSOR
+Over 150 years ago, the renowned grandfather of electromagnetic experimentation,
+Michael Faraday, stated, "I believe that as the inductance is to magnetism, the
+capacitor is to gravity". Gregory Hodowanec may have given us the gift of a view of
+our communications future. Earth's ever-present gravity field provides the presence of a
+scalar gravity field on the plates of a capacitor, causing the molecules of the dielectric to
+polarize just as though an external DC voltage were being applied. A schematic of his
+scalar gravity-signal detector is shown in figure (5).
+The small gravity-impulse current generated across capacitor C1 is coupled to the input
+of IC1 for amplification. IC1 functions as a current-to-voltage converter. The
+capacitance, C1, and the feedback resistance, R1, are chosen sufficiently high in value so
+that input circuit "resonance" is much less than 1 Hz. The detected gravity flux
+oscillations are a function of both the sensing capacitance and the feedback relationship,
+and will thus have different frequencies for different capacitor and feedback resistor
+values. The extra op-amp, IC1-b provides added gain and frequency stability. The gravity
+detector may be enclosed within an aluminum box to provide a shield from
+electromagnetic interference (EMI). The output may be fed to the input of an oscilloscope
+or chart recorder for monitoring. Figure (6) shows a simple audio amplifier that can be
+used with the detector to listen to the gravity signals, which sometimes resemble a music
+rhythm.
+THE COSMIC WINDS
+Our next stop on the road to gravity wave communication is with Bill Ramsay, who
+was at that time living in South Carolina. Ramsay had also discovered Hodowanec's
+intriguing experiments. They stirred his sense of wonder and prompted him to perform
+some of the same tests. Bill had been hearing these signals for years during his lifetime of
+electronic/radio repair. Could anything good come from this ever-present electronic noise
+which is the engineer's menace? One day he thought that noise, or better put,
+fluctuation actions of all kinds, are present in everything,--the jitters at the quantum
+level, Brownian movements in molecules, universe microwave background, thermal
+variations, air movements, fluid movements, the human brain-mind-nervous
+system, and much more. This "noise" is fundamental to everything.
+Bill became particularly interested in one mode of the detection circuits that Hodowanec
+calls "QND" for Quantum Non-Demolition. This mode is reached by adjusting a control
+so that the circuit operation hangs at the point of oscillation and awaits the introduction of
+a gravity pulse. The result is a slight ringing somewhat like that of a bell being struck,
+with discernible variations being created by interactions between the earth's gravity field
+and those of other cosmic structures. Ramsay describes it as the sound of dried peas being
+dropped against a bell. During some situations there are prolonged 'singings' such as
+when a moistened finger is run around the rim of a crystal glass tumbler. Ramsay went on
+to construct a series of multiple detectors with each attuned to a slightly different
+frequency spectrum, the effect, he says, was 'enchanting'. He describes this as being
+like listening to ancient chants while on a space journey. During other monitoring
+periods, the sounds resemble that of the ocean calls of humpback whales.
+One of Bill's monitoring periods was during the summer solstice on June 21st. He
+thought that there might be some unusual 'goings on' at the time that the Ancients
+called "The day the sun stands still". And so there were! Many prolonged singings
+were heard with one of them at the exact moment of gravity solstice, 8.3 minutes
+ahead of the much slower light speed response. Ramsay says that since that day he has
+many times observed this leading gravity pulse. He refers to his circuits as the "Cosmic
+Winds Device".
+Bill's next discovery was what he calls 'Fixed Rate Scanning'. While running some tests
+on a Rustrak strip-chart recorder for some other experiments, he thought 'why not try this
+on a Hodowanec gravity-wave circuit'? He set up a recorder and allowed it to
+continuously run. One morning he was amazed to discover that a beautiful and intricate
+pattern had been formed while he slept. This opened a whole new door for Ramsay's
+cosmic exploring. In this setup the exact frequency and stability of the generator is
+primarily determined by a common component, a capacitor, like Hodowanec was using in
+most of his detectors. Michael Faraday strikes again!
+Bill Ramsay describes for us this most interesting strip-chart recorder experience,
+"The strongest sense of this process is gained by sitting in front of a recorder and
+watching as the exposed needle seems 'seized' by some force and guided to exactly
+the right place at exactly the right moment to add one more dot to the emerging
+pattern. For a one hour long pattern there are 1800 dots, each one put on the chart paper
+by the striking action of a spring-loaded bar at exact two second intervals. The needle has
+more chances of being in the wrong place than in the right one when the bar snaps it
+against the pressure sensitive paper and forms a dot. And since the chart moves in one
+direction only, there are no chances to go back to fill in a missed place". Figures (7),(8)
+are an example of the 'Fixed Rate Scanning'.
+These amazing, very long wavelength patterns seem to represent the frequency
+beatings of the sun, the moon, and the planetary motions, all in combinations with
+other cosmic influences, which may even be beyond our home star system. Ramsay
+says that "These pulses might be providing 'markers' or coherency to the universal
+hologram". He has had opportunity to compare simultaneous measurements with other
+experimenters, and thus to observe these strong correlation. As Bill sees it, "Each
+location on the earth surface detects a portion of the universe--the whole earth acts
+as a detector/resonator to the complex total. Earth is a mirror of the universe in the
+gravity wave qualities".
+EVANESCENT NEAR-FIELD
+One day while I was considering this problem of instantaneous communication, it
+suddenly occurred to me that we on earth are within the near-field of the wavelength
+determined by the earth and moon. This earth-moon signal, around .78 Hz., I have
+detected by using ELF sensing equipment. So, beginning with the article that Hal had
+sent to me years before, I searched for any information I could find related to near-field
+radiation, which was really very little.
+The region nearest the antenna or radiating element is known as the evanescent or
+reactive near-field. The evanescent component of the EM energy decays in amplitude
+very rapidly with distance. This region includes both non-propagating (reactive) and
+propagating energy. We are familiar with and utilize the propagating field. The
+evanescent region is considered to be within three wavelengths, with the greatest energy
+levels within one wavelength. The evanescent near-field seems to have some
+characteristics which differ from the radiating near-field and the normally used far-field.
+First, it does not maintain the commonly detected 90 degree (orthogonal)
+relationship between the E (electric) and the H (magnetic) field components, nor is it
+related to the characteristic 377 ohm impedance of free-space. Because of these
+differences it is considered a non-propagating energy. However, it is capacitively
+detectable, but not by free-space propagation. Evanescent energy can be detected in
+near-field measurements as energy with a spatial frequency. Spatial frequency is a
+frequency measured in units of distance (cycles/distance) as compared to temporal
+frequency, which is measured in units of time (cycles/second). For the evanescent
+waves, the phase is independent of distance, so that the phase velocity appears to be
+infinite or faster-than-light (FTL). Under these conditions of independence, the
+transverse electric from the transverse magnetic, each have a longitudinal component as
+well as transverse. In addition, energy is stored in the volume occupied by these
+fields.
+The description of the evanescent energy as non-propagating or non-radiating seems to
+indicate that it is not detectable by established electromagnetic methods. There may be
+other methods that we must consider to perceive these energy fields.
+I would like to present quotations by and about noted physicist Richard P. Feynman,
+from his "Lectures on Gravitation". Feynman thought long and hard about the
+fundamental problems of gravitational physics. These lectures represent some of his
+viewpoints and insights into gravity and gravitational waves.
+Feynman compares electricity and gravity in the statement, "If we compare the
+differential equations of motion of particles in electrical and gravitational fields, we
+find that the gravitational equation has a qualitatively distinct new feature; not only
+the gradients, but also the potentials themselves appear in the equations of motion.
+Thus, even though the differential equations for the fields are closely parallel, there
+is a distinction in the interpretation. In the case of gravitation the quantum force
+comes from the wave function of the universe. The important point is that the
+electron-photon interaction of special relativity is separated into a faster-than-light
+instantaneous longitudinal polarized non-radiative near-field and a transverse
+radiative far-field in every frame of reference". He also states that there is "required
+to be a static instantaneous Coulomb potential with its own force field and wave
+function, and the uncharged scalar field must be attractive or there would be no
+long range Newtonian gravitational force". Feynman also says that he understands
+"gravity as both geometry and a field".
+MECHANISM OF GRAVITY COMMUNICATION
+Now that we have considered the supporting evidence for the existence of an
+instantaneous gravity wave communication, let us try to determine the possible
+mechanism to begin our experimenting. Clearly, the physics and mathematics allow
+for a much faster velocity than light speed. It may not be instantaneous, but many
+orders of magnitude faster-than-light. The release of very recent research information by
+a group of Russian scientists regarding what they term "torsion fields" suggest a speed
+in the order of a billion times the light velocity.
+We have looked at the methods of sensing by Hodowanec and Ramsay; these two
+researchers are making a great contribution toward our future galactic communication.
+Now I would like to make an attempt to pull together all of the information to see if there
+might be a usable overview as a base for continuing experimentation.
+Each cosmic body---a planet, a moon, or a star---utilizes the spherical shape as its
+energy containment. The sphere is an ideal shape for a resonant cavity. The very
+nature of the sphere means that it resonates over vast spectrums of frequency. For
+example, if we start by considering the earth circumference of approximately 7.5 Hz., as
+a fundamental, we may calculate and detect many higher harmonically-related
+frequencies. In addition, there are radius frequencies with higher harmonics present.
+Harmonic waves in a spherical solid set up a periodic distribution within the inner and
+outer spherical cavities. The Van Allen energy belts surrounding the earth also present a
+multitude of resonant harmonics at lower frequencies than the circumference 7.5 Hz.
+Figure (9) shows some of the earth related frequencies.
+The numerous energy belts about the earth act as spherical capacitors, one within
+another. These energy field capacitors create highly fluctuating potential gradients,
+vertically arrayed at right angles to the earth surface. These large spherical capacitors
+longitudinally couple a continuous supply of vibrations from the outer magnetosphere to
+the earth surface and within the earth. The many surrounding energy belts act as sensitive
+detecting membranes to couple the solar system and galactic information vibrations to the
+inner earth fields which we inhabit. In addition, they also transfer the earth's natural
+resonances back out into the solar system and galaxy, thus supplying earth's link to the
+galaxy.
+Let us once again look at the Moon and its mean distance from the Earth. If the distance
+of the Earth to the Moon (approximately 385,000 Km.) is considered as a
+wavelength, then its frequency will be .78 Hz. The distance changes throughout each
+month due to the elliptical orbit, giving a maximum frequency of .83 Hz. and a
+minimum of .74 Hz. The higher harmonics of these frequencies may be detected by
+ELF sensing instruments. All of these harmonics lie within the human brain-wave
+region. Figure (10) shows many of the possible energy belt frequencies. These
+frequencies are also within the human biological spectrum.
+What might this Earth-Moon-wavelength longitudinal near-field wave of influence
+look like? Just imagine it as a long vibrating steel rod extending from and attached
+to the Earth on one side, and the Moon on the other. Now compare this with a meter
+stick held in your hands. If you tap your finger on one end of the meter stick, the
+taps will be instantly felt at the opposite end. There is no transmission time.
+Likewise, Earth's multitude of natural resonant vibrations are instant, longitudinally,
+coupled to be received at the Moon. Also the Moon sends back her messages. There is no
+rate of velocity of the signal transmission, such as the speed of light; all is instantaneous.
+The Earth and Moon each modulate the common longitudinal chord with their individual
+resonances. Since each body is a multi-resonant sphere, they also share many common
+fundamental frequencies and harmonics. See Figure (11).
+It should not take a great stretch of your imagination to see how our solar system's everchanging longitudinal chords of influence resonate and interact by coupling all
+bodies of the solar system to all other bodies, instantaneously! Figure (12) shows an
+example. Each individual system of stars, planets, moons, asteroids, and comets
+instantaneously displays its own unique qualities of vibration influence to the
+neighboring star systems and to the galaxy. Figure (13) shows us some of the
+frequencies of the other nearby stellar systems. And Figure (14) shows some of the
+nearby sun-like stellar systems, which may have similar planetary configurations to our
+own solar system.
+What are these longitudinal waves and how might they function?
