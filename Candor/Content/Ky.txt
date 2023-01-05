@@ -41,5 +41,9 @@ or
 
 Relationships can be most challenging in the beginning cause thats when
 
+<<<<<<< HEAD
 I'm writing this to say I am going to do one of the hardest things now and 
 
+=======
+I'm writing this to say I am going to do one of the hardest things now and 
+>>>>>>> 527095c212601b20453ab34486544c19a6074e88

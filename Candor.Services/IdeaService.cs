@@ -26,14 +26,20 @@ namespace Candor.Services
                 Title = model.Title,
                 Content = model.Content,
                 DateCreated = DateTimeOffset.UtcNow,
-                Completed = model.Completed
+                Completed = model.Completed,
+                IdeaId = model.IdeaId
             };
+
+            //idea.IdeaId = idea.Id;
 
             using (var context = ApplicationDbContext.Create())
             {
                 context.Ideas.Add(idea);
+                //idea.IdeaId = idea.Id;
                 return context.SaveChanges() == 1;
             }
+
+
         }
 
         public IEnumerable<IdeaListItem> GetIdeas()
@@ -52,50 +58,50 @@ namespace Candor.Services
                     });
 
 
-            return query.ToArray();
+                return query.ToArray();
             }
         }
 
-        public IEnumerable<RatingListItem> GetRatingsByIdeaId(int id)
-        {
-            using (var context = ApplicationDbContext.Create())
-            {
-                var idea = context.Ideas
-                    .Include(t => t.IdeaId)
-                    .Include(t => t.Id)
-                    .Include(t => t.UserId)
-                    .Include(t => t.Title)
-                    .Include(t => t.Content)
-                    .Include(t => t.DateCreated)
-                    .SingleOrDefault(t => t.IdeaId == id);
+        //public IEnumerable<RatingListItem> GetRatingsByIdeaId(int id)
+        //{
+        //    using (var context = ApplicationDbContext.Create())
+        //    {
+        //        var idea = context.Ideas
+        //            .Include(t => t.IdeaId)
+        //            .Include(t => t.Id)
+        //            .Include(t => t.UserId)
+        //            .Include(t => t.Title)
+        //            .Include(t => t.Content)
+        //            .Include(t => t.DateCreated)
+        //            .SingleOrDefault(t => t.IdeaId == id);
 
-                if (idea is null)
-                {
-                    return null;
-                }
+        //        if (idea is null)
+        //        {
+        //            return null;
+        //        }
 
-                var model = new IdeaDetail()
-                {
-                    IdeaId  = idea.Id,
-                    Title = idea.Title,
-                    Content = idea.Content,
-                    DateCreated = idea.DateCreated,
-                    IsEditable = _userId == idea.UserId,
-                    Ratings = idea.Ratings
-                        .Select(rating => new RatingListItem()
-                        {
-                            RatingId = rating.Id,
-                            //UserName = GetUserName(context, post),
-                            IdeaId = rating.IdeaId,
-                            RatingScore = rating.RatingScore,
-                            Comment = rating.Comment,
-                            IsEditable = rating.UserId == _userId
-                        }).ToList()
-                };
+        //        var model = new IdeaDetail()
+        //        {
+        //            IdeaId  = idea.Id,
+        //            Title = idea.Title,
+        //            Content = idea.Content,
+        //            DateCreated = idea.DateCreated,
+        //            IsEditable = _userId == idea.UserId,
+        //            Ratings = idea.Ratings
+        //                .Select(rating => new RatingListItem()
+        //                {
+        //                    RatingId = rating.Id,
+        //                    //UserName = GetUserName(context, post),
+        //                    IdeaId = idea.IdeaId,
+        //                    RatingScore = rating.RatingScore,
+        //                    Comment = rating.Comment,
+        //                    IsEditable = rating.UserId == _userId
+        //                }).ToList()
+        //        };
 
-                return (IEnumerable<RatingListItem>)model;
-            }
-        }
+        //        return (IEnumerable<RatingListItem>)model;
+        //    }
+        //}
 
         public IdeaDetail GetIdeaById(int id)
         {
@@ -112,8 +118,8 @@ namespace Candor.Services
 
                 var model = new IdeaDetail()
                 {
-                    UserName = context.Users.Find(idea.UserId
-                            .ToString()).UserName,
+                    //UserName = context.Users.Find(idea.UserId
+                    //        .ToString()).UserName,
                     IdeaId = idea.Id,
                     Title = idea.Title,
                     Content = idea.Content,
@@ -132,9 +138,9 @@ namespace Candor.Services
                             UserName = context.Users.Find(rating.UserId
                             .ToString()).UserName,
                             IsEditable = rating.UserId == _userId
-                    
+
                         }).ToList()
-                    
+
                 };
 
                 return model;
@@ -165,5 +171,13 @@ namespace Candor.Services
                 return context.SaveChanges() == 1;
             }
         }
+
+        public bool UpdateIdeaId(ApplicationDbContext context, int id)
+        {
+            var idea = context.Ideas.Single(t => t.Id == id);
+            idea.IdeaId = idea.Id;
+            return context.SaveChanges() == 1;
+        }
+
     }
 }

@@ -26,9 +26,15 @@ namespace Candor.Data
 		public DateTimeOffset DateCreated { get; set; }
 
 		public DateTimeOffset LastModified { get; set; }
-		public virtual List<Rating> Ratings { get; set; }
+		public virtual ICollection<Rating> Ratings { get; set; }
 		public double AverageRating => Ratings.Any() ? Ratings.Average(rating => rating.RatingScore) : 0;
 		[Required]
 		public bool Completed { get; set; }
+
+
+		public int ReturnId()
+		{
+			return Id;
+		}
 	}
 }
