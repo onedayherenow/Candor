@@ -291,6 +291,8 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Content\Ky.txt" />
+    <Content Include="Content\music.txt" />
     <Content Include="Content\Note_1.txt" />
     <Content Include="Content\Note_2.txt" />
     <Content Include="Content\Note_3_8_24_22.txt" />

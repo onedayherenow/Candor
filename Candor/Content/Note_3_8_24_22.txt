@@ -84,6 +84,13 @@ TRUFFLE SUITE SOLIDITY SECURITY TOOLS
 
 
 
+
+
+
+
+
+
+
 I begin with a little history: One hundred years ago Nikola Tesla was receiving his first
 patents on "Apparatus for Producing Electrical Currents of High Frequency and
 Potential.” Tesla was the first to utilize a resonant oscillator for the transmission of
