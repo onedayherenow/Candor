@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.Entity;
+using System.Collections;
 
 namespace Candor.Services
 {
@@ -18,11 +19,13 @@ namespace Candor.Services
             _userId = userId;
         }
 
-        public bool CreateRating(RatingCreate model)
+        public bool CreateRating(RatingCreate model, int id)
         {
             using (var ctx = new ApplicationDbContext())
             {
-                var idea = ctx.Ideas.Find(model.IdeaId);
+                var idea = ctx.Ideas.Single(t => t.Id == id);
+
+                var ideaIdValue = idea.Id;
 
                 if (idea == null)
                 {
@@ -31,7 +34,7 @@ namespace Candor.Services
 
                 var rating = new Rating()
                 {
-                    IdeaId = idea.Id,
+                    IdeaId = ideaIdValue,
                     UserId = _userId,
                     RatingScore = model.RatingScore,
                     Comment = model.Comment,
@@ -40,6 +43,93 @@ namespace Candor.Services
 
                 ctx.Ratings.Add(rating);
                 return ctx.SaveChanges() == 1;
+            }
+        }
+
+
+        //public ICollection<RatingListItem> GetRatingsByIdeaId(int id)
+        //{
+        //    using (var context = ApplicationDbContext.Create())
+        //    {
+
+        //        var idea = context.Ideas.Where(t => t.Id == id)
+
+        //            .Include(t => t.Ratings)
+        //            .FirstOrDefault(t => t.Id == id);
+
+
+        //        if (idea is null)
+        //        {
+        //            return null;
+        //        }
+
+        //        var rating = context.Ratings.FirstOrDefault(t => t.Id == idea.Id);
+
+        //        var model = new RatingListItem()
+        //        {
+
+        //            RatingId = rating.Id,
+        //            //UserName = GetUserName(context, post),
+        //            IdeaId = idea.Id,
+        //            RatingScore = rating.RatingScore,
+        //            Comment = rating.Comment,
+        //            IsEditable = rating.UserId == _userId
+        //        };
+
+        //        return (ICollection<RatingListItem>)model;
+        //    }
+        //}
+
+        public ICollection<RatingListItem> GetRatingsByIdeaId(int id)
+        {
+            
+
+            using (var context = ApplicationDbContext.Create())
+           
+            {
+                var idea = context.Ideas.Single(n => n.Id == id);
+                //.Include(t => t.Ratings);
+                //.FirstOrDefault(t => t.Id == id);
+
+                //public IEnumerable<Waiver> Waivers => context.Waivers.Include(o => o.Office);
+
+
+                //.Include(t => t.Ratings)
+                //.FirstOrDefault(t => t.Id == id);
+
+
+                //below is for the second return
+                //ICollection<RatingListItem> rates = (ICollection<RatingListItem>)idea.Ratings;
+
+                if (idea is null)
+                {
+                    return null;
+                }
+
+                var model = new IdeaDetail()
+                {
+                    //IdeaId = idea.Id,
+                    //Title = idea.Title,
+                    //Content = idea.Content,
+                    //DateCreated = idea.DateCreated,
+                    //IsEditable = _userId == idea.UserId,
+                    Ratings = idea.Ratings
+                        .Select(rating => new RatingListItem()
+                        {
+                            RatingId = rating.Id,
+                            //UserName = GetUserName(context, post),
+                            IdeaId = idea.IdeaId,
+                            RatingScore = rating.RatingScore,
+                            Comment = rating.Comment,
+                            IsEditable = rating.UserId == _userId
+                        }).ToList()
+                };
+
+                var ratingIndex = model.Ratings.ToList();
+             
+                return ratingIndex;
+                //return rates.ToArray();
+                
             }
         }
 

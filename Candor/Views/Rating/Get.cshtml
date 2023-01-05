@@ -1,4 +1,6 @@
-﻿@model IEnumerable<Candor.Models.RatingListItem>
+﻿@model ICollection<Candor.Models.RatingListItem>
+@using Candor.Models
+
 
 @{
 	ViewBag.Title = "RatingsListPerIdea";
@@ -8,11 +10,8 @@
 
 
 <p class="text-center">
-	@Html.ActionLink("View Ratings", "Get", "Ideas", new { id = Model.IdeaId }, htmlAttributes: new { @class = "btn btn-outline-light btn-info btn-small" })
+	@Html.ActionLink("View Ratings", "Get", "Rating", new { id = Model.IdeaId }, htmlAttributes: new { @class = "btn btn-outline-light btn-info btn-small" })
 </p>
-
-@Html.HiddenFor(model => model.IdeaId)
-
 
 
 <table class="table">

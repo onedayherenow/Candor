@@ -25,12 +25,15 @@ namespace Candor.Data
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {
+            //this.Configuration.ProxyCreationEnabled = false;
         }
 
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();
         }
+        
+
 		public DbSet<Idea> Ideas { get; set; }
         public DbSet<Rating> Ratings { get; set; }
 

@@ -38,13 +38,13 @@ namespace Candor.Controllers
         // POST:  Rating/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(RatingCreate model)
+        public ActionResult Create(RatingCreate model, int id)
         {
 
             if (ModelState.IsValid)
             {
                 var service = CreateRatingService();
-                if (service.CreateRating(model))
+                if (service.CreateRating(model, id))
                 {
                     TempData["SaveResult"] = "Your rating was created.";
                     return RedirectToAction("Details", "Idea", new { Id = model.IdeaId});
@@ -78,22 +78,22 @@ namespace Candor.Controllers
            return View(detail);
          }
 
-        
-        // GET: api/Rating/5
-        /// <summary>
-        /// Gets all the ratings for a specific idea
-        /// </summary>
-        /// <returns>RatingListItem</returns>
-        public ActionResult Get(int id)
-        {
-            RatingService ratingService = CreateRatingService();
-            var ratings = ratingService.GetRatingsByIdeaId(id);
-            return View(ratings);
-        }
-       
 
-        //POST : Rating/Edit/{id}
-        [System.Web.Http.HttpPost]
+		// GET: api/Rating/5
+		/// <summary>
+		/// Gets all the ratings for a specific idea
+		/// </summary>
+		/// <returns>RatingListItem</returns>
+		public ActionResult Get(int id)
+		{
+            RatingService ratingService = CreateRatingService();
+		    var ratings = ratingService.GetRatingsByIdeaId(id);
+		    return View(ratings);
+		}
+
+
+		//POST : Rating/Edit/{id}
+		[System.Web.Http.HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, RatingEdit model)
         {
