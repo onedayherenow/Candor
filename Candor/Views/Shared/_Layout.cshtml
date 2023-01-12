@@ -10,10 +10,10 @@
 </head>
 <body>
 
-	<div id="title"  class="navbar navbar-expand navbar-dark bg-dark fixed-top topnav">
-		<div class="container">
+	<div id="title"  class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top topnav">
+		<div class="container container-fluid">
 
-			<img src="~/images/vector-equilibrium2.png" height="50" width="50" class="mx-1" />
+			<img src="~/images/vector-equilibrium2.png" height="50" width="50" class="img-fluid mx-1" />
 			@Html.ActionLink("Candor", "Index", "Home", new { area = "" }, htmlAttributes: new { @class = "navbar-brand" })
 
 			<button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-expanded="true">
@@ -30,7 +30,7 @@
 				</ul>
 				@Html.Partial("_LoginPartial")
 			</div>
-			<img class=".ml-auto" src="~/images/vector-equilibrium.png" height="50" width="50" />
+			<img class="img-fluid .ml-auto" src="~/images/vector-equilibrium.png" height="50" width="50" />
 		</div>
 		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
 			<i class="fa fa-bars"></i>
