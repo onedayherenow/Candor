@@ -440,13 +440,17 @@ Modern ET/Advanced Humans:
 
 
 Currently, our major/minor music scale is based on octaves made up of powers of two.  If we have an A note on a piano
-that is tuned to 432 hz, then to reach the next sequential A note up or down in the scale, tone-wise, we either multiply or divide
+that is tuned to 432 hz, then to reach the next sequential 'A' note up or down in pitch/fz in the scale, tone-wise, we either multiply or divide
 the hz by 2.  Therefore the steps in the spiral staircase of octaves spiraling up and down to infinity for us currently is based
 on duplicity.  We can see that 2 implies polarity and begin to see the dualistic nature expressed in our culture: 
 science and religion, man and woman, good and evil, so on...
 
 Now the universe itself has it's own musical scale as well.  What happens when we play music tuned to powers of Phi/golden-ratio?
-This would take the same 
+Well when we look back at our sequence of numbers in our spiraling musical scale, we find the numbers heterodyning!
+What does this mean?  We mean that we can both either add or multiply any two adjact numbers and get the next two adjacent numbers
+in the sequence: For example, the sequence goes .618, 1, 1.618, 2.618, 4.23, 6.9, 11.08, 17.9, 29
+and as we see, we can always add 2 adjacent numbers and get the next increasing value for the next adjacent number, or we can 
+multiply 
 
 _________________________________________________________________________________________________________________________________
 _________________________________________________________________________________________________________________________________
