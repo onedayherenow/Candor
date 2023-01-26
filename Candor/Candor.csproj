@@ -320,6 +320,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Content\CoverLettCallLocations.txt" />
     <Content Include="Content\Ky.txt" />
     <Content Include="Content\music.txt" />
     <Content Include="Content\Note_1.txt" />
