@@ -23,8 +23,8 @@ And so I did and fell asleep.  20 years later, I am lucid dreaming that my mom w
 	
 
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-********************************************((( Meditation )))*******************************************************
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+********************************************((( Meditation )))********************************************************
 
 Q&A
 I. Meditation
@@ -451,6 +451,7 @@ What does this mean?  We mean that we can both either add or multiply any two ad
 in the sequence: For example, the sequence goes .618, 1, 1.618, 2.618, 4.23, 6.9, 11.08, 17.9, 29
 and as we see, we can always add 2 adjacent numbers and get the next increasing value for the next adjacent number, or we can 
 multiply 
+this heterodyning causes charge to acceletate towards center thanks to the self-symmetric fractality that golden ratio causes
 
 _________________________________________________________________________________________________________________________________
 _________________________________________________________________________________________________________________________________
