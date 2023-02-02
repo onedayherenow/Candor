@@ -2,3 +2,125 @@
 Ideally this is a location for lists of places to call, email, contact recruiters, and apply with cover letter to:
 
 Companies:
+Knowledge Services
+Daniel's Associates
+Allison's Transmission
+
+
+After reading through your open position ___________, 
+I am compelled with electric interest to share about who I am
+because it is clear that I can greatly help you and your team. 
+
+Why do I do what I do?
+I develop software to build technology that has meaning and purpose.
+I see each new challenge through to the end and choose action over inaction.
+I see and work starting from the big architectural picture and then
+from there focus in on the details. 
+Quality is priority, and so I understand the value of testing: unit tests, automated testing, 
+performance testing.
+I understand the responsibility that comes with 
+building consumer facing applications, either as part of 
+a team team or by myself, and am excited by the opportunity 
+to create systems that consumers use and depend on.
+I think in terms of scale. Once I make it work, I think 
+about how it'll work at scale: what happens when there are 100 
+users? 10,000 users? Make it work, make it right.
+
+
+
+
+Software Developer Cover Letter Sample:
+[Full name]
+
+[Physical address]
+
+[Telephone number]
+
+[Email address]
+
+[Date]
+
+Re: Application for the position of software developer
+
+Dear [recipient’s title and last name,]
+
+I would like to apply for the position of software developer as advertised 
+[mention where you saw the advertisement.] 
+I have extensive experience in software design specializing in 
+[#1 software specialty] and [#2 software specialty] that perfectly 
+fit the advertised job requirements.
+
+I received my [qualification] from [institution and location,] 
+and have [insert number] of years in [software development, 
+software design, IT, or similar.] In my [current or previous role] 
+at [insert company name] I [was/am] responsible for [discuss your 
+core responsibilities.] Most recently, I was [talk about your major 
+accomplishments in software development or design.]
+
+I am impressed with [mention notable characteristics or milestones 
+you appreciate about the company] and feel that my experience with 
+[mention specific software skills] would be of great benefit to [company name.]
+
+Please find my resume attached. Feel free to contact me if you have 
+any further questions you would like to discuss.
+
+Thank you for taking the time to consider my application. 
+I look forward to hearing from you.
+
+Sincerely,
+
+[Your Name]
+ 
+
+
+
+
+
+
+ 
+Hiring Manager’s name
+
+Company name
+
+Company address
+
+Date
+
+Dear Mr/Mrs/Ms. [Hiring Manager Name]
+
+I am contacting you to communicate my interest in the Administrative Assistant 
+role being advertised by [company]. This role really caught my attention as 
+I have a strong educational background and extensive experience in the office 
+administration of medium-sized businesses. I think this knowledge and expertise 
+could be highly valuable to [company].
+
+During my 6 year career, I have assisted with a wide range of office 
+administrative tasks using Microsoft Office and LibreOffice software. 
+I have been responsible for maintaining and managing sensitive data at 
+each and every step of the meeting organization from planning to the 
+recording of minutes, as well as drafting critical communications.
+
+In my current position, I was also tasked with optimizing the 
+efficiency of our office supply buying, the results of which saved 
+the company over $1,800 per quarter. I also enhanced my written skills 
+greatly by assisting with the drafting and proofing of important 
+executive correspondences.
+
+I have enclosed my resume with this letter to provide further information 
+about my career history so far. I hope that my credentials represent 
+a good match for this role.
+
+I’m very keen to learn more about the position and would be eager 
+to organize a meeting to discuss it in more detail. In the meantime, 
+I’d like to thank you for your consideration and to invite you to contact 
+me at any time regarding the opportunity.
+
+I can be reached every evening from 4 pm-8.30 pm via home phone 
+or at any time with my email address listed below.
+
+Sincerely,
+Name
+
+Address
+Phone number
+Email address
