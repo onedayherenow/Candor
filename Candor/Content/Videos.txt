@@ -453,6 +453,11 @@ and as we see, we can always add 2 adjacent numbers and get the next increasing 
 multiply 
 this heterodyning causes charge to acceletate towards center thanks to the self-symmetric fractality that golden ratio causes
 
+NEW INFORMATION ---->
+I have recently learned from Dan Winter that there is one possible geometric array/matrix which scales up and down both in:
+Golden Ratio & Octaves, and this corresponding geometry is that of a 'stellated dodecahedron icosahedron' (dodeca-icosa),
+or as Winter calls his geometric model, the Star-Mother Kit.
+
 _________________________________________________________________________________________________________________________________
 _________________________________________________________________________________________________________________________________
 
