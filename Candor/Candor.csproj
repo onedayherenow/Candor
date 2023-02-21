@@ -322,6 +322,7 @@
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\CoverLettCallLocations.txt" />
     <Content Include="Content\Ky.txt" />
+    <Content Include="Content\Letters.txt" />
     <Content Include="Content\music.txt" />
     <Content Include="Content\Note_1.txt" />
     <Content Include="Content\Note_2.txt" />
