@@ -188,8 +188,8 @@ Thank you for holding space for us and making us feel welcome to open ♡♡♡
 Colin,
 As you know I was born to a humble very closeknit South American immigrant family
 with whom I've lived most my life and do currently, as my older siblings have moved out and I am 
-currently the youngest child left to stay and help my parent's elderly condition, 
-as I've shared this will be my Moms 6th year into alzheimers at this point and my dad is 76.
+currently the youngest child left to stay and help my parent's elderly condition.
+This will be my Moms 6th year into alzheimers at this point and my dad is 76.
 My parents are a great influence as they always encouraged me and been nothing but love.
 
 I have shared with you about going with my parents to my home country Colombia this summer,
@@ -216,6 +216,37 @@ I will be meeting with the other Data Integrity team members at least once every
 walk throughs for these tasks.  
 
 Thank you for everything Colin
+
+
+
+
+
+Receipt Backout Documentation
+
+What are the purposes of receipt backout ?
+To negate specific quantities of units from their corresponding receipts to reflect a sudden receipt change such as 
+when items are returned due to incorrect shipping.
+
+Conceptually, sku/size units belong to licenses, which belong to receipts, which belong to POs.  
+PO > Receipts > Licenses > units
+
+From start to finish what does the process look like along with the different kinds of scenarios?
+
+To start off, there are two main different kinds of receipt backout processes we will call Version 1, & Version 2
+They differ in that
+
+What are the steps in all receipt backouts?
+Step 1 : find appropriate source license
+Step 2 : transfer 
+Step 3 : return to original state
+Step 4 : backout & close receipt
+
+
+
+
+
+
+
 
 
 
