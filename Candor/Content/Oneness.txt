@@ -393,18 +393,39 @@ so that we only see a trickle of the inertia within a system when we are looking
 
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@.TERMINOLOGY SECTION.@
+@.TERMINOLOGY SECTION.@  -Remember to organize Alphabetically
 _______________________
--"Discrete/Granular"  - Pixelated space in the form of spheres with planck radius at the planck scale
+"Discrete/Granular"  - Pixelated space in the form of spheres with planck radius at the planck scale
 
--"Schwarzschild Solution" - Solution to Einstein Field Equations by Karl Schwarzschild that describes black wholes and the gravitational
+"Schwarzschild Solution" - Solution to Einstein Field Equations by Karl Schwarzschild that describes black wholes and the gravitational
 	field; 
 	the solution implies singularities / black wholes;
 	gives the Schwarzschild radius; 
 	Schwarzschild radius defines a maximum radius for every black whole mass, where everything less than such radius
 	with equal mass will create such a black whole;
 
--Vector - A line of direction of propogation of charge
+"Vector" - A line of direction of propogation of charge
+
+"Capacitance & Dielectric" - The dielectric or capacitance of a system is the ability of a system to preserve/retain/store heat | 
+"The capacity of a system to not lose it's charge to entropy" Also called 'dielectric permittivity'.   
+
+"Charge" - A region of space where there is greater compression of the space (think of a slinky compressing or compressing a
+natural fabric balled up into a bunch so that that area has greater total area/volume of FOLDED PACKED SPACE) 
+(Think of how as water freezes aka temperature drops aka molecules become closer and closer together more and more compressed so 
+that now that bowl of water has frozen compressed into a tightly packed denser form, so the greater the density of any region of 
+space the greater the amount of charge in that area)
+To answer those who say in the spiritual communities "Well I thought that the more dense, the lower the vibration?"
+And to this we say that would not be accurate physics because the higher the frequency, the more waves per cycle,
+which means the smaller the waves are, and the smaller the waves are the more densely packed they can all fit embedded within the
+longer waves,, to visualize this concretely think of wood.. if we want to fill a bucket as packed as possible with wood,
+we will want to grind it up into as fine teeny poweder particles as possible because the smaller the bits the more densely packed
+it can all be compressed)
+
+"Mass" - Stored Inertia.  Imagine a region of space where all the smaller divisions of space like plancks, atoms and such are
+all behaving coherently as one collective whole, and we can visualize this as region of space that is spinning, coming to 
+self organize into a torus field that is spinning turning inside out at the same time, with the area of greatest density or
+compression being the very center of the spin, "The Eye of the Hurricane".
+The more waves that are densely packed in the center of the field
 
 
 
