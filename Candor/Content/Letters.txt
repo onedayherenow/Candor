@@ -233,13 +233,121 @@ PO > Receipts > Licenses > units
 From start to finish what does the process look like along with the different kinds of scenarios?
 
 To start off, there are two main different kinds of receipt backout processes we will call Version 1, & Version 2
-They differ in that
+In the emails we receive for backout requests,
+The two versions differ only in:  what information we are given to start with to perform our backout
+
+(Version 1):  We are provided with a license # identifying 'where the units CURRENTLY are' 
+(usually never is the original receiving license, but a license farther downstream to which the units have been transferred to)
+
+(Version 2):  We are provided with no license # only a SKU/SIZE combo and PO #, sometimes receipt # too but more often not)
 
 What are the steps in all receipt backouts?
-Step 1 : find appropriate source license
-Step 2 : transfer 
-Step 3 : return to original state
+Step 1 : find appropriate original receiving license to back units off of
+Step 2 : transfer units to the appropriate selected license to back off of 
+Step 3 : return this license to its original state (updating its properties to how it was originally)
 Step 4 : backout & close receipt
+
+
+~~~(TERMS)~~~ :
+"Original Receiving License" - This is the most upstream license where the units initially started, and these licenses are identified
+by the value = "006" under the column TYPE
+
+Only licenses with type 006 are able to be used for backouts, and 
+ANY 006 license can be used to backout the units needing backed out AS LONG AS that license originally received the same SKU/SIZE
+units as are needing backed out, and AS LONG AS this license belongs to the Receipt and PO of the order on which these units need
+backed out.
+
+"Original State" - The set of property values for inventory key, po #, and receipt # for the license we are choosing As It Was when
+first created (we can get all this info for each license by using the third query in sql query sheet version1)
+
+-------------------------------------------------------------------------------------------
+THE DIFFERENCES IN STEPS OF VERSION 1 to VERSION 2 are as follows:
+(STEP 1)
+The versions differ in their backout process in that:
+
+Version 1 we already know the license where the units are already on, so we use sql query sheet V1
+to find an appropriate original receiving license based on column "src_lic" which tells us the origin source license for these units
+Once we find the source license from which the units on the current license came from, we can continue normally with Step 2 AS LONG AS
+this source license QTY originally received is equal to or greater than the units now currently needing backed off.
+If is has less than, this is a special case and we proceed with the instructions for SPECIAL CASE below
+
+Version 2 we take the sku/size and po # provided in the email to sql query sheet version2;  The first query gives us a list of receipts
+associated with the PO, and the second query returns a list of licenses all of which meet the sku/size and po# requirements for the 
+backout.  Any of these licenses is acceptable to choose to back off of AS LONG AS the column TYPE says '006' and the qty originally 
+received on the license is equal to or greater than the units needing backed off currently,,
+If is has less than, this is a special case and we proceed with the instructions for SPECIAL CASE below
+
+(STEP 2)
+VERSION 1:
+Transfer units from current license to the orginally receiving license by, after opening the license in license inventory in swisslog,
+look for the blue 'transfer' tool on the left edge of the inventory window and then input the original receiving license # to transfer to
+
+VERSION 2:  Once you found an appropriate originally receiving license, go to swisslog and under Receiving then under Receipts 
+find 'miscellaneous receipt' and when that window opens, to add units to that originally receiving license to back off of 
+simply fill in the appropriate sku/size and license info and with the Full amount needing backed off
+(For 'Location', use "Trouble") (For 'Receiving', input 'Each')
+SAVE
+
+(STEP 3)
+Now the rest of the steps are the same for both version 1 and 2.
+Update license property values to the corresponding values of it's original state, and we can find these values again by using the
+third query in sql query sheet Version1,
+and use the UPDATE query in the same sql sheet to update the property values 
+If the property values do not match the original receiving state values, we will get an error when we go to back off units saying 
+"cannot locate historical receipts/inventory keys for this license"
+
+(STEP 4)
+Once the license is updated to its original state,
+we make sure the receipt for the license is OPEN, which in WM is called 'SOC' which stands for Start Of Check-In.
+Normally the receipt is closed which in WM is called 'Post', 
+so to back off the units we first set the receipt status to 'SOC' by using the last queries on Sql query sheet Version 1 and commit;
+Once this is done we can now go to swisslog and back out the units by,
+in the inventory license window after we pull up the license we are backing out from,
+on the left edge of the window in the middle there is a tool with an icon of two green plus signs,, this is the one, click ok on
+the window that pops up and then under QTY needing backed off we input the requested # of backout unit and click save 
+Wonderful! Now lastly we must put the receipt status back from 'SOC' to 'POST' by going in swisslog under 'RECEIVING' click 
+'Receipts' and then query the receipt you want to close again and post, and on the left edge of the window the bottom two tools
+are 'close' and 'post',, click both in that order and press ok on all windows that pop up and thats it!
+Congratulation!
+
+We can double check that the units were successfully backed out by, still in the 'receipts' window on the top left edge 
+there is another tool called 'Checked-In-Inventory" .
+Click that, and under drop down click checked in inventory again and that will pull up a complete list of all units added or backed off
+of all licenses on that receipt.
+
+
+
+SPECIAL CASE:  IF VERSION 1 SRC LICENSE ORIGINALLY RECEIVED LESS THAN IS CURRENTLY NEEDING BACKED OFF:
+This is the special case video, and the solution is this:
+We use version 1 queries to obtain the PO #, Receipt #, and SKU/SIZE combo that is associated with the license on which the units are
+Currently on,
+and we take these values to Version2 sql query sheet to the second query to obtain a LIST of licenses which all fulfill the requirements
+of: All these licenses belong to the correct PO and Receipt from which these units need backed off,
+SO
+We can use any combination of 2 or more of these licences to fully backout the total QTY requested AS LONG AS the license values 
+under TYPE Column are of type "006"
+To do this, we start with creating a 'miscellaneous receipt' like we do normally for VERSION 2 process as we have documented in 
+our video, fill in the appropriate sku/size and license info and with the FULL AMOUNT needing backed off 
+(we are going to transfer the overflow QTY to another license so dont worry if the license you choose originally received less-tham
+is being requested to back off, thats the point because we can split off some units to another license)
+Once we do this in swisslog,
+Query the license you have just created in the inventory license window,
+and on the left edge of the window theres the 'transfer' button, its blue and you also use it to transfer license 'locations'
+Click it, and then there is a window that opens and in that window on the far top left there is a button that says
+"Combine Split"
+Click it, and then as 'Source' type the license on which the units are splitting off FROM,
+and fill in the rest info sku/size and QTY amount of units being Split off to another license, and under destination, type the 
+second license to which the overflow of units is going so that both licenses now have =< equal to or less than # qty originally 
+received on that license,
+and (For 'Receiving' drop down menu, input 'Each')
+Thats it! From there, continue on to STEP 3 and 4 normally updating the licenses to their original state by using VERSION1 sql sheet
+and back them off and post the receipt
+
+
+Special Info and Reminders:  
+- If license is in location: anything 'Distro', then use the 'transfer' tool to change location to 'Trouble' before backing out
+- If license qty, in the inventory license window on the bottom right, is all 'Ord' instead of 'Avail', then use the allocate tool
+on the very bottom left edge of the inventory license window and in the drop down that appears, click 'un-allocate'
 
 
 
