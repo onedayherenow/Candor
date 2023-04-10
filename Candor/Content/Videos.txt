@@ -316,10 +316,12 @@ As we know, the name Zero-Point-Energy comes from Kelvin.
 
 -----------------------------------------------------------------------------------------------------------------------------
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-****************************((( Entropy vs Negentropy | Faster vs Slower Spin | Elastic Time )))****************************************************
+************((( Entropy vs Negentropy | Faster vs Slower Spin as Elastic Time | Degree of heat experienced by Asymmetry )))*************************************
 Q&A
-1. (Entropy Vs Negentropy)
+
+(1) (Entropy Vs Negentropy)
 1.a. How do we define Entropy?
+
 	Entropy is the progression of a system towards increased Dis-Order, that is to say, De-Coherence of a system's functional behavior.
 	We can also define Entropy concretely as: 'Asymmetry in a fractal system' .  Lets look at this and think about entropy by using
 	concrete real world examples.  
@@ -333,12 +335,23 @@ Q&A
 	charge is leaking in the form of heat/thermodynamics'
 
 1.b. How do we define Negentropy?
+	
+	Negentropy is the progression of a system towards increased Order, increased Organization, increased Connectivity,
+	increased capacitance, greater self-symmetry (the inside looks like and follows the same patterns and behavior as the outside, 
+	not only philosphically but literally geometrically in the space of the system) which is another word for fractality
 
-2. (Faster vs Slower Spin)
 
-3. 
 
-We have define
+(2) (Faster vs Slower Spin)
+2.a. What are the fundamental causes and characteristics of acceleration or de-acceleration of spin?
+
+
+(3) ('Faster & Slower Spin' and its effects on 'Entropy & Negentropy')
+3.a  How does acceleration of spin and turning inside out of universal torus fields of any size affect it's 
+rate of Negentropy vs rate of Entropy?
+3.b  How does DE-acceleration of spin and turning inside out of universal torus fields of any size affect it's 
+rate of Negentropy vs rate of Entropy?
+
 
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
