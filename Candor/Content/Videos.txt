@@ -363,13 +363,32 @@ Q&A
 
 (2) (Faster vs Slower Spin)
 2.a. What are the fundamental causes and characteristics of acceleration or de-acceleration of spin?
+
+|THINKING IN METAPHORS USING REAL LIFE EXAMPLES|
+To think about this and under(over?)stand spin, we are going to use the real life visual examples of a spinning hurricane
+vortex/torus, and compare this example with another example we call 'Water as it spins down the drain'.
+
+Water going down the drain:  
+In this example we represent compression and rarefaction, aka cold(more dense) and warm(less dense)
+as water (dense) and air (non-dense, expansive).
+As water spins down the drain in the form of a vortex/tornado mouth, air is pushed upwards through the center of the mouth out
+the vortex.  Also a key component is that, the act of pulling the drain plug creates a 'hole' out the center of the vortex,
+and this hole can be thought of as the point of lowest pressure, and can be thought of as an implosive force WHEN there is 
+a gradient of pressure in comparison to the high pressure of compressive bodies of water (the more water, the more weight and
+compressive force is pushing down the drain, the greater the gradient between the point of lowest pressure (the hole) and
+the volume of water, the greater torque or acceleration of SPIN)
+
 	2a.1.  The fundamental causes of acceleration of spin in any toroidal field is an increase in velocity
 	and pressure of centripetal force, 
-	anD this increase in pressure which is compressive force (another word for a force which increases densification) 
-	increases the broadness and range of gradience/difference between: 
-	the region of greatest plasmic density in the torus (the eye of the hurricane, the foci, the very center of spin, the heart),
+	and this increase in pressure which is compressive force (another word for a force which increases densification) 
+	increases the broadness range of the gradience of difference between: 
+	the region of greatest plasmic density in the torus (the cold air that is pushing downwards at the edges of the eye
+	
+	the eye of the hurricane, the foci, the very center of spin, the heart),
 	and
-	the region of least plasmic density in the torus (the radiative farthest edges)
+	the region of least plasmic density in the torus ()
+
+	The size of the drain hole is also going to be considered directly correlative to amount/degree of spin.
 	
 	|THINKING IN METAPHORS USING REAL LIFE EXAMPLES|
 
