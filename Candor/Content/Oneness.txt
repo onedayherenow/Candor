@@ -407,6 +407,20 @@ so that we only see a trickle of the inertia within a system when we are looking
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @.TERMINOLOGY SECTION.@  -Remember to organize Alphabetically
 _______________________
+
+~~~
+"Angel"
+
+~~
+"Angular Momentum" - More accurate term for SPIN (more accurately as in the words angular momentum are describing a very
+specific relationship between angles, and force, and this we commonly call "spin")
+
+~~~
+"Black Whole"
+
+~~~
+"Dimension" -
+
 ~~~
 "Capacitance & Dielectric" - The dielectric or capacitance of a system is the ability of a system to preserve/retain/store heat | 
 "The capacity of a system to not lose it's charge to entropy" Also called 'dielectric permittivity'.   
@@ -447,11 +461,17 @@ it can all be compressed)
 "Discrete/Granular"  - Pixelated space in the form of: Planck spheres are the pixels; we are talking at the planck scale
 the space is pixelated/packed with spheres that have diameter and radius size of planck
 
+~~~
+"Electro-Magnetism" - 
+
 
 ~~~
 "First/Fundamental Principles" - Fundamental principles are principles which are universally found throughout any criteria 
 or context in the the natural universe, formulated using real observable measurable patterns, forms, and 
-flow dynamics based on simple relationships naturally found in geometry
+flow dynamics based on simple relationships naturally found in geometry.  An example of this is a 3D torus shape pattern
+found at all scales in nature 
+
+
 
 The language to describe these principles must be unambigious and the same for millions of lightyears apart in the universe,
 and so we use the fundamental language of geometry, shape, direction of flux/movement/flow 
@@ -469,6 +489,19 @@ mystical phenomena as we shall explore further)
 
 
 ~~~
+"Golden Ratio"
+
+~~~
+"Gravity"
+
+~~~
+"Hologram | Holographic" -
+
+
+~~~
+"Longitudinal" -
+
+~~~
 "Inertia & Stored Inertia"
 Inertia : Ability to do work
 Stored Inertia : the 'ability to do work or cause momentum' which is stored in the system.  
@@ -481,6 +514,11 @@ we can see stored inertia as well in the form of the plasma field that radiates 
 and surrounds our body in the form of how dense the Prana, Chi, Mana magnetism is packed in the center, and we experience this.
 
 ~~~
+"Magnetism"
+
+...Imagine/visualize
+
+~~~
 "Mass" - Stored Inertia.  Imagine a region of space where all the smaller divisions of space like plancks, atoms and such are
 all behaving coherently as one collective whole, and we can visualize this as region of space that is spinning, coming to 
 self organize into a torus field that is spinning turning inside out at the same time, with the area of greatest density or
@@ -489,7 +527,20 @@ The more waves that are densely packed in the center of the torus field, the gre
 the 'ability to do work or cause momentum' which is stored in the system.  
  
 ~~~
+"Planck"
+
+~~~
+"Plasma"
+
+~~~
+"Phi"
+
+~~~
 "Pressure" - Equally translatable to "Charge"; See Charge. Pressure is the engineering term, charge the physics term. 
+
+~~~
+"Scale" - 
+
 
 ~~~
 "Schwarzschild Solution" - Solution to Einstein Field Equations by Karl Schwarzschild that describes black wholes and the gravitational
@@ -500,7 +551,24 @@ the 'ability to do work or cause momentum' which is stored in the system.
 	with equal mass will create such a black whole;
 
 ~~~
+"SuperFluid" - A fluid of plasma
+
+~~~
+"Torus" -
+
+~~~
+"Transverse" -
+
+~~~
 "Vector" - A line of direction of propogation of charge
+
+~~~
+"Wave" - A wave (can be visualized as a torus like a smoke ring moving through space parallel to it's 
+vertical axis, the direction the holes are pointing to |
+OR as ocean up and down waves of pressire that travel across water , 
+the flux movement of pressure across a fluid like water 
+is a propogation of charge/information/energy with properties 
+
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
