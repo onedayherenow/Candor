@@ -363,7 +363,15 @@ Q&A
 
 (2) (Faster vs Slower Spin)
 2.a. What are the fundamental causes and characteristics of acceleration or de-acceleration of spin?
+	2a.1.  The fundamental causes of acceleration of spin in any toroidal field is an increase in velocity
+	and pressure of centripetal force, 
+	anD this increase in pressure which is compressive force (another word for a force which increases densification) 
+	increases the broadness and range of gradience/difference between: 
+	the region of greatest plasmic density in the torus (the eye of the hurricane, the foci, the very center of spin, the heart),
+	and
+	the region of least plasmic density in the torus (the radiative farthest edges)
 	
+	|THINKING IN METAPHORS USING REAL LIFE EXAMPLES|
 
 
 (3) ('Faster & Slower Spin' and its effects on 'Entropy & Negentropy')
