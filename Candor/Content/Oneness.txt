@@ -530,10 +530,14 @@ the 'ability to do work or cause momentum' which is stored in the system.
 "Planck"
 
 ~~~
-"Plasma"
+"Plasma" - A fluid-like medium of ionized space;  has a syrupy nature and behaves as such; 
+We call it a superfluid as, 
+when energy/information/light passes/propogates through plasma in the form of waves (see "waves" terminology)
+These waves are not seperate from the space but rather made up of this charged space as we see waves in water
+are not seperate from the rest of the water around it but an organized expression of the water
 
 ~~~
-"Phi"
+"Phi" -
 
 ~~~
 "Pressure" - Equally translatable to "Charge"; See Charge. Pressure is the engineering term, charge the physics term. 
@@ -551,7 +555,20 @@ the 'ability to do work or cause momentum' which is stored in the system.
 	with equal mass will create such a black whole;
 
 ~~~
-"SuperFluid" - A fluid of plasma
+"Speed of Light" -
+
+~~~
+"SuperFluid" - A fluid of plasma with a syrupy nature that behaves like any medium of water through which waves propogate.
+Superfluids are both compressive like squeezing and pushing together a wide slab of clay into a densely packed ball or area, 
+as well as expansive
+
+~~~
+"Super-Conductivity" - One way to think of super-conductivity and "charge-distribution-efficiency" is in terms of 
+embeddability of waves,
+that is, when shorter waves are embedded in long waves so they fit/nest just right so that all
+the space within the long waves is packed/folded more and more perfectly with short wave harmonics 
+(which is perfected when the long waves and short waves are golden ratio multiples of each other)
+then the short waves become part and parcel
 
 ~~~
 "Torus" -
@@ -568,6 +585,13 @@ vertical axis, the direction the holes are pointing to |
 OR as ocean up and down waves of pressire that travel across water , 
 the flux movement of pressure across a fluid like water 
 is a propogation of charge/information/energy with properties 
+
+~~~
+"Zero-Point-Energy" -
+"Spin path to Zero-Point is a phrase that Winter plays with describing what is needed to create a
+kind of 'jacobs ladder' that goes to the kingdom of Heaven, except in our example here the kingdom of Heaven is
+the Planck Threshold at which information travels faster than the speed of light (we will shed light on how and why later
+pun intended)
 
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
