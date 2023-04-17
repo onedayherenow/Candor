@@ -406,10 +406,19 @@ so that we only see a trickle of the inertia within a system when we are looking
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @.TERMINOLOGY SECTION.@  -Remember to organize Alphabetically
+
+INTRODUCTION:
+
+Every language hinges on its definitions
+These terms have been learned in different ways and two of the greatest teachers of mine in learning to understand terms 
+from the inside out to where one can both feel see what it means and follow its implications and general life cycle
+(A wave has a life cycle or beginning and end, a plant, a star, every biological organism including humans)
+"The purpose in defining terms in this section is to have a universal language
+
 _______________________
 
 ~~~
-"Angel"
+"Angel" -
 
 ~~
 "Angular Momentum" - More accurate term for SPIN (more accurately as in the words angular momentum are describing a very
@@ -419,11 +428,8 @@ specific relationship between angles, and force, and this we commonly call "spin
 "Black Whole"
 
 ~~~
-"Dimension" -
-
-~~~
-"Capacitance & Dielectric" - The dielectric or capacitance of a system is the ability of a system to preserve/retain/store heat | 
-"The capacity of a system to not lose it's charge to entropy" Also called 'dielectric permittivity'.   
+"Capacitance | Capacitor" - Capacitance of a system is the ability of a system to preserve/retain/store heat | 
+"The capacity of a system to not lose it's charge to entropy" Also called 'dielectric permittivity'. (See Dielectric Constant)
 
 ~~~
 "Centrifugal" - In centrifugal systems, energy in the form of waves are diverging away from center while spinning outwards from the 
@@ -457,12 +463,25 @@ longer waves,, to visualize this concretely think of wood.. if we want to fill a
 we will want to grind it up into as fine teeny poweder particles as possible because the smaller the bits the more densely packed
 it can all be compressed)
 
+
+~~~
+"Dielectric Constant" - (See capacitance) We measure how much capacitance a material has by measuring it's dielectric
+constant, which is the measure of how permissive a material is to store it's electrical energy without losing any energy,
+so a measure of it's capacitance.
+
+~~~
+"Dimension" -
+
 ~~~
 "Discrete/Granular"  - Pixelated space in the form of: Planck spheres are the pixels; we are talking at the planck scale
 the space is pixelated/packed with spheres that have diameter and radius size of planck
 
+
 ~~~
-"Electro-Magnetism" - 
+"Electro-Magnetic-Force | "Electro-Magnetism"  -
+
+~~~
+"Entanglement | Einstein-Rosen Bridge"
 
 
 ~~~
@@ -492,14 +511,13 @@ mystical phenomena as we shall explore further)
 "Golden Ratio"
 
 ~~~
-"Gravity"
+"Gravity" - The acceleration of charge inertia towards center #############################
+
+~~~
+"Gravitational-Force | Gravity" - The acceleration of charge inertia towards center #############################
 
 ~~~
 "Hologram | Holographic" -
-
-
-~~~
-"Longitudinal" -
 
 ~~~
 "Inertia & Stored Inertia"
@@ -512,6 +530,21 @@ we see the compression of stored inertia in the form of mass by looking at bone 
 and in the Etheric Light Body,
 we can see stored inertia as well in the form of the plasma field that radiates out from the heart and from our solar plexus
 and surrounds our body in the form of how dense the Prana, Chi, Mana magnetism is packed in the center, and we experience this.
+
+~~~
+"Ionization" - 
+
+~~~
+"Information = Energy/Light/Charge" - This equivalence here demonstrates the energetic quality of information in any system
+
+PRINCIPLES:
+
+THINK:
+
+FEEL:
+
+~~~
+"Longitudinal Wave" -
 
 ~~~
 "Magnetism"
@@ -540,6 +573,9 @@ are not seperate from the rest of the water around it but an organized expressio
 "Phi" -
 
 ~~~
+"Piezo-Electric" - 
+
+~~~
 "Pressure" - Equally translatable to "Charge"; See Charge. Pressure is the engineering term, charge the physics term. 
 
 ~~~
@@ -561,6 +597,12 @@ are not seperate from the rest of the water around it but an organized expressio
 "Speed of Light" -
 
 ~~~
+"Spin" - 
+
+~~~
+"Strong-Force" -
+
+~~~
 "SuperFluid" - A fluid of plasma with a syrupy nature that behaves like any medium of water through which waves propogate.
 Superfluids are both compressive like squeezing and pushing together a wide slab of clay into a densely packed ball or area, 
 as well as expansive
@@ -577,7 +619,7 @@ then the short waves become part and parcel
 "Torus" -
 
 ~~~
-"Transverse" -
+"Transverse Wave" -
 
 ~~~
 "Vector" - A line of direction of propogation of charge
@@ -588,6 +630,15 @@ vertical axis, the direction the holes are pointing to |
 OR as ocean up and down waves of pressire that travel across water , 
 the flux movement of pressure across a fluid like water 
 is a propogation of charge/information/energy with properties 
+(see both compression waves and transverse waves terms)
+
+~~~
+"Wave Interference Patterns | Constructive vs Destructive Interference" - Wave interference patterns are
+very simply the images/patterns in the form of geometry that appear when two or more waves cross each 
+other in any fluid/super-fluid medium such as water or the vacuum/space/ether
+
+~~~
+"Weak-Force" - 
 
 ~~~
 "Zero-Point-Energy" -
