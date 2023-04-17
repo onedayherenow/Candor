@@ -537,9 +537,25 @@ and surrounds our body in the form of how dense the Prana, Chi, Mana magnetism i
 ~~~
 "Information = Energy/Light/Charge" - This equivalence here demonstrates the energetic quality of information in any system
 
-PRINCIPLES:
+PRINCIPLES: The universe is one single fluid medium of plasma, which is made up of or 'quantized' in discrete granular spherical packets
+of energy units we call plancks, and all plancks are equivalent to each other in their amount of energy potential, mass and volume.
+So now built upon this, information theory is when we represent the quantization of space into plancks as: information, 
+where each planck is a 'bit' of information/light/energy.  This is very useful when we are creating mathematical models to describe
+relationships in physics, for example: the evolution of any system, as the more information a system has, the more capacity it has
+to acquire more information for it has more energy/information to go off of to acquire more information, and the more information
+a system has, the more it can do.
 
-THINK:
+THINK: Here are some concrete examples with which to think about this: 
+	In food, 
+you hear people talking about white bread or something like candy being considered "empty" calories.
+In information theory terms, what they are saying is that the density of nutritional information is almost null..
+As in, when we are looking for vital-pranic-charge-rich foods, we are looking for the most nutritionally dense food,
+as that contains the most information  (information in food takes the form of vitamins, minerals, amino acids, etc)
+	In artifical intelligence, 
+Any AI software program is created through a process called "machine learning" where we create a "neural-network"
+with computer code, programming the ai software to be able to learn/evolve by 'ingesting' information and creating
+relationships based on the associations it creates between information it is fed all together into a kind of
+information-network we call a neural-network or AI.
 
 FEEL:
 
@@ -600,7 +616,7 @@ are not seperate from the rest of the water around it but an organized expressio
 "Spin" - 
 
 ~~~
-"Strong-Force" -
+"Strong-Force" - 
 
 ~~~
 "SuperFluid" - A fluid of plasma with a syrupy nature that behaves like any medium of water through which waves propogate.
