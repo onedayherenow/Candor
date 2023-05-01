@@ -60,6 +60,8 @@ longer waves,, to visualize this concretely think of wood.. if we want to fill a
 we will want to grind it up into as fine teeny poweder particles as possible because the smaller the bits the more densely packed
 it can all be compressed)
 
+In electrical engineering, charge = capacitance X voltage
+
 
 ~~~
 "Dielectric Constant" - (See capacitance) We measure how much capacitance a material has by measuring it's dielectric
