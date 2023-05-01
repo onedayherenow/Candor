@@ -28,6 +28,9 @@ specific relationship between angles, and force, and this we commonly call "spin
 "Capacitance | Capacitor" - Capacitance of a system is the ability of a system to preserve/retain/store heat | 
 "The capacity of a system to not lose it's charge to entropy" Also called 'dielectric permittivity'. (See Dielectric Constant)
 
+The capacitance of a system in electrical engineering is measured in 'Farad's ,
+where Farad 
+
 ~~~
 "Centrifugal" - In centrifugal systems, energy in the form of waves are diverging away from center while spinning outwards from the 
 vortex, like how, in a silly example we can imagine and remember being kids in the playground at the merry-go-round, and remember
@@ -149,6 +152,9 @@ and surrounds our body in the form of how dense the Prana, Chi, Mana magnetism i
 
 ~~~
 "Ionization" - 
+
+~~~
+"Inductance" - 
 
 ~~~
 "Information = Energy/Light/Charge" - This equivalence here demonstrates the energetic quality of information in any system
