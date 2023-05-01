@@ -322,7 +322,10 @@ a significant enough density/temperature difference 'meet' or cross,
 
 ~~~
 "Voltage" - Voltage or a volt refers to the amount of charge flowing through any system. 
-In electrical engineering Volt is used as a unit of measure
+In electrical engineering Volt is used as a unit of measure.
+More specifically, Volt = Joules/Coulomb,
+where Joules refers to the 'amount of work' and
+Coulomb refers to 'per area of flowing current'
 
 
 ~~~
