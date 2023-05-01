@@ -197,7 +197,7 @@ The more waves that are densely packed in the center of the torus field, the gre
 the 'ability to do work or cause momentum' which is stored in the system.  
  
 ~~~
-"Planck"
+"Planck" - Planck is 
 
 ~~~
 "Plasma" - A fluid-like medium of ionized space;  has a syrupy nature and behaves as such; 
@@ -210,11 +210,16 @@ are not seperate from the rest of the water around it but an organized expressio
 "Phi" -
 
 ~~~
-"Piezo-Electric" - Piezoelectricity is a quality that some specific materials have (such as quartz) in which 
-raw 'mechanical' compression of the material within a fluid medium  
+"Piezo-Electric" - The word 'Piezo' is of Greek origin for 'push' or 'pressure'.
+Piezoelectricity is a quality that some specific materials have (such as quartz/crystals/sediment/minerals) in which 
+raw 'mechanical' pressure/force in the form of squeezing and pushing applied to the material
+produces electric charge/voltage in the material (and/or in the medium in which the piezo is in , such as water,
+or such as piezo iron-powder in liquid mercury as we find in propulsion devices). 
 
 ~~~
-"Pressure" - Equally translatable to "Charge"; See Charge. Pressure is the engineering term, charge the physics term. 
+"Pressure" - Equally translatable to "Charge"; See Charge. 
+Pressure is the engineering term, 
+Charge is the physics term. 
 
 ~~~
 "Relaxation" -  Relaxation and Resistance are opposites.  
@@ -223,6 +228,13 @@ Relaxation and love also are also related in different ways;
 If one is relaxed it is easier to tune one's plasma aura field geometry to phi golden ratio harmonic geometry aka Love,
 and if one's plasma aura field geometry is tuned to phi golden ratio harmonic
 Love and relaxation are different names we give to similar wave mechanics: That is,  
+
+Chapter?
+FEEL(EXPERIENTIALLY) - Lets use the concept of relaxation='surrender into one's spin'
+and of 'pressure=charge' to see how one gains energy when applying pressure to one's body
+in certain areas.  For example, when lying on one's back there is charge or pressure applied
+to the area, which causes greater symmetry of pressure throughout a system which allows
+for greater charge/prana absorption from one's environment 
 
 
 ~~~
@@ -307,6 +319,11 @@ a significant enough density/temperature difference 'meet' or cross,
 
 ~~~
 "Vector" - A line of direction of propogation of charge
+
+~~~
+"Voltage" - Voltage or a volt refers to the amount of charge flowing through any system. 
+In electrical engineering Volt is used as a unit of measure
+
 
 ~~~
 "Wave" - A wave (can be visualized as a torus like a smoke ring moving through space parallel to it's 
