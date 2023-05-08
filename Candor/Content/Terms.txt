@@ -335,6 +335,13 @@ the space within the long waves is packed/folded more and more perfectly with sh
 then the short waves become part and parcel
 
 ~~~
+"System" - A system is a 
+
+
+"Open System" - 
+"Closed System" - 
+
+~~~
 "Torus" - As this is one of the fundamental pillar on which this book is written, we
 will explore this in high resolution
 
