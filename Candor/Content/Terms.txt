@@ -12,6 +12,17 @@ from the inside out to where one can both feel see what it means and follow its 
 (A wave has a life cycle or beginning and end, a plant, a star, every biological organism including humans)
 "The purpose in defining terms in this section is to have a universal language
 
+NOTE: Throughout the book I will often be using typed forward-slashes that look like " / "  whenever I am using 
+multiple-different-names that All refer to the SAME concept, idea, or principle.
+For example:  
+	Phi / golden-ratio , 
+		pressure / charge, 
+			longitudinal / gravitational waves, 
+				transverse / electromagnetic waves,
+					black hole / singularity
+						etc
+
+
 _______________________
 
 ~~~
@@ -228,6 +239,11 @@ compression being the very center of the spin, "The Eye of the Hurricane".
 The more waves that are densely packed in the center of the torus field, the greater the 'stored inertia' is of the system which means
 the 'ability to do work or cause momentum' which is stored in the system.  
  
+~~~
+"Phase" 
+(Also defining "To Phase-Lock" & "To Phase-Shift") - The phase of 
+
+
 ~~~
 "Planck" - Planck is 
 

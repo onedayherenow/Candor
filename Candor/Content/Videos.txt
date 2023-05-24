@@ -862,15 +862,23 @@ I. Self Awareness
 II. Evolution
 	II.a. How do we define Evolution?
 		II.a.a. Information Theory
-		II.a.b. Nassim's Rubix Cube
+		Q&A
+			1. What is Information Theory
+			2. How does this new 'information'/'energy' that a system acquires as it evolves, 
+				REACH the system in the first place?
+			3. What is the one connective medium connecting all things throughout all boundaries in the universe?
+			4. How do we optimize evolution of a system in light of information theory?
+		II.a.b. Fractality and Self-Awareness
 		II.a.c. Machine Learning AI/ Neural Networks
+		II.a.d. Nassim's Rubix Cube
 
 
-I.a.) Self awareness and fractality are intimately linked.  In a fractal equation as we know, the equation is mathematical function
-that represents for example , 
+I.a.) Self awareness and fractality are intimately linked.  In a fractal equation as we know, 
+the equation is mathematical function that represents, for example , 
 the input to the function is that which we are observing or being aware OF (in this case our 'self' , us as we are),
 and the output of the function 
 
+ 
 II.a.  Evolution can be thought of and 'innerstood' intimately from fundamental first principles
 by using both perceptive tools and real-world-based examples such as Information theory, Neural-Networks, 
 Rubix cubes, and Musical Improvisation.
@@ -900,6 +908,10 @@ or in personal human examples, joy, sadness, inspiration, nostalgia)
 
 To give a brief conceptual big-picture innerstanding of Information Theory, 
 we first start at saying that all energy is also information.
+
+(Here we may use Planck's constant or 'Planck Spherical Units' as formalized by Mr. Haramein, 
+to represent a 'bit' of information)
+
 We then say that from this premise, the evolution of a system can be modeled and innerstood by it's total net energy levels, 
 which is by definition the system's total informational-'blueprint' 
 From the systems total net energy levels, 
@@ -917,6 +929,19 @@ the greater influence it has on it's environment, the systems in that environmen
 entangled with that system." 
 
 Is this beginning to have philosophical and spiritual implications?  Okay great we are getting somewhere.  
+
+How does this new 'information'/'energy' that a system acquires as it evolves, REACH the system in the first place?
+
+THINK(METAPHOR) - From first fundamental principles of the universe 
+we know by logic and by observation that the universe is an OPEN SYSTEM as opposed to a CLOSED SYSTEM.  
+That means, although there are distinct noticable boundaries 
+-like for example our skin is a boundary that defines our body,
+the surface crust and atmosphere of a planet are it's defining boundary, the membrane of a cell it's boundary and so on-
+all systems are connected to each other in an OPEN system, 
+meaning energy aka 'information' is continuously being exchanged freely and openly through across boundaries, 
+regardless of there being an apparent 'boundary'.
+
+What is the one connective medium connecting all things throughout all boundaries in the universe? 
 
 The atom is 99.99999999999999% space (only 0.000001% of its volume is what we call a 'proton' / 'nucleus').  
 This space is an active superfuid plasma we call the Ether/Space/Quantum Vacuum which, 
@@ -938,10 +963,42 @@ how does new information reach the cells throughout our body?
 All cells are swimming in, flowing in the blood... the blood acts as the ubiquitous medium of the body that connects all things 
 and delivers environmental signals and information to the cells.
 
-From information theory we can continue to say that evolution occurs in a system that
+
+
+At what point in evolution do we say a system becomes 'self-aware' and how do we model this for our personal innerstanding?
+
+
+From information theory as expanded above we can continue to say that evolution is optimized
 diverse environments and experiences,
 
-for this 
+
+
+II.a.a.4. How do we optimize evolution of a system in light of information theory?
+
+Quality of information (Information Density, Information Source Quality):
+	By quality, 
+	we are referring to 'energy levels' as described in our section above on quantitative properties of energy.
+	So in our quest to develop an intuitive feel for the energy levels of the information that we, or any system,
+	is acquiring,
+	lets look at a couple real life examples to feel and think about this:
+
+	Information Source Quality: 
+	
+
+Diversity of information (Diversity of Information Sources) - 
+Every piece of information has a unique energetic frequency signature.  Same is true for all systems that are sources
+of information, each system has a unique energetic frequency signature that can be thought of as 
+a unique planet,
+a unique phone number, 
+a unique snowflake unlike any of the other billions and billions of snowflakes.
+This unique frequency signature that belongs to each of these systems that we are calling 'sources of information'
+(all systems radiate information, so all systems are sources of information)
+(systems like a person, a planet, a star) 
+
+
+The optimization path for the evolution of a system in light of information theory is
+
+
 
 
 Jazz
