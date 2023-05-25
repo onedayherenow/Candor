@@ -20,14 +20,15 @@ II. Phase Embedding
 		Said a more simpler way, 
 		
 III. Phase-locking
-	III.a. What is phase-locking? (Also called phase-coupling)
-	III.b. Why and how does phase-locking occur?
+	III.a. What is phase-locking? (Also called phase-coupling or entrainment)
+		III.a.a. Fireflies
+		III.a.b. Metronomes
+		III.a.c. Menstrual Cycles
+	III.b. Why, when and how does phase-locking occur?
+		III.b.a. Phase-locking with natural systems vs artificial systems / institutions
 	III.c. Entrainment
-		III.c.a. Fireflies
-		III.c.b. Metronomes
-		III.c.c. Menstrual Cycles
-
-		III.c.d. Brainwaves and Heart
+		III.c.a. Light and sound entrainment: Brainwaves and Heart
+		III.c.a. Flameinmind app?
 
 IV. Phase-Shifting
 	IV.a. What is phase-shifting in simple terms?
@@ -178,21 +179,44 @@ lets dig into the fundamental principles of the wave-mechanics at play
 ---How and why does phases and phaselocking occur in the flow dynamics of universal Torus-structure plasma systems? 
 
 
-III.b.) How and why does phase-locking occur?
+
+III.b.) Why, when and how does phase-locking occur?
 
 
-(The why illuminates the how)
+(The why illuminates the when and how)
 "Why?" - Phaselocking waves together into a single phase is one of the most natural functions of the universe because
 phaselocking is how the universe and all systems in it conserve inertia / energy / charge.
 That is, 
 Phase-locking together with Phase-embedding is one of the main ways in which the Universe or any systems or
 sub-systems in general conserve inertia.  By conserving inertia we mean conserving plasma, energy, or by 
 definition conserving the ability to do work.
-		
+	
+"When" - A wave phase-locks in together with another wave's phase or with the phase of a collective group of waves when
+it's phase inhabits the same magnetic and/or plasma field throughout-which another wave phase or phases group is flowing
+through in constant uniformity.  
+Constant uniformity is another word for fractal, or self-symmetry.
+All waves of energy/magnetism/ether flow towards fractal systems.
+Therefore, waves tend to phase-lock to the most self-symmetrical fractal system nearby in terms of geometry,
+as this is what will allow the wave to retain it's greatest amount of inertia,
+Whether it's a metronome phase-locking to a collective group of metronomes, a woman phase-locking with another
+woman, a firefly phase-locking to a collective group of fireflies, 
+BECAUSE
+It is easier energetically for a wave to follow the phase of a larger field within which it is embedded than to 
+pursue it's own independant phase (wave life-cycle).
+
+(It's also easier to follow what others are doing instead of making our own decisions for our own life path)
+
+
 "How?" - Phase-lock occurs when the energetic qualities of a wave suddenly 'locks in' and tunes energetically in phase 
 	to match the energetic qualities and phase of another wave or a larger collection of waves nearby.
 	
 	This is equivalent to a street parade or military march how they all march in phase.
+
+
+
+III.b.a.) - Phase-locking to natural systems vs artificial systems and institutions
+
+
 
 ---Now what does phases and phaselocking have to do with fractality and geometry?
 (hint: constructive vs destructive wave interference)
