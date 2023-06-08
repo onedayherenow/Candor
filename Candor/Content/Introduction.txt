@@ -392,3 +392,7 @@ How did physics find me?
 Second Part 
 
 Third Part
+
+
+------------------------------------------------------------------------------------------------------------
+Describe how we use /, everything seperated by / is inter-changeable
