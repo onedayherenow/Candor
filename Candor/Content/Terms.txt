@@ -91,7 +91,7 @@ the space is pixelated/packed with spheres that have diameter and radius size of
 
 
 ~~~
-"Electro-Magnetic-Force | "Electro-Magnetism"  - Electro magnetism can be defined as
+"Electro-Magnetic-Force | "Electro-Magnetism" | "Electricity vs. Magnetism" - Electro magnetism can be defined as
 
 ~~~
 "Entanglement | Einstein-Rosen Bridge" - 
