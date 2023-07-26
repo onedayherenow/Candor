@@ -42,20 +42,125 @@ humanity is still dealing with and recovering from as a whole)
 
 
 
-James Clerk Maxwell is known for having written the original equations which describe electricity, magnetism, and light 
-together in an engineerable way.  
+James Clerk Maxwell is known for having written the original equations describing electricity, magnetism, and light 
+together as one, all in an engineerable way.
+
+For context, Einstein's theory of relativity describes gravity however does not include electromagnetism in the theory, 
+and thus it was not unified as he could not find the bridge between these two: electromagnetism and gravity.
+This is grave, we shall see why (surprise, it goes all the way back to Maxwell)
+
+Maxwell is a fascinating fellow and, although there is much justice we could do in writing a biographical account of his life and
+we both almost share the same birthday, we are only looking at what ended up happening to his contributions to Physics: 
+most notably his set of Quaternion equations written in 1864 and today simply called "Maxwell's Equations."
+
+To simplify what we have just introduced about Maxwell's equations,	lets just say for now:
+Maxwell's Equations 
+- Written in quaternions
+- Describe the behavior of electricity, magnetism, light, and 'scalar' waves as parts originating from one unified field
+(we will go into more detail on scalar waves and how this name is interchangeable with the name gravity waves)
+- Scalar waves are a kind of wave-component in the field which 'squeezes', 'compresses', 'spins' and/or 'changes density'
+
+
+What is most remarkable about these set of equations is that not only together were they the first conceptual model describing
+electricity magnetism and light as 'one',
+but that they also included the concept of 'scalar waves' which we will talk about are what makes up gravity waves,
+and that they even included the concept of 'fields' in general and introduced the universal medium that today we call
+- Ether / Quantum Vacuum / Zero-Point Field - all interchangable words.
+
+This is monumental as we shall see.
+
+
+	For example in Maxwell's papers:
+*When Maxwell writes about "the medium", he is referring to the universal fluid-like medium in space 
+which over time has come to be called the Ether, through which light travels.
+Also when he writes about a 'stress in the medium', the 'stress tensor' as he calls it in his papers is precisely 
+a scalar wave he is talking about.
+
+
+Scalar waves are not electromagnetic light radiation and yet they form the initial gravitational conditions
+which lead to corresponding electromagnetic affects.
+
+
+So far you may be thinking, "okay well it looks like Maxwell got a whole lot of unification accomplished, 
+what are we still doing here and what does this all have to say to Spirituality?"
+
+We are on the same page, and what is a good story without an unexpected curveball severely affecting generations and technology in 
+150 years that has come since then?
+
+Well life says we got that for you and the curveball's name is called Oliver Heaviside editing and re-writing Maxwell's papers
+to what came to be known as the "Heaviside's Vector Calculus version of Maxwell's Equations".
+Excuse me?
+
+For what follows we need a bit more context!, that is to say 
+remember there were no calculators at this time so all equations were always worked out manually.
+
+It turns out, quaternions were quite a load to work on without a calculator in the mid-late 1800's, and so meet Oliver Heaviside.
+Maxwell passed away in 1879, and just a few years later in 1884 a man by the name of Oliver Heaviside came and
+took the original set of Maxwell's equations, 20 quaternion equations, and he re-wrote it all into 4 Vector Equations.
+The equations were edited from quaternions into vector calculus.
+
+The equations were much quicker to calculate without a calculator however they were a sterilized version of the original
+because the scalar-wave component was completely removed... 
+yes engineers were much happier that they could calculate electromagnetic behavior faster this way, 
+and as we know convenience can breed complacency...
+What happened soon after Maxwell's passing away and Heaviside's re-writing of Maxwell's equations was that 
+the standard equations describing electricity and magnetism for electrical engineers and physicists became
+Heaviside's version of Maxwell's equations.
+
+This would be like someone taking one of Leonardo Davinci's oil paintings and saying,
+"Oil paints take way too long to dry, lets use crayon they're faster" and recreating it in crayons and then calling the 
+crayon-colored one the official artpiece taught in schools and universities.
+
+Uh-oh... lets look at that again, scary but needs attention.
+This came but at a cost.
+
+To re-state and be clear here,
+the problem is that you cannot represent the Quaternion-scalar-wave component using Vector Calculus so he LEFT IT OUT.
+That seemingly small detail came to be a gateway to deeply far-reaching issues that arose from this,
+not just in electrical engineering and physics but also including our inner'standing of reality
+and our quest to know the Spiritual nature of Creation.
+
+
+Without the scalar-wave component, the following are impossible to describe or accomplish: 
+
+- Describing the origin of electromagnetism
+- Describing the connecting link between electromagnetism and gravity
+- Describing how the gravitational field and electromagnetic field interact with each other
+- Describing how one can extract gravitational energy from the field and use it electromagnetically
+
+Said another way in Spiritual Terms,
+Without the scalar-wave component, the following are impossible to describe or accomplish: 
+
+- Describing the origin of that which we see, hear, touch, taste, smell and perceive with 'external senses'
+- Describing the connecting link between the 'physical dimension of matter' of the body 
+	and the 'non-physical spiritual dimension' of the soul, emotions, mind
+- Describing how the 'non-physical spiritual dimension' interacts with the 'physical dimension of matter'
+- Describing how one can extract 'Spiritual Energy' (prana, chi, life-force) from the space around us and use it
+in our 'Physical World'
 
 
 
 
 
+Before we make our way to the climax of the Maxwell story and how his original unified
+look at how Maxwells not just later edited, 
+
+First what do the equations describe exactly?
+Next, what are Quaternions.
+
+
+To see the magnitude of what his equations originally meant and how they echo a principle of universal oneness,
+hese equations described
+
+
+today's standard academic physics does not have
+
+Little is it known that Maxwell also included gravitation into his original equations.  Where?
+We will see where
 
 
 
 Our next character entering into our play review here is none other than Albert Einstein himself.
-
-
-
 
 
 
