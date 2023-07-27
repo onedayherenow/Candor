@@ -26,7 +26,7 @@ For example:
 _______________________
 
 ~~~
-"Angel" -
+"Angel" -  
 
 ~~
 "Angular Momentum" - More accurate term for SPIN (more accurately as in the words angular momentum are describing a very
@@ -83,7 +83,15 @@ constant, which is the measure of how permissive a material is to store it's ele
 so a measure of it's capacitance.
 
 ~~~
-"Dimension" -
+"Dimension" -  'Dimension' in physics is not to be confused with the loosely-used version of the term being used in
+spiritual communities to describe other realms;   
+Here 'Dimension' is used in the traditional mathematical definition to describe size/scale.  
+Example = "The Quantum dimension /  The Human dimension " , 
+but with a twist:  It turns out that, as we go up or down in
+dimensions increasing or decreasing scale / as we change resolution of scale / as we zoom in or out in scope, 
+a change in mathemical dimensions of scale does indeed appear to look as if you went to another realm...
+That is, if we were shrunk to the Quantum dimension, nevermind all the way down to the Planck dimension, 
+surely we would believe we are in another realm..
 
 ~~~
 "Discrete/Granular"  - Pixelated space in the form of: Planck spheres are the pixels; we are talking at the planck scale
@@ -94,10 +102,22 @@ the space is pixelated/packed with spheres that have diameter and radius size of
 "Electro-Magnetic-Force | "Electro-Magnetism" | "Electricity vs. Magnetism" - Electro magnetism can be defined as
 
 ~~~
-"Entanglement | Einstein-Rosen Bridge" - 
+"Entanglement | Einstein-Rosen Bridge" -  Entanglement as known today, if talked about 100 years ago would be 
+called magick and considered impossible and laughable by the public mind. 
+Today 'entanglement' is a laboratory-proven phenomena of Nature where any two or more 'individual systems (photons, atoms, people)
+act as if connected to each other at-a-distance across 'space-time' without any connective mass/matter linking between them,
+where if one changes any energetic property on any one of the systems, the other systems immediately reflect 
+the change of energetic property, reacting in parallel synchronization with the systems across space.
+
+The origins of entanglement stem from Quantum Mechanics in the early 1900's when Albert Einstein, 
+
+The word was coined by Erwin Schrodinger in 1935 in his letter to Einstein used to refer to the 
+concept of 'non-local connectivity'.  What spurred the
+
+
 
 ~~~
-"Fear" -
+"Fear" -  
 
 ~~~
 "First/Fundamental Principles" - Fundamental principles are principles which are universally found throughout any criteria 
