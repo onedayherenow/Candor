@@ -188,8 +188,38 @@ Next, after the ambulance passes by the closest proximity to our location and is
 farther, the siren sound is now decreasing in frequency(slower siren and lower pitch) as well as intensity(volume) as it
 drives away into the distance.
 
-Welcome to the Doppler effect.  This is a simple, enlightening, common phenomena that is widely experienced
+This is a simple, enlightening, common phenomena that is widely experienced
 and serves as more than just a useful analogy of how compression and energy-densities work in scalar/gravity waves. 
+Welcome to the Doppler effect.  
+
+We call the "Doppler effect" the effects that waves as they travel through space create in the form
+of compression.  This compression results in changes of energy density.  Changing energy density is one of the functions of 
+scalar/gravity waves as well.
+
+Another popular application of the what we call the Doppler effect is in astronomy to determine whether stars and galaxies are 
+moving away or towards us in what is called "Measuring Blue Shift & Red Shift"
+
+Astronomers and astrophysicists with a spectrometer to measure the light spectra being emitted from stars study whether
+the wavelengths radiated by a star in question are predominately blue or red from our location on earth. 
+Why blue or red?  Blue or red are opposite ends of the color spectrum, and remember that the color spectrum is
+the only tiny sliver of the entire electromagnetic spectrum that human physical eyes are known to be able to see.  
+Red is the lowest frequency and longest wavelength on the far left, and as we increase frequency and decrease wavelength we
+pass through orange, yellow, green, blue/violet..  blue at the far right being the highest frequency and shortest wavelength. 
+(we are including violet as being a kind of blue here)
+
+Therefore, if an object like a star is moving towards us, spectroscopy will reveal it to be emitting blue light
+when measured.  Why is this?  Because the star is moving in the direction of the light it is emitting.  
+That is, imagine the star emits some light while it is traveling at 
+
+The physical human eye tends to see only from red to blue.
+
+
+
+
+
+
+
+
 This is mainly thanks to the fact that both sound waves and scalar/gravity waves are 'longitudinal' waves instead of
 the kind of wave that the electromagnetic light spectrum propogates in (that which we call "light") 
 which is a 'transverse' wave.
