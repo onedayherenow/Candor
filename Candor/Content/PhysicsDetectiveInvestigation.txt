@@ -69,6 +69,8 @@ and that they even included the concept of 'fields' in general and introduced th
 
 This is monumental as we shall see.
 
+Little is it known that Maxwell also included gravitation and the concept of the ether into his original equations of 
+Electromagnetism.  Where? We will see where.
 
 	For example in Maxwell's papers:
 *When Maxwell writes about "the medium", he is referring to the universal fluid-like medium in space 
@@ -77,7 +79,7 @@ Also when he writes about a 'stress in the medium', the 'stress tensor' as he ca
 a scalar wave he is talking about.
 
 
-Scalar waves are not electromagnetic light radiation and yet they form the initial gravitational conditions
+Scalar waves are not electromagnetic light radiation and yet they make up and form the initial gravitational conditions
 which lead to corresponding electromagnetic affects.
 
 
@@ -139,28 +141,80 @@ Without the scalar-wave component, the following are impossible to describe or a
 in our 'Physical World'
 
 
+To see the magnitude of what his equations originally meant and how they echo spiritual and philosophical principles of 
+universal oneness, we will now go into detail into the inner-workings of Maxwell's original equations.
+
+After we first catch inklings of the beauty found in the original equations by walking through them, 
+we will then compare these equations to the later revised equations re-written by Oliver Heaviside to get a clear
+intimate inner'standing of the gravity of the situation, no pun intended, and how this affected and changed
+the course of history.
+
+This segment will be a bit technical so feel free to come back to it or to get an extra glass of water.
+
+Lets ask first, what are Quaternions? ; And how are Quaternions used exactly in Maxwell's Equations?
+
+Quaternions are typically in a format that look like this: W + Ai + Bj + Ck
+where i, j, and k all together represent a vector.
+How so?    i, j, and k describe orthogonal coordinates in a cartesian plane with 3 dimensions like x, y, z.
+Basically, instead of i, j, and k you can write x, y, and z however the standard notation is written with i, j, and k.
+The W term represents the Scalar wave component 
 
 
 
-Before we make our way to the climax of the Maxwell story and how his original unified
-look at how Maxwells not just later edited, 
-
-First what do the equations describe exactly?
-Next, what are Quaternions.
-
-
-To see the magnitude of what his equations originally meant and how they echo a principle of universal oneness,
-hese equations described
-
-
-today's standard academic physics does not have
-
-Little is it known that Maxwell also included gravitation into his original equations.  Where?
-We will see where
+To illlustrate visually what a scalar wave is describing, the energy density
 
 
 
-Our next character entering into our play review here is none other than Albert Einstein himself.
+
+
+
+######################################################################################################################
+***********************((( Einstein's assumptions based on Maxwell's Equations)))********************************************
+As we are meeting some of the family of the modern physics scientific community,  
+our next character in our cast entering into our play review here is none other than Albert Einstein himself.
+
+
+We love Einstein not just for his dedication and life's work to inner'standing the universe fundamentally but also for his
+quirky humanitarian eccentric aloof romantic nature.
+That all being said, as having been one of the key influential team players in what is known as today's academic standard physics,
+that which Einstein touched or said had strong echoing repercussions throughout history.
+Therefore, in great loving respect along with priority and focus on education we look at the major errors of Einstein's career, 
+most of which were not directly his doing but rather his utilization of previously-established, 
+incomplete mathematical models of reality, 
+one of which is Oliver Heaviside's rewritten non-quaternion version of Maxwell's equations.
+
+----------------------------------------------------------------
+Where to start? The heart of the matter.
+Lets start with two of Einstein's main assumptions which led him to write his famous EPR paper in 1935.
+-------------------------------------------------------------------------------------
+The principle of seperability and the principle of locality:
+
+The principle of seperability states that any two systems or particles that occupy different regions of space
+have an independant reality from each other.
+
+The principle of locality states that any action by one of these systems or particles cannot affect or influence
+the other systems or particles in other different regions of space unless something travels the distance between them
+to affect each other, all travel of which is limited by the speed of light.
+ 
+Your intuition may jump out at you and notice before any deep analysis takes place that the following two assumptions
+are long gone outdated beliefs... without having ever needed to study entanglement or wormholes.
+This is a good sign we can feel our intuition and would be correct...
+
+
+
+
+
+
+
+
+As we know, Einstein studied 
+
+
+
+
+
+
+
 
 
 
