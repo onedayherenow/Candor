@@ -207,11 +207,18 @@ Red is the lowest frequency and longest wavelength on the far left, and as we in
 pass through orange, yellow, green, blue/violet..  blue at the far right being the highest frequency and shortest wavelength. 
 (we are including violet as being a kind of blue here)
 
+The physical human eye tends to see only from red to blue.
+
 Therefore, if an object like a star is moving towards us, spectroscopy will reveal it to be emitting blue light
 when measured.  Why is this?  Because the star is moving in the direction of the light it is emitting.  
-That is, imagine the star emits some light while it is traveling at 
+That is, imagine the star emits some light while it is traveling in the same direction,, like the ambulance it will 
+compress and squeeze the waves from the ambulance siren at the very front of the ambulance.
+Said another way, as the star or ambulance is emitting waves, it is simultaneously shooting through space in the same 
+direction that the waves in front of the ambulance/star is moving.  Therefore, the waves IN-FRONT of the star/ambulance
+are being squeezed and compressed while the waves behind the star/ambulance are having the opposite happen to them:
+We call this opposite effect "Rarifying" as in the term rarefaction(see Terminology), as well as "Stretching".
 
-The physical human eye tends to see only from red to blue.
+
 
 
 
