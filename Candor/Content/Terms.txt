@@ -33,10 +33,10 @@ _______________________
 specific relationship between angles, and force, and this we commonly call "spin")
 
 ~~~
-"Black (W)hole" - Black holes, or 'Black Wholes' as phonetically reflect the wholeness that is  by Nassim Haramein, 
+"Black (W)hole" - Black holes, or 'Black Wholes' as phonetically reflect the wholeness that is 
 
 ~~~
-"Capacitance | Capacitor" - Capacitance of a system is the ability of a system to preserve/retain/store heat | 
+"Capacitance | Capacitor" - Capacitance of a system is the ability of a system to preserve/retain/store energy or heat | 
 "The capacity of a system to not lose it's charge to entropy" Also called 'dielectric permittivity'. (See Dielectric Constant)
 
 The capacitance of a system in electrical engineering is measured in 'Farad's ,
@@ -194,17 +194,20 @@ Also known as compassion.
 
 ~~~
 "Ion/Ionization" - Simply put, an ion is a name we give to atoms or molecules-(bunch of atoms together) when 
-they have either an over-abundance of electrons or inversely when they have a deficiency of electrons. 
+they have either an over-abundance of electrons or inversely when they have a deficiency of electrons.
+
+An over abundance of electrons makes it a negative ion, and this is negentropic by definition.
+A deficit of electrons makes it a positive ion, and this is entropic by definition.
 
 Ionization is the process of electrically charging atoms or molecules and/or exchanging giving away their electrons. 
 By doing this, they becocme ions.
 What is interesting is that 
 
-Why is this so
-
+Why is this so:
 
 Ions are a subject for plenty of 'aha' moments especially when we describe electron clouds as
-'prana clouds' (clouds of life-force energy) and then we correlate positive ions to reflect entropy in a system
+'prana clouds' (clouds of life-force energy) and then, 
+we correlate positive ions to reflect entropy in a system
 and correlate negative ions to reflect negentropy in a system.
 
 ~~~

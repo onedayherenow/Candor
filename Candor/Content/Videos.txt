@@ -718,7 +718,7 @@ Water going down the drain:
 In this example we represent compression and rarefaction, aka cold(more dense) and warm(less dense)
 as water (dense) and air (non-dense, expansive).
 As water spins down the drain in the form of a vortex/tornado mouth, air is pushed upwards through the center of the mouth out
-the vortex.  Also a key component is that, the act of pulling the drain plug creates a 'hole' out the center of the vortex,
+the vortex.  A key component is that, the act of pulling the drain plug creates a 'hole' out the center of the vortex,
 and this hole can be thought of as the point of lowest pressure, and can be thought of as an implosive force WHEN there is 
 a gradient of pressure in comparison to the high pressure of compressive bodies of water (the more water, the more weight and
 compressive force is pushing down the drain, the greater the gradient between the point of lowest pressure (the hole) and
@@ -1231,7 +1231,7 @@ multiply
 this heterodyning causes charge to acceletate towards center thanks to the self-symmetric fractality that golden ratio causes
 
 NEW INFORMATION ---->
-I have recently learned from Dan Winter that there is one possible geometric array/matrix which scales up and down both in:
+I have recently learned from Mr. Winter that there is only one possible geometric array/matrix which scales up and down both in:
 Golden Ratio & Octaves, and this corresponding geometry is that of a 'stellated dodecahedron icosahedron' (dodeca-icosa),
 or as Winter calls his geometric model, the Star-Mother Kit.
 
